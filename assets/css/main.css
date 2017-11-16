@@ -1212,7 +1212,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			border-radius: 0;
-			min-height: 50em;
+			min-height: 43em;/**/
+			/*min-height: 50em;*/
 			width: 50%;
 			z-index: 1;
 		}
@@ -1312,6 +1313,12 @@
 				width: 100%;
 			}
 
+			/******/
+			.panel.single > .content {
+				width: 100%;
+			}
+			/******/
+
 		@media screen and (max-width: 1680px) {
 
 			.panel {
@@ -1319,7 +1326,8 @@
 			}
 
 				.panel > .image {
-					min-height: 45em;
+					min-height: 37.5em;/**/
+					/*min-height: 45em;*/
 				}
 
 		}
