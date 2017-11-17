@@ -150,6 +150,53 @@
 
 				});
 
+		/******/
+
+		// Animate scroll.
+		var $htmlbody = $('html, body'),
+			scrollAnimate = function($this, event, position) {
+
+				var $ul = $this.parents('ul'),
+					delay = 0;
+
+					// Prevent default.
+						event.preventDefault();
+						event.stopPropagation();
+
+					// Activate link.
+						$this.addClass('active');
+
+						if ($ul.hasClass('spinX')
+						||	$ul.hasClass('spinY'))
+							delay = 350;
+
+					// Delay.
+						window.setTimeout(function() {
+
+						// Scroll.
+						$htmlbody.animate({
+							scrollTop: position
+						}, 600);
+
+						// Deactivate link.
+							$this.removeClass('active');
+
+					}, delay);
+
+			};
+
+			// Animate scroll to top.
+				$('.button.top').on('click', function(event) {
+					scrollAnimate($(this), event, 0);
+				});
+
+			// Animate scroll to bottom.
+				$('.button.bottom').on('click', function(event) {
+					scrollAnimate($(this), event, $document.height() - $window.height());
+				});
+
+		/******/
+
 		// IE: Fixes.
 			if (skel.vars.IEVersion < 12) {
 
