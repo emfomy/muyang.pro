@@ -61,6 +61,7 @@
 								</nav>
 								<ul class="icons">
 									<li><a id="nav-email" href="mailto:emfomy@gmail.com" class="tool-btn icon fa-envelope" target="_blank"></a></li>
+									<li><a id="nav-phone" href="tel:+886-2-27883799;ext=1561" class="tool-btn icon fa-phone" target="_blank"></a></li>
 									<li><a id="nav-github" href="//github.com/emfomy" class="tool-btn icon fa-github" target="_blank"></a></li>
 									<li><a id="nav-linkedin" href="//www.linkedin.com/in/emfomy" class="tool-btn icon fa-linkedin" target="_blank"></a></li>
 									<li><a id="nav-facebook" href="//www.facebook.com/emfomy" class="tool-btn icon fa-facebook" target="_blank"></a></li>
@@ -68,16 +69,21 @@
 							</div>
 						</div>
 					</article>
-					<div id="nav-email-toolbar" class="hidden"><a>emfomy@gmail.com</a></div>
-					<div id="nav-github-toolbar" class="hidden"><a>github.com/emfomy</a></div>
-					<div id="nav-linkedin-toolbar" class="hidden"><a>www.linkedin.com/in/emfomy</a></div>
-					<div id="nav-facebook-toolbar" class="hidden"><a>www.facebook.com/emfomy</a></div>
+
+				<!-- Toolbar -->
+				<div id="nav-email-toolbar" class="hidden"><a>emfomy@gmail.com</a></div>
+				<div id="nav-phone-toolbar" class="hidden"><a>+886 (2) 2788-3799 ext. 1561</a></div>
+				<div id="nav-github-toolbar" class="hidden"><a>github.com/emfomy</a></div>
+				<div id="nav-linkedin-toolbar" class="hidden"><a>www.linkedin.com/in/emfomy</a></div>
+				<div id="nav-facebook-toolbar" class="hidden"><a>www.facebook.com/emfomy</a></div>
 
 				<!-- About -->
 					<article id="about" class="panel secondary single">
 						<div class="content">
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
+								<li><a href="#about" class="button small icon fa-user">About</a></li>
+								<li><a href="#project" class="button small icon fa-puzzle-piece">Project</a></li>
 								<li><a class="button small bottom icon fa-chevron-circle-down">End</a></li>
 							</ul>
 							<div class="inner">
@@ -120,7 +126,9 @@
 								</ul>
 							</div>
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
+								<li><a href="#about" class="button small icon fa-user">About</a></li>
+								<li><a href="#project" class="button small icon fa-puzzle-piece">Project</a></li>
 								<li><a class="button small top icon fa-chevron-circle-up">Top</a></li>
 							</ul>
 						</div>
@@ -130,7 +138,9 @@
 					<article id="project" class="panel secondary single">
 						<div class="content">
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
+								<li><a href="#about" class="button small icon fa-user">About</a></li>
+								<li><a href="#project" class="button small icon fa-puzzle-piece">Project</a></li>
 								<li><a class="button small bottom icon fa-chevron-circle-down">End</a></li>
 							</ul>
 							<div class="inner">
@@ -205,7 +215,9 @@
 								</p>
 							</div>
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
+								<li><a href="#about" class="button small icon fa-user">About</a></li>
+								<li><a href="#project" class="button small icon fa-puzzle-piece">Project</a></li>
 								<li><a class="button small top icon fa-chevron-circle-up">Top</a></li>
 							</ul>
 						</div>
@@ -218,7 +230,7 @@
 						</div>
 						<div class="content">
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
 								<li><a class="button small bottom icon fa-chevron-circle-down">End</a></li>
 							</ul>
 							<div class="inner">
@@ -244,7 +256,7 @@
 								</form>
 							</div>
 							<ul class="actions spinX">
-								<li><a href="#home" class="button small back">Back</a></li>
+								<li><a href="#home" class="button small icon fa-home">Home</a></li>
 								<li><a class="button small top icon fa-chevron-circle-up">Top</a></li>
 							</ul>
 						</div>
@@ -269,21 +281,36 @@
 					content: '#nav-email-toolbar',
 					style: 'light',
 					position: 'bottom',
+					animation: 'bounce',
+					event: 'mouseover',
+				});
+				$('#nav-phone').toolbar({
+					content: '#nav-phone-toolbar',
+					style: 'light',
+					position: 'bottom',
+					animation: 'bounce',
+					event: 'mouseover',
 				});
 				$('#nav-github').toolbar({
 					content: '#nav-github-toolbar',
 					style: 'light',
 					position: 'bottom',
+					animation: 'bounce',
+					event: 'mouseover',
 				});
 				$('#nav-linkedin').toolbar({
 					content: '#nav-linkedin-toolbar',
 					style: 'light',
 					position: 'bottom',
+					animation: 'bounce',
+					event: 'mouseover',
 				});
 				$('#nav-facebook').toolbar({
 					content: '#nav-facebook-toolbar',
 					style: 'light',
 					position: 'bottom',
+					animation: 'bounce',
+					event: 'mouseover',
 				});
 			</script>
 
