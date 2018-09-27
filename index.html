@@ -10,7 +10,6 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/jquery.toolbar.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
@@ -59,23 +58,19 @@
 										<li><a href="#project" class="button">Project</a></li>
 									</ul>
 								</nav>
-								<ul class="icons">
-									<li><a id="nav-email" href="mailto:emfomy@gmail.com" class="tool-btn icon fa-envelope" target="_blank"></a></li>
-									<li><a id="nav-phone" href="tel:+886-2-27883799;ext=1562" class="tool-btn icon fa-phone" target="_blank"></a></li>
-									<li><a id="nav-github" href="//github.com/emfomy" class="tool-btn icon fa-github" target="_blank"></a></li>
-									<li><a id="nav-linkedin" href="//www.linkedin.com/in/emfomy" class="tool-btn icon fa-linkedin" target="_blank"></a></li>
-									<li><a id="nav-facebook" href="//www.facebook.com/emfomy" class="tool-btn icon fa-facebook" target="_blank"></a></li>
-								</ul>
+									<ul id="nav-link" class="icons">
+										<li><a href="mailto:emfomy@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">emfomy@gmail.com</span></a></li>
+										<li><a href="tel:+886-2-27883799;ext=1562" class="icon fa-phone" target="_blank"><span class="label">+886 (2) 2788-3799 ext. 1562</span></a></li>
+										<li><a href="//github.com/emfomy" class="icon fa-github" target="_blank"><span class="label">github.com/emfomy</span></a></li>
+										<li><a href="//www.linkedin.com/in/emfomy" class="icon fa-linkedin" target="_blank"><span class="label">www.linkedin.com/in/emfomy</span></a></li>
+										<li><a href="//www.facebook.com/emfomy" class="icon fa-facebook" target="_blank"><span class="label">www.facebook.com/emfomy</span></a></li>
+										<li><a href="//www.twitter.com/emfomy" class="icon fa-twitter" target="_blank"><span class="label">www.twitter.com/emfomy</span></a></li>
+										<div style="height: 2em"></div>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</article>
-
-				<!-- Toolbar -->
-				<div id="nav-email-toolbar" class="hidden"><a>emfomy@gmail.com</a></div>
-				<div id="nav-phone-toolbar" class="hidden"><a>+886 (2) 2788-3799 ext. 1562</a></div>
-				<div id="nav-github-toolbar" class="hidden"><a>github.com/emfomy</a></div>
-				<div id="nav-linkedin-toolbar" class="hidden"><a>www.linkedin.com/in/emfomy</a></div>
-				<div id="nav-facebook-toolbar" class="hidden"><a>www.facebook.com/emfomy</a></div>
 
 				<!-- About -->
 					<article id="about" class="panel secondary single">
@@ -271,47 +266,21 @@
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.toolbar.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
-				$('#nav-email').toolbar({
-					content: '#nav-email-toolbar',
-					style: 'light',
-					position: 'bottom',
-					animation: 'bounce',
-					event: 'mouseover',
-				});
-				$('#nav-phone').toolbar({
-					content: '#nav-phone-toolbar',
-					style: 'light',
-					position: 'bottom',
-					animation: 'bounce',
-					event: 'mouseover',
-				});
-				$('#nav-github').toolbar({
-					content: '#nav-github-toolbar',
-					style: 'light',
-					position: 'bottom',
-					animation: 'bounce',
-					event: 'mouseover',
-				});
-				$('#nav-linkedin').toolbar({
-					content: '#nav-linkedin-toolbar',
-					style: 'light',
-					position: 'bottom',
-					animation: 'bounce',
-					event: 'mouseover',
-				});
-				$('#nav-facebook').toolbar({
-					content: '#nav-facebook-toolbar',
-					style: 'light',
-					position: 'bottom',
-					animation: 'bounce',
-					event: 'mouseover',
-				});
+				$('#nav-link > li > a').mouseenter(
+						function() {
+							$('#nav-link > div').text($('span', this).text());
+						}
+				);
+				$('#nav-link').mouseleave(
+					function() {
+						$('#nav-link > div').empty();
+					}
+				);
 			</script>
 
 	</body>
