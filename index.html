@@ -26,14 +26,6 @@
 		<meta name="msapplication-TileColor" content="#04488c">
 		<meta name="msapplication-config" content="favicon/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
-
-		<style type="text/css">
-			.tool-item {
-				width: auto;
-				color: #ffffff;
-				border-bottom: none;
-			}
-		</style>
 	</head>
 	<body class="is-loading-0 is-loading-1">
 
@@ -58,16 +50,15 @@
 										<li><a href="#project" class="button">Project</a></li>
 									</ul>
 								</nav>
-									<ul id="nav-link" class="icons">
-										<li><a href="mailto:emfomy@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">emfomy@gmail.com</span></a></li>
-										<li><a href="tel:+886-2-27883799;ext=1562" class="icon fa-phone" target="_blank"><span class="label">+886 (2) 2788-3799 ext. 1562</span></a></li>
-										<li><a href="//github.com/emfomy" class="icon fa-github" target="_blank"><span class="label">github.com/emfomy</span></a></li>
-										<li><a href="//www.linkedin.com/in/emfomy" class="icon fa-linkedin" target="_blank"><span class="label">www.linkedin.com/in/emfomy</span></a></li>
-										<li><a href="//www.facebook.com/emfomy" class="icon fa-facebook" target="_blank"><span class="label">www.facebook.com/emfomy</span></a></li>
-										<li><a href="//www.twitter.com/emfomy" class="icon fa-twitter" target="_blank"><span class="label">www.twitter.com/emfomy</span></a></li>
-										<div style="height: 2em"></div>
-									</ul>
-								</div>
+								<ul id="nav-link" class="icons">
+									<li><a href="mailto:emfomy@gmail.com" class="icon fa-envelope" target="_blank"><span class="label">emfomy@gmail.com</span></a></li>
+									<li><a href="tel:+886-2-27883799;ext=1562" class="icon fa-phone" target="_blank"><span class="label">+886 (2) 2788-3799 ext. 1562</span></a></li>
+									<li><a href="//github.com/emfomy" class="icon fa-github" target="_blank"><span class="label">github.com/emfomy</span></a></li>
+									<li><a href="//www.linkedin.com/in/emfomy" class="icon fa-linkedin" target="_blank"><span class="label">www.linkedin.com/in/emfomy</span></a></li>
+									<li><a href="//www.facebook.com/emfomy" class="icon fa-facebook" target="_blank"><span class="label">www.facebook.com/emfomy</span></a></li>
+									<li><a href="//www.twitter.com/emfomy" class="icon fa-twitter" target="_blank"><span class="label">www.twitter.com/emfomy</span></a></li>
+									<div style="height: 2em"></div>
+								</ul>
 							</div>
 						</div>
 					</article>
@@ -271,16 +262,15 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
-				$('#nav-link > li > a').mouseenter(
-						function() {
-							$('#nav-link > div').text($('span', this).text());
-						}
-				);
-				$('#nav-link').mouseleave(
-					function() {
+				$('#nav-link > li > a').mouseenter(function() {
+					$('#nav-link > div').text($('span', this).text());
+				});
+				$('#nav-link > li > a').on('touchstart', function() {
+					$(this).trigger('mouseenter');
+				});
+				$('#nav-link').mouseleave(function() {
 						$('#nav-link > div').empty();
-					}
-				);
+				});
 			</script>
 
 	</body>
