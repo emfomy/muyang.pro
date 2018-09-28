@@ -1,0 +1,49 @@
+/* Basic */
+
+	p.compact {
+		margin: 0 0 1em 0
+	}
+
+/* List */
+
+	ul.feature-icons.fill li {
+		width: 100%;
+	}
+
+		ul.feature-icons li.img > div.img {
+			align-items: center;
+			display: flex;
+			height: 2.5em;
+			justify-content: center;
+			left: 0;
+			position: absolute;
+			top: 0;
+			width: 2.5em;
+		}
+
+			ul.feature-icons li.img > div.img > img {
+				max-height: 2.5em;
+				max-width: 2.5em;
+			}
+
+/* Features */
+
+	.features article .image {
+		width: 34%;
+	}
+
+	.features article .inner {
+		width: 64%;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		.features article .image {
+			width: 100%;
+		}
+
+		.features article .inner {
+			width: 100%;
+		}
+
+	}
