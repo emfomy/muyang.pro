@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/my.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -37,14 +38,14 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#one-inner">About</a></li>
 						<li><a href="#experience">Experiences</a></li>
 						<li><a href="#publication">Publications</a></li>
 						<li><a href="#project">Projects</a></li>
 					</ul>
 				</nav>
 				<footer>
-					<ul id="nav-link" class="icons">
+					<ul id="nav-icons" class="icons">
 						<div style="height: 2em"></div>
 						<li><a href="mailto:emfomy@gmail.com" class="icon fa-envelope"><span class="label">emfomy@gmail.com</span></a></li>
 						<li><a href="tel:+886-2-27883799;ext=1562" class="icon fa-phone"><span class="label">+886 (2) 2788-3799 ext. 1562</span></a></li>
@@ -64,15 +65,32 @@
 
 						<!-- One -->
 							<section id="one">
-								<div class="container">
+								<div id="one-inner" class="container">
 									<header class="major">
 										<h2>Mu Yang</h2>
 										<p>Research Assistant, <a href="//ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</a>, <a href="//www.sinica.edu.tw/en" target="_blank">Academia Sinica</a></p>
 									</header>
-									<ul class="actions">
-										<li><a onclick="$('#experience-link').trigger('click')" class="button special">More</a></li>
-										<li><a href="file/resume.pdf" class="button alt" target="_blank">Résumé</a></li>
-									</ul>
+
+										<div class="pargress-wrapper">
+											<div class="progress">
+												<div class="progress-bar progress-bar-success" progress-name="C/C++" progress-val="90"></div>
+											</div>
+											<div class="progress">
+												<div class="progress-bar progress-bar-info" progress-name="Python" progress-val="80"></div>
+											</div>
+											<div class="progress">
+												<div class="progress-bar progress-bar-warning" progress-name="Java" progress-val="65"></div>
+											</div>
+											<div class="progress">
+												<div class="progress-bar progress-bar-danger" progress-name="HTML+CSS+JavaScript" progress-val="55"></div>
+											</div>
+										</div>
+
+										<ul class="actions">
+											<li><a onclick="$('#experience-link').trigger('click')" class="button special">Next</a></li>
+											<li><a href="file/resume.pdf" class="button alt" target="_blank">Résumé</a></li>
+										</ul>
+
 								</div>
 							</section>
 
@@ -277,7 +295,7 @@
 											</ul>
 										</article>
 
-										<article>
+										<!-- <article>
 											<header>
 												<h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
 												<p>2014-2016</p>
@@ -286,7 +304,7 @@
 												hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
 												My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
 											</p>
-										</article>
+										</article> -->
 
 										<article>
 											<header>
@@ -313,6 +331,7 @@
 											</p>
 											<ul class="actions small">
 												<li><a href="//sites.google.com/site/nbfmmprojectforgpuprograming" target="_blank" class="button small alt icon fa-globe">Website</a></li>
+												<li><a href="//github.com/emfomy/nbfmm" target="_blank" class="button small alt icon fa-github">GitHub</a></li>
 											</ul>
 										</article>
 
@@ -345,7 +364,6 @@
 										</article>
 
 										<article>
-										<div class="inner">
 											<header>
 												<h4>The Matrix Project</h4>
 												<p>2012</p>
@@ -390,7 +408,7 @@
 
 				<!-- Back -->
 					<ul class="icons" style="position: fixed; margin: 0; bottom: 1em; left: 1em;">
-						<li><a onclick="$('#one-link').trigger('click')" class="icon fa-chevron-circle-up fa-2x"></a></li>
+						<li><a onclick="$('#one-inner-link').trigger('click')" class="icon fa-chevron-circle-up fa-2x" style="cursor: pointer; text-decoration: none;"></a></li>
 					</ul>
 
 			</div>
@@ -399,20 +417,22 @@
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollzer.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/bootstrap.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/my.js"></script>
 
 			<script type="text/javascript">
-				$('#nav-link > li > a').mouseenter(function() {
-					$('#nav-link > div').text($('span', this).text());
+				$('#nav-icons > li > a').mouseenter(function() {
+					$('#nav-icons > div').text($('span', this).text());
 				});
-				$('#nav-link > li > a').on('touchstart', function() {
+				$('#nav-icons > li > a').on('touchstart', function() {
 					$(this).trigger('mouseenter');
 				});
-				$('#nav-link').mouseleave(function() {
-						$('#nav-link > div').empty();
+				$('#nav-icons').mouseleave(function() {
+						$('#nav-icons > div').empty();
 				});
 			</script>
 
