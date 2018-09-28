@@ -4,6 +4,6 @@ $(document).ready(function() {
 	});
 
 	setTimeout(function () {
-		$('#one-inner-link').trigger('click');
+		$('#info-link').trigger('click');
 	}, 1000);
 });
