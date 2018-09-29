@@ -50,27 +50,27 @@
 
 /* Progress Bar */
 
-	.pargress-wrapper {
+	.progress-wrapper {
 		margin: 0 0 2.25em 0;
 	}
 
-		.pargress-wrapper .progress {
+		.progress-wrapper .progress {
 			height: 35px;
 		}
 
-			.pargress-wrapper .progress .progress-bar {
+			.progress-wrapper .progress .progress-bar {
 				line-height: 35px;
 				text-align: left;
-				transition-duration: 2s;
+				transition-duration: 4s;
 			}
 
-				.pargress-wrapper .progress .progress-bar::before {
+				.progress-wrapper .progress .progress-bar::before {
 					content: attr(progress-name);
 					margin: 0 0 0 15px;
 					font-weight: bolder;
 				}
 
-				.pargress-wrapper .progress .progress-bar::after {
+				.progress-wrapper .progress .progress-bar::after {
 					content: attr(progress-val) '%';
 					margin: 0 15px 0 0;
 					float: right;
