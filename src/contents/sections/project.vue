@@ -305,13 +305,15 @@
 import Section from "./_section.vue";
 import Card3 from "../../components/card3.vue";
 import IconButton from "../../components/icon_button.vue";
+import IconButtonGroup from "../../components/icon_button_group.vue";
 
 export default {
   name: "Project",
   components: {
     Section,
     Card3,
-    IconButton
+    IconButton,
+    IconButtonGroup
   }
 };
 </script>

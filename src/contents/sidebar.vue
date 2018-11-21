@@ -1,7 +1,7 @@
 <template>
   <b-navbar class="SideBar text-center flex-column p-3" type="light" variant="light">
     <div class="w-100">
-      <b-navbar-brand class="pt-3" href="/">
+      <b-navbar-brand class="pt-3">
         <b-img center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
       </b-navbar-brand>
 
