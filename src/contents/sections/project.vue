@@ -12,7 +12,7 @@
         <p>2017-2018</p>
       </header>
       <p>
-        An industrial-academic project with <a href="//www.pixnet.net">PIXNET</a>. Cosmetics domain entity linking.<br />
+        An industrial-academic project with <b-link href="//www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
         My work including data analysis, data preprocessing, programming design, model design, Python code implementation.
       </p>
     </Card3>
@@ -27,23 +27,34 @@
         My work including algorithm modifying, programming design, C++ code implementation.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/isvd"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        Github
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//doi.org/10.6342/NTU201702960"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/ntu_thesis_2017_isvd.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//doi.org/10.6342/NTU201702960"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/isvd"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -56,23 +67,34 @@
         My work including programming design, CUDA &amp; C++ code implementation, non-general model developing and implementation.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/pass"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        Github
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//doi.org/10.1109/CIT.2016.101"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/ieee_sce_2016_pass.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//doi.org/10.1109/CIT.2016.101"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/pass"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -85,23 +107,34 @@
         My work including algorithm modifying, C++ code implementation, matrix structure and operation forming.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//bitbucket.org/nanaHa1003/his"
-                  target="_blank"
-                  fa-icon="bitbucket"
-                  fa-style="fab">
-        BitBucket
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/other/ntu_thesis_2016_his.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//bitbucket.org/nanaHa1003/his"
+                    target="_blank"
+                    fa-icon="bitbucket"
+                    fa-style="fab">
+          BitBucket
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <!-- <Card3>
@@ -125,14 +158,25 @@
         My work including numerical analysis and MATLAB code implementation.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//doi.org/10.1016/j.geb.2017.04.012"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/other/geb_2017_voting.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//doi.org/10.1016/j.geb.2017.04.012"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -145,23 +189,25 @@
         My work including project leading, C++ code implementation, CUDA GPU code implementation, and data structure designing.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//sites.google.com/site/nbfmmprojectforgpuprograming"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/nbfmm"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        GitHub
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//sites.google.com/site/nbfmmprojectforgpuprograming"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Website
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/nbfmm"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          GitHub
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -173,14 +219,17 @@
         A bank account management system.<br />
         My work including programming design, data structure developing, C++ code implementation, and team management.
       </p>
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/dsa_final"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        GitHub
-      </IconButton>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/dsa_final"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          GitHub
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -193,14 +242,16 @@
         My work including programming design, data structure developing, Java code implementation, MATLAB GUI code modifying, and team management.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//sites.google.com/site/wonderfultf"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//sites.google.com/site/wonderfultf"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Website
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -213,14 +264,16 @@
         My work including programming design, data structure developing, Intel assembly code &amp; main C code implementation, and team management.
       </p>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//sites.google.com/site/tragedytriangle"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//sites.google.com/site/tragedytriangle"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Website
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
     <Card3>
@@ -232,14 +285,17 @@
         A chess game program with an AI that can defeat me.<br />
         My work including programming design, algorithm developing, data structure developing, C &amp; Java code implementation, and Java GUI modifying.
       </p>
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/chess_ai"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        GitHub
-      </IconButton>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/chess_ai"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          GitHub
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
   </Section>

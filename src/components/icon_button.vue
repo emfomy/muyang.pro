@@ -1,5 +1,5 @@
 <template>
-  <b-button class="pl-1" :href="href" :rel="rel" :target="target" :active="active" :activeClass="activeClass" :append="append" :disabled="disabled" :event="event" :exact="exact" :exactActiveClass="exactActiveClass" :replace="replace" :routerTag="routerTag" :to="to" :block="block" :size="size" :variant="variant" :type="type" :pressed="pressed">
+  <b-button class="pl-1 mr-1 mb-1" :href="href" :rel="rel" :target="target" :active="active" :activeClass="activeClass" :append="append" :disabled="disabled" :event="event" :exact="exact" :exactActiveClass="exactActiveClass" :replace="replace" :routerTag="routerTag" :to="to" :block="block" :size="size" :variant="variant" :type="type" :pressed="pressed">
     <font-awesome-icon :icon="[faStyle, faIcon]" class="fa-fw" />
     <slot />
   </b-button>

@@ -6,104 +6,137 @@
       <p></p>
     </template>
 
-    <Card2 title="Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications"
-           author="Mu Yang*"
-           publish="2017, Master's Thesis, National Taiwan University"
-           img-src="/img/ntu_logo.png"
-           img-link="//doi.org/10.6342/NTU201702960">
+    <Card2 src="/img/ntu_logo.png"
+           href="//doi.org/10.6342/NTU201702960">
+      <header>
+        <h4>Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications</h4>
+        <p>Mu Yang*<br />2017, Master's Thesis, National Taiwan University</p>
+      </header>
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//doi.org/10.6342/NTU201702960"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/isvd"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        Github
-      </IconButton>
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/ntu_thesis_2017_isvd.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//doi.org/10.6342/NTU201702960"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/isvd"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+      </IconButtonGroup>
     </Card2>
 
-    <Card2 title="Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters"
-           author="Mu Yang*, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang"
-           publish="2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)"
-           img-src="/img/ieee_cit_2016.png"
-           img-link="//nsclab.org/cit2016">
+    <Card2 src="/img/ieee_cit_2016.png"
+           href="//nsclab.org/cit2016">
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//doi.org/10.1109/CIT.2016.101"
-                  target="_blank"
-                  fa-icon="file-pdf"
-                  fa-style="far">
-        Paper
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//nsclab.org/cit2016"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//github.com/emfomy/pass"
-                  target="_blank"
-                  fa-icon="github"
-                  fa-style="fab">
-        Github
-      </IconButton>
+      <header>
+        <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
+        <p>Mu Yang*, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
+      </header>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="/file/paper/ieee_sce_2016_pass.pdf"
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far">
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//doi.org/10.1109/CIT.2016.101"
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far">
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/pass"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//nsclab.org/cit2016"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
+        </IconButton>
+      </IconButtonGroup>
     </Card2>
 
-    <Card2 title="Parallel Implementations of Integrated Singular Value Decomposition (iSVD)"
-           author="Mu Yang*, Su-Yun Huang, Ting-Li Chen, and Weichung Wang"
-           publish="2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)"
-           img-src="/img/siam_cse_2017.jpg"
-           img-link="//www.siam.org/meetings/cse17">
+    <Card2 src="/img/siam_cse_2017.jpg"
+           href="//www.siam.org/meetings/cse17">
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//www.siam.org/meetings/cse17"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
+      <header>
+        <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
+        <p>Mu Yang*, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
+      </header>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//www.siam.org/meetings/cse17"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
+        </IconButton>
+      </IconButtonGroup>
     </Card2>
 
-    <Card2 title="A Parallel and Hybrid Sparse Linear System Solver"
-           author="Mu Yang* and Weichung Wang"
-           publish="2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics"
-           img-src="/img/tjjw_jsam_2016.png"
-           img-link="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
+    <Card2 src="/img/tjjw_jsam_2016.png"
+           href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
-                  target="_blank"
-                  fa-icon="globe"
-                  fa-style="fas">
-        Website
-      </IconButton>
-      {{ " " }}
-      <IconButton size="sm"
-                  variant="outline-primary"
-                  href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
-                  target="_blank"
-                  fa-icon="award"
-                  fa-style="fas">
-        Presentation Excellence Award
-      </IconButton>
+      <header>
+        <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
+        <p>Mu Yang* and Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
+      </header>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Workshop
+        </IconButton>
+
+        <IconButton v-b-tooltip.hover
+                    title="Presentation Excellence Award"
+                    size="sm"
+                    variant="outline-primary"
+                    fa-icon="award"
+                    fa-style="fas">
+          Award
+        </IconButton>
+      </IconButtonGroup>
     </Card2>
 
   </Section>
@@ -113,13 +146,15 @@
 import Section from "./_section.vue";
 import Card2 from "../../components/card2.vue";
 import IconButton from "../../components/icon_button.vue";
+import IconButtonGroup from "../../components/icon_button_group.vue";
 
 export default {
   name: "Publication",
   components: {
     Section,
     Card2,
-    IconButton
+    IconButton,
+    IconButtonGroup
   }
 };
 </script>

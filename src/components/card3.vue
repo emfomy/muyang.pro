@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="Card3 p-4">
+  <b-container class="Card3 p-3 p-lg-4">
     <slot />
   </b-container>
 </template>

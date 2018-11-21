@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid class="mb-4">
+  <b-container class="mb-0 mb-md-3 mb-lg-3">
     <header class="d-flex">
       <div class="Logo d-flex align-items-center justify-content-center h-100 mr-3 my-1">
         <b-img v-if="imgSrc" center class="mh-100 mw-100" :src="imgSrc" />
