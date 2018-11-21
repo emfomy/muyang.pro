@@ -58,7 +58,6 @@ export default {
   }
 
   #sidebar {
-    position: fixed;
     top: 0;
     height: 100vh;
     width: auto;
@@ -89,12 +88,13 @@ export default {
     }
 
     #sidebar {
+      position: fixed;
       width: $sidebar-width;
     }
   }
 
   @include media-breakpoint-down(sm) {
-    $sidebar-width: 320px;
+    $sidebar-width: 240px;
     @include layout($sidebar-width);
 
     #container {
