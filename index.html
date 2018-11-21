@@ -423,17 +423,5 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/my.js"></script>
 
-			<script type="text/javascript">
-				$('#nav-icons > li > a').mouseenter(function() {
-					$('#nav-icons > div').text($('span', this).text());
-				});
-				$('#nav-icons > li > a').on('touchstart', function() {
-					$(this).trigger('mouseenter');
-				});
-				$('#nav-icons').mouseleave(function() {
-						$('#nav-icons > div').empty();
-				});
-			</script>
-
 	</body>
 </html>

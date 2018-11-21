@@ -7,3 +7,13 @@ $(document).ready(function() {
 	// 	$('#info-link').trigger('click');
 	// }, 3000);
 });
+
+$('#nav-icons > li > a').mouseenter(function() {
+  $('#nav-icons > div').text($('span', this).text());
+});
+$('#nav-icons > li > a').on('touchstart', function() {
+  $(this).trigger('mouseenter');
+});
+$('#nav-icons').mouseleave(function() {
+  $('#nav-icons > div').empty();
+});
