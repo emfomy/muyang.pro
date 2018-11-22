@@ -12,19 +12,38 @@
       </b-nav-text>
 
       <b-nav pills vertical class="w-100" v-b-scrollspy>
-        <b-nav-item href="#about" v-scroll-to="'#about'">About</b-nav-item>
-        <b-nav-item href="#education" v-scroll-to="'#education'">Experiences</b-nav-item>
-        <b-nav-item href="#publication" v-scroll-to="'#publication'">Publications</b-nav-item>
-        <b-nav-item href="#project" v-scroll-to="'#project'">Projects</b-nav-item>
+        <b-nav-item href="#about"
+                    v-scroll-to="'#about'"
+                    @click="resetToggle">
+          About
+        </b-nav-item>
+        <b-nav-item href="#education"
+                    v-scroll-to="'#education'"
+                    @click="resetToggle">
+          Experiences
+        </b-nav-item>
+        <b-nav-item href="#publication"
+                    v-scroll-to="'#publication'"
+                    @click="resetToggle">
+          Publications
+        </b-nav-item>
+        <b-nav-item href="#project"
+                    v-scroll-to="'#project'"
+                    @click="resetToggle">
+          Projects
+        </b-nav-item>
       </b-nav>
     </div>
 
-    <div class="w-100">
+    <div class="w-100 mt-3">
       <div class="d-block" @mouseleave="iconTextOff">
-        <b-nav-text class="mb-1" style="word-wrap: break-word;" v-html="icon_text"></b-nav-text>
-        <div class="d-flex justify-content-around">
+        <b-nav-text class="IconText text-nowrap p-0" v-html="icon_text" />
+        <div class="d-flex justify-content-around my-1">
           <b-link v-for="(item, key) in icon_list" :href="item.href" :key="key" target="_blank">
-            <font-awesome-icon class="fa-fw" :icon="[item.style, item.icon]" @mouseover="iconTextOn(item)" />
+            <font-awesome-icon class="fa-fw"
+                               :icon="[item.style, item.icon]"
+                               @mouseenter="iconTextOn(item)"
+                               @touchstart="iconTextOn(item)" />
           </b-link>
         </div>
       </div>
@@ -39,6 +58,9 @@
 <script>
 export default {
   name: "SideBar",
+  props: {
+    resetToggle: Function
+  },
   data() {
     return {
       icon_text: "\xa0",
@@ -59,34 +81,34 @@ export default {
           icon: "github",
           style: "fab",
           href: "//github.com/emfomy",
-          text: "github.com/<wbr>emfomy"
+          text: "github.com/emfomy"
         },
         linkedin: {
           icon: "linkedin-in",
           style: "fab",
           href: "//www.linkedin.com/in/emfomy",
-          text: "www.linkedin.com/in/<wbr>emfomy"
+          text: "www.linkedin.com/in/emfomy"
         },
         facebook: {
           icon: "facebook-f",
           style: "fab",
           href: "//www.facebook.com/emfomy",
-          text: "www.facebook.com/<wbr>emfomy"
+          text: "www.facebook.com/emfomy"
         },
         twitter: {
           icon: "twitter",
           style: "fab",
           href: "//www.twitter.com/emfomy",
-          text: "www.twitter.com/<wbr>emfomy"
+          text: "www.twitter.com/emfomy"
         }
       }
     };
   },
   methods: {
-    iconTextOn: function(item) {
+    iconTextOn(item) {
       this.icon_text = item.text;
     },
-    iconTextOff: function() {
+    iconTextOff() {
       this.icon_text = "\xa0";
     }
   }
@@ -104,7 +126,12 @@ export default {
     padding: 0 0.5rem;
   }
 }
+
 .SideBar {
   min-height: 100%;
+}
+
+.IconText {
+  height: 2rem;
 }
 </style>

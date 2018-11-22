@@ -1,19 +1,19 @@
 <template>
   <div class="Wrapper">
-    <b-button id="toggler" class="navbar-toggler navbar-light" variant="outline" :pressed.sync="collapse">
+    <b-button id="toggler" class="navbar-toggler navbar-light" variant="outline-light" :pressed.sync="is_toggled">
       <span class="navbar-toggler-icon" />
     </b-button>
-    <b-container id="container" :class="{'the-collapse': collapse}" fluid>
+    <b-container id="container" :class="{'is-toggled': is_toggled}" fluid>
       <b-row>
         <div id="sidebar">
-          <SideBar role="navigation" />
+          <SideBar role="navigation" :reset-toggle="resetToggle" />
         </div>
         <div id="content">
           <Content role="main" />
         </div>
       </b-row>
     </b-container>
-    <b-link id="back" v-scroll-to="'#app'">
+    <b-link id="back" v-scroll-to="'#app'" @click="resetToggle">
       <font-awesome-icon class="fa-2x text-primary" icon="chevron-circle-up" />
     </b-link>
   </div>
@@ -29,10 +29,15 @@ export default {
     Content,
     SideBar
   },
-  data: function() {
+  data() {
     return {
-      collapse: true
+      is_toggled: false
     };
+  },
+  methods: {
+    resetToggle() {
+      this.is_toggled = false;
+    }
   }
 };
 </script>
@@ -45,26 +50,23 @@ export default {
 .Wrapper {
   overflow-x: hidden;
 
-  #container {
-    left: 0;
-    transition: left 1s;
-    position: relative;
-  }
-
   #content {
     width: 100%;
-    padding-left: auto;
-    transition: padding-left 1s;
+    padding-left: 0;
+    transform: translateX(0);
+    transition: padding-left 1s ease, transform 1s ease;
   }
 
   #sidebar {
+    position: fixed;
     top: 0;
     height: 100vh;
     width: auto;
-    transition: width 1s;
     overflow-x: hidden;
     overflow-y: auto;
     z-index: $zindex-sticky;
+    transform: translateX(0);
+    transition: width 1s ease, transform 1s ease;
   }
 
   #toggler {
@@ -82,27 +84,34 @@ export default {
     z-index: $zindex-fixed;
   }
 
+  @include media-breakpoint-down(sm) {
+    $sidebar-width: 240px;
+
+    #sidebar {
+      transform: translateX(-$sidebar-width);
+      width: $sidebar-width;
+    }
+
+    #container {
+      &.is-toggled {
+        #sidebar {
+          transform: translateX(0);
+        }
+
+        #content {
+          transform: translateX($sidebar-width);
+        }
+      }
+    }
+  }
+
   @mixin layout($sidebar-width) {
     #content {
       padding-left: $sidebar-width;
     }
 
     #sidebar {
-      position: fixed;
       width: $sidebar-width;
-    }
-  }
-
-  @include media-breakpoint-down(sm) {
-    $sidebar-width: 240px;
-    @include layout($sidebar-width);
-
-    #container {
-      width: calc(100% + #{$sidebar-width});
-
-      &.the-collapse {
-        left: -$sidebar-width;
-      }
     }
   }
 
