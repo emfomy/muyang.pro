@@ -6,8 +6,8 @@
       <p></p>
     </template>
 
-    <Card2 src="/img/ntu_logo.png"
-           src2="/img/ntu_banner.png"
+    <Card2 src="/img/ntu_banner.png"
+           srcSide="/img/ntu_logo.png"
            href="//doi.org/10.6342/NTU201702960">
       <header>
         <h4>Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications</h4>
