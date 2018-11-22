@@ -39,10 +39,17 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.component("font-awesome-layers", FontAwesomeLayers);
 Vue.component("font-awesome-layers-text", FontAwesomeLayersText);
 
+/* Icon Button */
+
+import IconButton from "./components/icon_button.vue";
+import IconButtonGroup from "./components/icon_button_group.vue";
+
+Vue.component("IconButton", IconButton);
+Vue.component("IconButtonGroup", IconButtonGroup);
+
 /* App */
 
 import App from "./app.vue";
-// import App from "./vue.vue";
 
 new Vue({
   render: h => h(App)

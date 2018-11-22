@@ -13,10 +13,13 @@
       <Progress :value="progress*60" variant="danger"  name="Java" />
     </div>
 
-    <b-button variant="outline-primary" href="file/resume.pdf" target="_blank">
-      <font-awesome-icon :icon="['far', 'file-pdf']" class="fa-fw" />
+    <IconButton variant="outline-primary"
+                href="/file/resume.pdf"
+                target="_blank"
+                fa-icon="file-pdf"
+                fa-style="far">
       Résumé
-    </b-button>
+    </IconButton>
 
   </Section>
 </template>

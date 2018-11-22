@@ -145,16 +145,12 @@
 <script>
 import Section from "./_section.vue";
 import Card2 from "../../components/card2.vue";
-import IconButton from "../../components/icon_button.vue";
-import IconButtonGroup from "../../components/icon_button_group.vue";
 
 export default {
   name: "Publication",
   components: {
     Section,
-    Card2,
-    IconButton,
-    IconButtonGroup
+    Card2
   }
 };
 </script>
