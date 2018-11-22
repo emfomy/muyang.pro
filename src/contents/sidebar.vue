@@ -39,11 +39,13 @@
       <div class="d-block" @mouseleave="iconTextOff">
         <b-nav-text class="IconText text-nowrap p-0" v-html="icon_text" />
         <div class="d-flex justify-content-around my-1">
-          <b-link v-for="(item, key) in icon_list" :href="item.href" :key="key" target="_blank">
-            <font-awesome-icon class="fa-fw"
-                               :icon="[item.style, item.icon]"
-                               @mouseenter="iconTextOn(item)"
-                               @touchstart="iconTextOn(item)" />
+          <b-link v-for="(item, key) in icon_list"
+                  :href="item.href"
+                  :key="key"
+                  target="_blank"
+                  @mouseenter="iconTextOn(item)"
+                  @touchstart="iconTextOn(item)">
+            <font-awesome-icon class="fa-fw" :icon="[item.style, item.icon]" />
           </b-link>
         </div>
       </div>
