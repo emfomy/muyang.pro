@@ -7,6 +7,7 @@
     </template>
 
     <Card2 src="/img/ntu_logo.png"
+           src2="/img/ntu_banner.png"
            href="//doi.org/10.6342/NTU201702960">
       <header>
         <h4>Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications</h4>
@@ -45,7 +46,6 @@
 
     <Card2 src="/img/ieee_cit_2016.png"
            href="//nsclab.org/cit2016">
-
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
         <p>Mu Yang*, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
@@ -92,7 +92,6 @@
 
     <Card2 src="/img/siam_cse_2017.jpg"
            href="//www.siam.org/meetings/cse17">
-
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
         <p>Mu Yang*, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
@@ -110,34 +109,37 @@
       </IconButtonGroup>
     </Card2>
 
-    <Card2 src="/img/tjjw_jsam_2016.png"
-           href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
+    <IconToggle target="publication-more" />
+    <b-collapse id="publication-more" class="mt-4">
+      <Card2 src="/img/tjjw_jsam_2016.png"
+             href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
-      <header>
-        <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
-        <p>Mu Yang* and Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
-      </header>
+        <header>
+          <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
+          <p>Mu Yang* and Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
+        </header>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
-                    target="_blank"
-                    fa-icon="globe"
-                    fa-style="fas">
-          Workshop
-        </IconButton>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
+                      target="_blank"
+                      fa-icon="globe"
+                      fa-style="fas">
+            Workshop
+          </IconButton>
 
-        <IconButton v-b-tooltip.hover
-                    title="Presentation Excellence Award"
-                    size="sm"
-                    variant="outline-primary"
-                    fa-icon="award"
-                    fa-style="fas">
-          Award
-        </IconButton>
-      </IconButtonGroup>
-    </Card2>
+          <IconButton v-b-tooltip.hover
+                      title="Presentation Excellence Award"
+                      size="sm"
+                      variant="outline-primary"
+                      fa-icon="award"
+                      fa-style="fas">
+            Award
+          </IconButton>
+        </IconButtonGroup>
+      </Card2>
+    </b-collapse>
 
   </Section>
 </template>
@@ -157,7 +159,7 @@ export default {
 
 <style scoped lang="scss">
 .Publication {
-  >>> .Card2 {
+  .Card2 {
     border-top: solid 4px #f4f4f4;
   }
 
@@ -165,7 +167,7 @@ export default {
     border-top: 0 !important;
   }
 
-  >>> .Card2:last-of-type {
+  .Card2:last-of-type {
     padding-bottom: 0 !important;
   }
 }

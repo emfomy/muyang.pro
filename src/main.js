@@ -39,13 +39,15 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.component("font-awesome-layers", FontAwesomeLayers);
 Vue.component("font-awesome-layers-text", FontAwesomeLayersText);
 
-/* Icon Button */
+/* Component */
 
 import IconButton from "./components/icon_button.vue";
 import IconButtonGroup from "./components/icon_button_group.vue";
+import IconToggle from "./components/icon_toggle.vue";
 
 Vue.component("IconButton", IconButton);
 Vue.component("IconButtonGroup", IconButtonGroup);
+Vue.component("IconToggle", IconToggle);
 
 /* App */
 

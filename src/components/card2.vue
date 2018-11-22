@@ -3,7 +3,10 @@
     <b-row>
       <b-col cols="12" lg="3" class="d-flex align-items-center justify-content-center mb-3 mb-lg-0">
         <b-link :href="href" :target="target" :disabled="href === undefined">
-          <b-img v-if="src" class="LogoImg" center rounded fluid :src="src" />
+          <picture>
+            <source v-if="src2" media="(max-width: 991.98px)" :srcset="src2">
+            <b-img v-if="src" class="LogoImg" center rounded fluid :src="src" />
+          </picture>
         </b-link>
       </b-col>
       <b-col cols="12" lg="9">
@@ -18,6 +21,7 @@ export default {
   name: "Card2",
   props: {
     src: String,
+    src2: String,
     href: String,
     target: {
       style: String,

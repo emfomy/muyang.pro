@@ -20,23 +20,29 @@
       <template slot="description"><a href="//www.watson.ibm.com" target="_blank">Thomas J. Watson Research Center</a>,<br />IBM, Yorktown Heights, NY, USA</template>
     </Card1>
 
-    <!-- <Card1 year="2013-2017"
-           title="Research Assistant"
-           institution="Nat'l. Taiwan Univ.">
-      <template slot="description">Supervised by Prof. Weichung Wang<br /><a href="http://wlab.pro" target="_blank">WLab</a>, <a href="//www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</a>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of parallel computing of large-scale hybrid CPU-GPU clusters</i></template>
-    </Card1> -->
+    <IconToggle target="employment-more" />
+    <b-collapse id="employment-more" class="mt-4">
+      <Card1 year="2013-2017"
+             title="Research Assistant"
+             institution="Nat'l. Taiwan Univ."
+             img-src="/img/ntu_logo.png">
+        <template slot="description">Supervised by Prof. Weichung Wang<br /><a href="http://wlab.pro" target="_blank">WLab</a>, <a href="//www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</a>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of parallel computing of large-scale hybrid CPU-GPU clusters</i></template>
+      </Card1>
 
-    <!-- <Card1 year="2016-2016"
-           title="Research Assistant"
-           institution="Nat'l. Taiwan Univ.">
-      <template slot="description">Supervised by Prof. Semin Kim<br /><a href="//140.112.177.119/_english/index-en.htm" target="_blank">Department of Economics</a>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of ordinal versus cardinal voting rules</i></template>
-    </Card1> -->
+      <Card1 year="2016-2016"
+             title="Research Assistant"
+             institution="Nat'l. Taiwan Univ."
+             img-src="/img/ntu_logo.png">
+        <template slot="description">Supervised by Prof. Semin Kim<br /><a href="//140.112.177.119/_english/index-en.htm" target="_blank">Department of Economics</a>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of ordinal versus cardinal voting rules</i></template>
+      </Card1>
 
-    <!-- <Card1 year="2015-2017"
-           title="Research Assistant"
-           institution="Nat'l. Taiwan Univ.">
-      <template slot="description"><i>Software Development for Computational and Data Science, High Performance Computing and Deep Learning, Introduction to Computational &amp; Data Sciences, Introduction to Scientific Computing, Numerical Linear Algebra, Introduction to Computational Mathematics, Computer Programming, Mathematic Software, Calculus</i></template>
-    </Card1> -->
+      <Card1 year="2015-2017"
+             title="Research Assistant"
+             institution="Nat'l. Taiwan Univ."
+             img-src="/img/ntu_logo.png">
+        <template slot="description"><i>Software Development for Computational and Data Science, High Performance Computing and Deep Learning, Introduction to Computational &amp; Data Sciences, Introduction to Scientific Computing, Numerical Linear Algebra, Introduction to Computational Mathematics, Computer Programming, Mathematic Software, Calculus</i></template>
+      </Card1>
+    </b-collapse>
 
   </Section>
 </template>

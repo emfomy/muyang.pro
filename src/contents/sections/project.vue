@@ -97,206 +97,209 @@
       </IconButtonGroup>
     </Card3>
 
-    <Card3>
-      <header>
-        <h4>Hierarchical Schur (HiS) Solver</h4>
-        <p>2015-2016</p>
-      </header>
-      <p>
-        HiS is a direct linear solver exploiting the sparse structure of multilevel nested dissection matrix to maximize parallel scalability on multinode GPU clusters.<br />
-        My work including algorithm modifying, C++ code implementation, matrix structure and operation forming.
-      </p>
+    <IconToggle target="project-more" />
+    <b-collapse id="project-more" class="mt-4">
+      <Card3>
+        <header>
+          <h4>Hierarchical Schur (HiS) Solver</h4>
+          <p>2015-2016</p>
+        </header>
+        <p>
+          HiS is a direct linear solver exploiting the sparse structure of multilevel nested dissection matrix to maximize parallel scalability on multinode GPU clusters.<br />
+          My work including algorithm modifying, C++ code implementation, matrix structure and operation forming.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/other/ntu_thesis_2016_his.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/other/ntu_thesis_2016_his.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
 
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
+                      target="_blank"
+                      fa-icon="file-alt"
+                      fa-style="far">
+            Paper (Online)
+          </IconButton>
 
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//bitbucket.org/nanaHa1003/his"
-                    target="_blank"
-                    fa-icon="bitbucket"
-                    fa-style="fab">
-          BitBucket
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//bitbucket.org/nanaHa1003/his"
+                      target="_blank"
+                      fa-icon="bitbucket"
+                      fa-style="fab">
+            BitBucket
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <!-- <Card3>
-      <header>
-        <h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
-        <p>2014-2016</p>
-      </header>
-      <p>
-        hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
-        My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
-      </p>
-    </Card3> -->
+      <!-- <Card3>
+        <header>
+          <h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
+          <p>2014-2016</p>
+        </header>
+        <p>
+          hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
+          My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
+        </p>
+      </Card3> -->
 
-    <Card3>
-      <header>
-        <h4>Ordinal Versus Cardinal Voting Rules</h4>
-        <p>2016</p>
-      </header>
-      <p>
-        A research about the performance and incentive compatibility of voting rules in a Bayesian environment.<br />
-        My work including numerical analysis and MATLAB code implementation.
-      </p>
+      <Card3>
+        <header>
+          <h4>Ordinal Versus Cardinal Voting Rules</h4>
+          <p>2016</p>
+        </header>
+        <p>
+          A research about the performance and incentive compatibility of voting rules in a Bayesian environment.<br />
+          My work including numerical analysis and MATLAB code implementation.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/other/geb_2017_voting.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/other/geb_2017_voting.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
 
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//doi.org/10.1016/j.geb.2017.04.012"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//doi.org/10.1016/j.geb.2017.04.012"
+                      target="_blank"
+                      fa-icon="file-alt"
+                      fa-style="far">
+            Paper (Online)
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <Card3>
-      <header>
-        <h4>N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
-        <p>2016</p>
-      </header>
-      <p>
-        An n-body simulation using fast multipole method (FMM) with GPU acceleration.<br />
-        My work including project leading, C++ code implementation, CUDA GPU code implementation, and data structure designing.
-      </p>
+      <Card3>
+        <header>
+          <h4>N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
+          <p>2016</p>
+        </header>
+        <p>
+          An n-body simulation using fast multipole method (FMM) with GPU acceleration.<br />
+          My work including project leading, C++ code implementation, CUDA GPU code implementation, and data structure designing.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//sites.google.com/site/nbfmmprojectforgpuprograming"
-                    target="_blank"
-                    fa-icon="globe"
-                    fa-style="fas">
-          Website
-        </IconButton>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//sites.google.com/site/nbfmmprojectforgpuprograming"
+                      target="_blank"
+                      fa-icon="globe"
+                      fa-style="fas">
+            Website
+          </IconButton>
 
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//github.com/emfomy/nbfmm"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          GitHub
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/nbfmm"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            GitHub
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <Card3>
-      <header>
-        <h4>Bank Account Management System Project</h4>
-        <p>2015</p>
-      </header>
-      <p>
-        A bank account management system.<br />
-        My work including programming design, data structure developing, C++ code implementation, and team management.
-      </p>
+      <Card3>
+        <header>
+          <h4>Bank Account Management System Project</h4>
+          <p>2015</p>
+        </header>
+        <p>
+          A bank account management system.<br />
+          My work including programming design, data structure developing, C++ code implementation, and team management.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//github.com/emfomy/dsa_final"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          GitHub
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/dsa_final"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            GitHub
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <Card3>
-      <header>
-        <h4>Wonderful Transportation Forming</h4>
-        <p>2013</p>
-      </header>
-      <p>
-        A city traffic simulation of pedestrian, vehicle, and public transportation.<br />
-        My work including programming design, data structure developing, Java code implementation, MATLAB GUI code modifying, and team management.
-      </p>
+      <Card3>
+        <header>
+          <h4>Wonderful Transportation Forming</h4>
+          <p>2013</p>
+        </header>
+        <p>
+          A city traffic simulation of pedestrian, vehicle, and public transportation.<br />
+          My work including programming design, data structure developing, Java code implementation, MATLAB GUI code modifying, and team management.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//sites.google.com/site/wonderfultf"
-                    target="_blank"
-                    fa-icon="globe"
-                    fa-style="fas">
-          Website
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//sites.google.com/site/wonderfultf"
+                      target="_blank"
+                      fa-icon="globe"
+                      fa-style="fas">
+            Website
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <Card3>
-      <header>
-        <h4>The Matrix Project</h4>
-        <p>2012</p>
-      </header>
-      <p>
-        A linear algebra library implemented with assembly language.<br />
-        My work including programming design, data structure developing, Intel assembly code &amp; main C code implementation, and team management.
-      </p>
+      <Card3>
+        <header>
+          <h4>The Matrix Project</h4>
+          <p>2012</p>
+        </header>
+        <p>
+          A linear algebra library implemented with assembly language.<br />
+          My work including programming design, data structure developing, Intel assembly code &amp; main C code implementation, and team management.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//sites.google.com/site/tragedytriangle"
-                    target="_blank"
-                    fa-icon="globe"
-                    fa-style="fas">
-          Website
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//sites.google.com/site/tragedytriangle"
+                      target="_blank"
+                      fa-icon="globe"
+                      fa-style="fas">
+            Website
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
 
-    <Card3>
-      <header>
-        <h4>Chess AI Project</h4>
-        <p>2007</p>
-      </header>
-      <p>
-        A chess game program with an AI that can defeat me.<br />
-        My work including programming design, algorithm developing, data structure developing, C &amp; Java code implementation, and Java GUI modifying.
-      </p>
+      <Card3>
+        <header>
+          <h4>Chess AI Project</h4>
+          <p>2007</p>
+        </header>
+        <p>
+          A chess game program with an AI that can defeat me.<br />
+          My work including programming design, algorithm developing, data structure developing, C &amp; Java code implementation, and Java GUI modifying.
+        </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//github.com/emfomy/chess_ai"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          GitHub
-        </IconButton>
-      </IconButtonGroup>
-    </Card3>
+        <IconButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/chess_ai"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            GitHub
+          </IconButton>
+        </IconButtonGroup>
+      </Card3>
+    </b-collapse>
 
   </Section>
 </template>
@@ -316,7 +319,7 @@ export default {
 
 <style scoped lang="scss">
 .Project {
-  >>> .Card3 {
+  .Card3 {
     border-top: solid 4px #f4f4f4;
   }
 
@@ -324,7 +327,7 @@ export default {
     border-top: 0 !important;
   }
 
-  >>> .Card3:last-of-type {
+  .Card3:last-of-type {
     padding-bottom: 0 !important;
   }
 }

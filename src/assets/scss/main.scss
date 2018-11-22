@@ -16,4 +16,15 @@ $headings-font-weight: 700;
 // $link-hover-color:       darken($primary, 15%);
 // $link-hover-decoration:  none;
 
+// Curser
+.cursor-pointer {
+  cursor: pointer;
+}
+
+// Collapse
+.collapsed > .when-opened,
+:not(.collapsed) > .when-closed {
+  display: none;
+}
+
 @import "~bootstrap/scss/bootstrap";
