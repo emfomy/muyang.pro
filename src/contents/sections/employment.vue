@@ -20,7 +20,7 @@
       <template slot="description"><a href="//www.watson.ibm.com" target="_blank">Thomas J. Watson Research Center</a>,<br />IBM, Yorktown Heights, NY, USA</template>
     </Card1>
 
-    <IconToggle target="employment-more" />
+    <Opener target="employment-more" />
     <b-collapse id="employment-more" class="mt-4">
       <Card1 year="2013-2017"
              title="Research Assistant"

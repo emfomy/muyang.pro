@@ -11,10 +11,9 @@ $primary: #888888;
 $headings-font-weight: 700;
 
 // Link
-// $link-color:             inherit;
-// $link-decoration:        underline;
-// $link-hover-color:       darken($primary, 15%);
-// $link-hover-decoration:  none;
+p a {
+  font-style: italic;
+}
 
 // Curser
 .cursor-pointer {

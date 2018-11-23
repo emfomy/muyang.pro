@@ -10,6 +10,7 @@
         </div>
         <div id="content">
           <Content role="main" />
+          <Footer role="footer"/>
         </div>
       </b-row>
     </b-container>
@@ -20,14 +21,16 @@
 </template>
 
 <script>
-import Content from "./contents/content.vue";
 import SideBar from "./contents/sidebar.vue";
+import Content from "./contents/content.vue";
+import Footer from "./contents/footer.vue";
 
 export default {
   name: "Wrapper",
   components: {
+    SideBar,
     Content,
-    SideBar
+    Footer
   },
   data() {
     return {
@@ -50,13 +53,6 @@ export default {
 .Wrapper {
   overflow-x: hidden;
 
-  #content {
-    width: 100%;
-    padding-left: 0;
-    transform: translateX(0);
-    transition: padding-left 1s ease, transform 1s ease;
-  }
-
   #sidebar {
     position: fixed;
     top: 0;
@@ -67,6 +63,13 @@ export default {
     z-index: $zindex-sticky;
     transform: translateX(0);
     transition: width 1s ease, transform 1s ease;
+  }
+
+  #content {
+    width: 100%;
+    padding-left: 0;
+    transform: translateX(0);
+    transition: padding-left 1s ease, transform 1s ease;
   }
 
   #toggler {
@@ -106,12 +109,12 @@ export default {
   }
 
   @mixin layout($sidebar-width) {
-    #content {
-      padding-left: $sidebar-width;
-    }
-
     #sidebar {
       width: $sidebar-width;
+    }
+
+    #content {
+      padding-left: $sidebar-width;
     }
   }
 

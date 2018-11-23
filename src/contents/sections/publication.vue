@@ -109,7 +109,7 @@
       </IconButtonGroup>
     </Card2>
 
-    <IconToggle target="publication-more" />
+    <Opener target="publication-more" />
     <b-collapse id="publication-more" class="mt-4">
       <Card2 src="/img/tjjw_jsam_2016.png"
              href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">

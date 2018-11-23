@@ -2,7 +2,7 @@
   <b-container class="Content px-0 px-md-3">
 
     <About id="about" />
-    <b-container class="container">
+    <b-container>
       <b-row>
         <Education id="education" class="col-12 col-xl-6" />
         <Employment id="employment" class="col-12 col-xl-6" />

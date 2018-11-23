@@ -97,7 +97,7 @@
       </IconButtonGroup>
     </Card3>
 
-    <IconToggle target="project-more" />
+    <Opener target="project-more" />
     <b-collapse id="project-more" class="mt-4">
       <Card3>
         <header>
