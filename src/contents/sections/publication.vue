@@ -45,7 +45,7 @@
     </Card2>
 
     <Card2 src="/img/ieee_cit_2016.png"
-           href="//nsclab.org/cit2016">
+           href="http://nsclab.org/cit2016">
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
         <p>Mu Yang*, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
@@ -122,7 +122,7 @@
         <IconButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
+                      href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
                       target="_blank"
                       fa-icon="globe"
                       fa-style="fas">

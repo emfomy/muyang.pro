@@ -121,7 +121,7 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
+                      href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
                       target="_blank"
                       fa-icon="file-alt"
                       fa-style="far">
