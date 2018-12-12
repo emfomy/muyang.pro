@@ -8,6 +8,16 @@
 
     <Card3>
       <header>
+        <h4>HWE: Heterogeneous Word Embedding</h4>
+        <p>2017-2018</p>
+      </header>
+      <p>
+        A general and flexible framework of word embeddings to incorporate each type (e.g. word-sense, part-of-speech, topic) of contextual feature for learning feature-specific word embeddings in an explicit fashion.
+      </p>
+    </Card3>
+
+    <Card3>
+      <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
         <p>2017-2018</p>
       </header>
@@ -97,8 +107,8 @@
       </IconButtonGroup>
     </Card3>
 
-    <Opener target="project-more" />
-    <b-collapse id="project-more" class="mt-4">
+    <Collapse name="project-more" class="mt-4">
+
       <Card3>
         <header>
           <h4>Hierarchical Schur (HiS) Solver</h4>
@@ -299,7 +309,8 @@
           </IconButton>
         </IconButtonGroup>
       </Card3>
-    </b-collapse>
+
+    </Collapse>
 
   </Section>
 </template>
@@ -320,15 +331,11 @@ export default {
 <style scoped lang="scss">
 .Project {
   .Card3 {
-    border-top: solid 4px #f4f4f4;
-  }
-
-  >>> .Card3:first-of-type {
-    border-top: 0 !important;
+    border-bottom: solid 4px #f4f4f4;
   }
 
   .Card3:last-of-type {
-    padding-bottom: 0 !important;
+    border-bottom: 0 !important;
   }
 }
 </style>

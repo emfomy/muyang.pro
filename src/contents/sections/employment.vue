@@ -20,8 +20,8 @@
       <template slot="description"><a href="http://www.watson.ibm.com" target="_blank">Thomas J. Watson Research Center</a>,<br />IBM, Yorktown Heights, NY, USA</template>
     </Card1>
 
-    <Opener target="employment-more" />
-    <b-collapse id="employment-more" class="mt-4">
+    <Collapse name="employment-more">
+
       <Card1 year="2013-2017"
              title="Research Assistant"
              institution="Nat'l. Taiwan Univ."
@@ -42,7 +42,8 @@
              img-src="/img/ntu_logo.png">
         <template slot="description"><i>Software Development for Computational and Data Science, High Performance Computing and Deep Learning, Introduction to Computational &amp; Data Sciences, Introduction to Scientific Computing, Numerical Linear Algebra, Introduction to Computational Mathematics, Computer Programming, Mathematic Software, Calculus</i></template>
       </Card1>
-    </b-collapse>
+
+    </Collapse>
 
   </Section>
 </template>
