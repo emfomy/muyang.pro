@@ -36,6 +36,15 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
+                    href="//github.com/emfomy/hwe"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
                     href="//www.ieee-icsc.org"
                     target="_blank"
                     fa-icon="globe"
