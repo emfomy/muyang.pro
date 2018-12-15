@@ -51,6 +51,15 @@
                     fa-style="fas">
           Conference
         </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href=""
+                    v-scroll-to="'#project-hwe'"
+                    fa-icon="puzzle-piece"
+                    fa-style="fas">
+          Detail
+        </IconButton>
       </IconButtonGroup>
     </Card2>
 
@@ -88,6 +97,14 @@
                     fa-icon="github"
                     fa-style="fab">
           Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-scroll-to="'#project-isvd'"
+                    fa-icon="puzzle-piece"
+                    fa-style="fas">
+          Detail
         </IconButton>
       </IconButtonGroup>
     </Card2>
@@ -129,11 +146,19 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//nsclab.org/cit2016"
+                    href="http://nsclab.org/cit2016"
                     target="_blank"
                     fa-icon="globe"
                     fa-style="fas">
           Conference
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-scroll-to="'#project-pass'"
+                    fa-icon="puzzle-piece"
+                    fa-style="fas">
+          Detail
         </IconButton>
       </IconButtonGroup>
     </Card2>
@@ -155,6 +180,14 @@
                       fa-icon="globe"
                       fa-style="fas">
             Conference
+          </IconButton>
+
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      v-scroll-to="'#project-isvd'"
+                      fa-icon="puzzle-piece"
+                      fa-style="fas">
+            Detail
           </IconButton>
         </IconButtonGroup>
       </Card2>
@@ -185,6 +218,14 @@
                       fa-style="fas">
             Award
           </IconButton>
+
+          <!-- <IconButton size="sm"
+                      variant="outline-primary"
+                      v-scroll-to="'#project-hhis'"
+                      fa-icon="puzzle-piece"
+                      fa-style="fas">
+            Detail
+          </IconButton> -->
         </IconButtonGroup>
       </Card2>
 

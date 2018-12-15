@@ -6,7 +6,7 @@
       <p></p>
     </template>
 
-    <Card3>
+    <Card3 id="project-hwe">
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017-2018</p>
@@ -14,9 +14,40 @@
       <p>
         A general and flexible framework of word embeddings to incorporate each type (e.g. word-sense, part-of-speech, topic) of contextual feature for learning feature-specific word embeddings in an explicit fashion.
       </p>
+
+      <IconButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href=""
+                    target="_blank"
+                    fa-icon="file-pdf"
+                    fa-style="far"
+                    disabled>
+          Paper
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href=""
+                    target="_blank"
+                    fa-icon="file-alt"
+                    fa-style="far"
+                    disabled>
+          Paper (Online)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/hwe"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+      </IconButtonGroup>
     </Card3>
 
-    <Card3>
+    <Card3 id="project-cosmel">
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
         <p>2017-2018</p>
@@ -27,7 +58,7 @@
       </p>
     </Card3>
 
-    <Card3>
+    <Card3 id="project-isvd">
       <header>
         <h4>Integrated Singular Value Decomposition (iSVD) Algorithm</h4>
         <p>2015-Present</p>
@@ -67,7 +98,7 @@
       </IconButtonGroup>
     </Card3>
 
-    <Card3>
+    <Card3 id="project-pass">
       <header>
         <h4>Particle Swarm Stepwise (PaSS) Algorithm</h4>
         <p>2013-2015</p>
@@ -109,7 +140,7 @@
 
     <Collapse name="project-more" class="mt-4">
 
-      <Card3>
+      <Card3 id="project-his">
         <header>
           <h4>Hierarchical Schur (HiS) Solver</h4>
           <p>2015-2016</p>
@@ -149,7 +180,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <!-- <Card3>
+      <!-- <Card3 id="project-hhis">
         <header>
           <h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
           <p>2014-2016</p>
@@ -160,7 +191,7 @@
         </p>
       </Card3> -->
 
-      <Card3>
+      <Card3 id="project-voting">
         <header>
           <h4>Ordinal Versus Cardinal Voting Rules</h4>
           <p>2016</p>
@@ -191,7 +222,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <Card3>
+      <Card3 id="project-nbfmm">
         <header>
           <h4>N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
           <p>2016</p>
@@ -222,7 +253,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <Card3>
+      <Card3 id="project-dsa">
         <header>
           <h4>Bank Account Management System Project</h4>
           <p>2015</p>
@@ -244,7 +275,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <Card3>
+      <Card3 id="project-wtf">
         <header>
           <h4>Wonderful Transportation Forming</h4>
           <p>2013</p>
@@ -266,7 +297,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <Card3>
+      <Card3 id="project-assembly">
         <header>
           <h4>The Matrix Project</h4>
           <p>2012</p>
@@ -289,7 +320,7 @@
       </Card3>
 
       <Card3>
-        <header>
+        <header id="project-chessai">
           <h4>Chess AI Project</h4>
           <p>2007</p>
         </header>
