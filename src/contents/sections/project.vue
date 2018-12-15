@@ -138,7 +138,7 @@
       </IconButtonGroup>
     </Card3>
 
-    <Collapse name="project-more" class="mt-4">
+    <Collapse name="project-more" ref="project-more" class="mt-4">
 
       <Card3 id="project-his">
         <header>
@@ -180,7 +180,7 @@
         </IconButtonGroup>
       </Card3>
 
-      <!-- <Card3 id="project-hhis">
+      <Card3 id="project-hhis">
         <header>
           <h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
           <p>2014-2016</p>
@@ -189,7 +189,7 @@
           hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
           My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
         </p>
-      </Card3> -->
+      </Card3>
 
       <Card3 id="project-voting">
         <header>

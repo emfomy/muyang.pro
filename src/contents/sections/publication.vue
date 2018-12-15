@@ -219,13 +219,14 @@
             Award
           </IconButton>
 
-          <!-- <IconButton size="sm"
+          <IconButton size="sm"
                       variant="outline-primary"
-                      v-scroll-to="'#project-hhis'"
+                      :onClick="() => {scrollDetail('#project-hhis');}"
                       fa-icon="puzzle-piece"
                       fa-style="fas">
             Detail
-          </IconButton> -->
+          </IconButton>
+          <!-- </span> -->
         </IconButtonGroup>
       </Card2>
 
@@ -243,6 +244,16 @@ export default {
   components: {
     Section,
     Card2
+  },
+  methods: {
+    scrollDetail(id) {
+      this.$parent.$refs["project"].$refs["project-more"].$refs[
+        "collapse"
+      ].show = true;
+      this.$nextTick(() => {
+        this.$scrollTo(id);
+      });
+    }
   }
 };
 </script>

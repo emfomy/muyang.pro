@@ -1,5 +1,5 @@
 <template>
-  <b-button class="IconButton pl-1" :href="href" :rel="rel" :target="target" :active="active" :activeClass="activeClass" :append="append" :disabled="disabled" :event="event" :exact="exact" :exactActiveClass="exactActiveClass" :replace="replace" :routerTag="routerTag" :to="to" :block="block" :size="size" :variant="variant" :type="type" :pressed="pressed">
+  <b-button class="IconButton pl-1" :href="href" :rel="rel" :target="target" :active="active" :activeClass="activeClass" :append="append" :disabled="disabled" :event="event" :exact="exact" :exactActiveClass="exactActiveClass" :replace="replace" :routerTag="routerTag" :to="to" :block="block" :size="size" :variant="variant" :type="type" :pressed="pressed" @click="onClick()">
     <font-awesome-icon :icon="[faStyle, faIcon]" class="fa-fw" />
     <slot />
   </b-button>
@@ -29,6 +29,8 @@ export default {
     variant: String,
     type: String,
     pressed: Boolean,
+
+    onClick: Function,
 
     faIcon: String,
     faStyle: String

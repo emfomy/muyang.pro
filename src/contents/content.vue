@@ -1,15 +1,15 @@
 <template>
   <b-container class="Content px-0 px-md-3">
 
-    <About id="about" />
+    <About id="about" ref="about" />
     <b-container>
       <b-row>
-        <Education id="education" class="col-12 col-xl-6" />
-        <Employment id="employment" class="col-12 col-xl-6" />
+        <Education id="education" ref="education" class="col-12 col-xl-6" />
+        <Employment id="employment" ref="employment" class="col-12 col-xl-6" />
       </b-row>
     </b-container>
-    <Publication id="publication" />
-    <Project id="project" />
+    <Publication id="publication" ref="publication" />
+    <Project id="project" ref="project" />
 
   </b-container>
 </template>
