@@ -116,7 +116,7 @@
                       target="_blank"
                       fa-icon="file-pdf"
                       fa-style="far">
-            Paper (IEEE CSE 2016)
+            Paper (CIT 2016)
           </IconButton>
           <IconButton size="sm"
                       variant="outline-primary"
