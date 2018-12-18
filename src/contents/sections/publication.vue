@@ -13,26 +13,26 @@
         <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li and Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
       </header>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href=""
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far"
-                    disabled>
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href=""
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far"
-                    disabled>
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far"
+                      disabled>
+            Paper
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas"
+                      disabled>
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -60,7 +60,7 @@
                     fa-style="fas">
           Detail
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card2>
 
     <Card2 src="/img/ntu_banner.png"
@@ -71,24 +71,24 @@
         <p>Mu Yang<br />2017, Master's Thesis, National Taiwan University</p>
       </header>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/ntu_thesis_2017_isvd.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//doi.org/10.6342/NTU201702960"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/ntu_thesis_2017_isvd.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//doi.org/10.6342/NTU201702960"
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -106,7 +106,7 @@
                     fa-style="fas">
           Detail
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card2>
 
     <Card2 src="/img/ieee_cit_2016.png"
@@ -116,24 +116,24 @@
         <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
       </header>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/ieee_sce_2016_pass.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//doi.org/10.1109/CIT.2016.101"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/ieee_cse_2016_pass.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//doi.org/10.1109/CIT.2016.101"
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -160,7 +160,7 @@
                     fa-style="fas">
           Detail
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card2>
 
     <Collapse name="publication-more" class="mt-4">
@@ -172,7 +172,16 @@
           <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
         </header>
 
-        <IconButtonGroup>
+        <ButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/isvd"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            Github
+          </IconButton>
+
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//www.siam.org/meetings/cse17"
@@ -189,7 +198,7 @@
                       fa-style="fas">
             Detail
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card2>
 
       <Card2 src="/img/tjjw_jsam_2016.png"
@@ -200,7 +209,7 @@
           <p>Mu Yang and Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
         </header>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
@@ -221,13 +230,12 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      :onClick="() => {scrollDetail('#project-hhis');}"
+                      @click.native="scrollDetail('#project-hhis');"
                       fa-icon="puzzle-piece"
                       fa-style="fas">
             Detail
           </IconButton>
-          <!-- </span> -->
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card2>
 
     </Collapse>

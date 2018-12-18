@@ -41,12 +41,12 @@ Vue.component("font-awesome-layers-text", FontAwesomeLayersText);
 
 /* Component */
 
-import IconButton from "./components/icon_button.vue";
-import IconButtonGroup from "./components/icon_button_group.vue";
+import IconButton from "./components/icon_button";
+import ButtonGroup from "./components/button_group.vue";
 import Collapse from "./components/collapse.vue";
 
 Vue.component("IconButton", IconButton);
-Vue.component("IconButtonGroup", IconButtonGroup);
+Vue.component("ButtonGroup", ButtonGroup);
 Vue.component("Collapse", Collapse);
 
 /* App */

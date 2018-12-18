@@ -1,25 +1,24 @@
 <template>
-  <div class="IconButtonGroup">
+  <div class="ButtonGroup">
     <slot />
   </div>
 </template>
 
 <script>
-// import { bButton } from 'bootstrap-vue/es/components';
-
 export default {
-  name: "IconButtonGroup"
+  name: "ButtonGroup"
 };
 </script>
 
 <style scoped lang="scss">
-.IconButtonGroup {
+.ButtonGroup {
   $spacing: 0.25rem;
 
   margin-right: -$spacing;
   margin-bottom: -$spacing;
 
-  >>> .IconButton {
+  >>> .btn,
+  >>> .btn-group {
     margin-right: $spacing;
     margin-bottom: $spacing;
   }

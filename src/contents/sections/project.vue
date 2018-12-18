@@ -15,26 +15,26 @@
         A general and flexible framework of word embeddings to incorporate each type (e.g. word-sense, part-of-speech, topic) of contextual feature for learning feature-specific word embeddings in an explicit fashion.
       </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href=""
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far"
-                    disabled>
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href=""
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far"
-                    disabled>
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far"
+                      disabled>
+            Paper (ICSC 2019)
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas"
+                      disabled>
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -44,7 +44,7 @@
                     fa-style="fab">
           Github
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card3>
 
     <Card3 id="project-cosmel">
@@ -68,24 +68,24 @@
         My work including algorithm modifying, programming design, C++ code implementation.
       </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/ntu_thesis_2017_isvd.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//doi.org/10.6342/NTU201702960"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/ntu_thesis_2017_isvd.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper (NTU Thesis)
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//doi.org/10.6342/NTU201702960"
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -95,7 +95,7 @@
                     fa-style="fab">
           Github
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card3>
 
     <Card3 id="project-pass">
@@ -108,24 +108,24 @@
         My work including programming design, CUDA &amp; C++ code implementation, non-general model developing and implementation.
       </p>
 
-      <IconButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="/file/paper/ieee_sce_2016_pass.pdf"
-                    target="_blank"
-                    fa-icon="file-pdf"
-                    fa-style="far">
-          Paper
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//doi.org/10.1109/CIT.2016.101"
-                    target="_blank"
-                    fa-icon="file-alt"
-                    fa-style="far">
-          Paper (Online)
-        </IconButton>
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/ieee_cse_2016_pass.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper (IEEE CSE 2016)
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//doi.org/10.1109/CIT.2016.101"
+                      target="_blank"
+                      fa-icon="link"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group>
 
         <IconButton size="sm"
                     variant="outline-primary"
@@ -135,10 +135,41 @@
                     fa-style="fab">
           Github
         </IconButton>
-      </IconButtonGroup>
+      </ButtonGroup>
     </Card3>
 
     <Collapse name="project-more" ref="project-more" class="mt-4">
+
+      <Card3 id="project-voting">
+        <header>
+          <h4>Ordinal Versus Cardinal Voting Rules</h4>
+          <p>2016</p>
+        </header>
+        <p>
+          A research about the performance and incentive compatibility of voting rules in a Bayesian environment.<br />
+          My work including numerical analysis and MATLAB code implementation.
+        </p>
+
+        <ButtonGroup>
+          <b-button-group>
+            <IconButton size="sm"
+                        variant="outline-primary"
+                        href="/file/paper/other/geb_2017_voting.pdf"
+                        target="_blank"
+                        fa-icon="file-pdf"
+                        fa-style="far">
+              Paper (GEB 2017)
+            </IconButton>
+            <IconButton size="sm"
+                        variant="outline-primary"
+                        href="//doi.org/10.1016/j.geb.2017.04.012"
+                        target="_blank"
+                        fa-icon="link"
+                        fa-style="fas">
+            </IconButton>
+          </b-button-group>
+        </ButtonGroup>
+      </Card3>
 
       <Card3 id="project-his">
         <header>
@@ -150,24 +181,24 @@
           My work including algorithm modifying, C++ code implementation, matrix structure and operation forming.
         </p>
 
-        <IconButtonGroup>
-          <IconButton size="sm"
-                      variant="outline-primary"
+        <ButtonGroup>
+          <b-button-group>
+            <IconButton size="sm"
+                        variant="outline-primary"
                       href="/file/paper/other/ntu_thesis_2016_his.pdf"
-                      target="_blank"
-                      fa-icon="file-pdf"
-                      fa-style="far">
-            Paper
-          </IconButton>
-
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
-                      target="_blank"
-                      fa-icon="file-alt"
-                      fa-style="far">
-            Paper (Online)
-          </IconButton>
+                        target="_blank"
+                        fa-icon="file-pdf"
+                        fa-style="far">
+              Paper
+            </IconButton>
+            <IconButton size="sm"
+                        variant="outline-primary"
+                        href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
+                        target="_blank"
+                        fa-icon="link"
+                        fa-style="fas">
+            </IconButton>
+          </b-button-group>
 
           <IconButton size="sm"
                       variant="outline-primary"
@@ -177,7 +208,7 @@
                       fa-style="fab">
             BitBucket
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
       <Card3 id="project-hhis">
@@ -191,37 +222,6 @@
         </p>
       </Card3>
 
-      <Card3 id="project-voting">
-        <header>
-          <h4>Ordinal Versus Cardinal Voting Rules</h4>
-          <p>2016</p>
-        </header>
-        <p>
-          A research about the performance and incentive compatibility of voting rules in a Bayesian environment.<br />
-          My work including numerical analysis and MATLAB code implementation.
-        </p>
-
-        <IconButtonGroup>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="/file/paper/other/geb_2017_voting.pdf"
-                      target="_blank"
-                      fa-icon="file-pdf"
-                      fa-style="far">
-            Paper
-          </IconButton>
-
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="//doi.org/10.1016/j.geb.2017.04.012"
-                      target="_blank"
-                      fa-icon="file-alt"
-                      fa-style="far">
-            Paper (Online)
-          </IconButton>
-        </IconButtonGroup>
-      </Card3>
-
       <Card3 id="project-nbfmm">
         <header>
           <h4>N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
@@ -232,7 +232,7 @@
           My work including project leading, C++ code implementation, CUDA GPU code implementation, and data structure designing.
         </p>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//sites.google.com/site/nbfmmprojectforgpuprograming"
@@ -250,7 +250,7 @@
                       fa-style="fab">
             GitHub
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
       <Card3 id="project-dsa">
@@ -263,7 +263,7 @@
           My work including programming design, data structure developing, C++ code implementation, and team management.
         </p>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//github.com/emfomy/dsa_final"
@@ -272,7 +272,7 @@
                       fa-style="fab">
             GitHub
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
       <Card3 id="project-wtf">
@@ -285,7 +285,7 @@
           My work including programming design, data structure developing, Java code implementation, MATLAB GUI code modifying, and team management.
         </p>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//sites.google.com/site/wonderfultf"
@@ -294,7 +294,7 @@
                       fa-style="fas">
             Website
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
       <Card3 id="project-assembly">
@@ -307,7 +307,7 @@
           My work including programming design, data structure developing, Intel assembly code &amp; main C code implementation, and team management.
         </p>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//sites.google.com/site/tragedytriangle"
@@ -316,7 +316,7 @@
                       fa-style="fas">
             Website
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
       <Card3>
@@ -329,7 +329,7 @@
           My work including programming design, algorithm developing, data structure developing, C &amp; Java code implementation, and Java GUI modifying.
         </p>
 
-        <IconButtonGroup>
+        <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
                       href="//github.com/emfomy/chess_ai"
@@ -338,7 +338,7 @@
                       fa-style="fab">
             GitHub
           </IconButton>
-        </IconButtonGroup>
+        </ButtonGroup>
       </Card3>
 
     </Collapse>
