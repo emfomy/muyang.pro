@@ -17,11 +17,10 @@
         <b-button-group>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href=""
+                      href="/file/paper/icsc_2019_hwe.pdf"
                       target="_blank"
                       fa-icon="file-pdf"
-                      fa-style="far"
-                      disabled>
+                      fa-style="far">
             Paper
           </IconButton>
           <IconButton size="sm"
