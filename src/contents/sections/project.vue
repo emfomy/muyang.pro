@@ -29,7 +29,7 @@
                       variant="outline-primary"
                       href=""
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas"
                       disabled>
           </IconButton>
@@ -81,7 +81,7 @@
                       variant="outline-primary"
                       href="//doi.org/10.6342/NTU201702960"
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas">
           </IconButton>
         </b-button-group>
@@ -121,7 +121,7 @@
                       variant="outline-primary"
                       href="//doi.org/10.1109/CIT.2016.101"
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas">
           </IconButton>
         </b-button-group>
@@ -163,7 +163,7 @@
                         variant="outline-primary"
                         href="//doi.org/10.1016/j.geb.2017.04.012"
                         target="_blank"
-                        fa-icon="link"
+                        fa-icon="external-link-alt"
                         fa-style="fas">
             </IconButton>
           </b-button-group>
@@ -194,7 +194,7 @@
                         variant="outline-primary"
                         href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
                         target="_blank"
-                        fa-icon="link"
+                        fa-icon="external-link-alt"
                         fa-style="fas">
             </IconButton>
           </b-button-group>

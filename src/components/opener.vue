@@ -21,7 +21,7 @@ export default {
   }
 
   &:not(.collapsed) .OpenerInner {
-    transform: rotate(-180deg);
+    transform: rotate(180deg);
   }
 }
 </style>

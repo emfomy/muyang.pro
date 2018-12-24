@@ -27,7 +27,7 @@
                       variant="outline-primary"
                       href=""
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas"
                       disabled>
           </IconButton>
@@ -55,9 +55,9 @@
                     variant="outline-primary"
                     href=""
                     v-scroll-to="'#project-hwe'"
-                    fa-icon="puzzle-piece"
+                    fa-icon="info"
                     fa-style="fas">
-          Detail
+          More
         </IconButton>
       </ButtonGroup>
     </Card2>
@@ -84,7 +84,7 @@
                       variant="outline-primary"
                       href="//doi.org/10.6342/NTU201702960"
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas">
           </IconButton>
         </b-button-group>
@@ -101,9 +101,9 @@
         <IconButton size="sm"
                     variant="outline-primary"
                     v-scroll-to="'#project-isvd'"
-                    fa-icon="puzzle-piece"
+                    fa-icon="info"
                     fa-style="fas">
-          Detail
+          More
         </IconButton>
       </ButtonGroup>
     </Card2>
@@ -129,7 +129,7 @@
                       variant="outline-primary"
                       href="//doi.org/10.1109/CIT.2016.101"
                       target="_blank"
-                      fa-icon="link"
+                      fa-icon="external-link-alt"
                       fa-style="fas">
           </IconButton>
         </b-button-group>
@@ -155,9 +155,9 @@
         <IconButton size="sm"
                     variant="outline-primary"
                     v-scroll-to="'#project-pass'"
-                    fa-icon="puzzle-piece"
+                    fa-icon="info"
                     fa-style="fas">
-          Detail
+          More
         </IconButton>
       </ButtonGroup>
     </Card2>
@@ -193,9 +193,9 @@
           <IconButton size="sm"
                       variant="outline-primary"
                       v-scroll-to="'#project-isvd'"
-                      fa-icon="puzzle-piece"
+                      fa-icon="info"
                       fa-style="fas">
-            Detail
+            More
           </IconButton>
         </ButtonGroup>
       </Card2>
@@ -229,10 +229,10 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      @click.native="scrollDetail('#project-hhis');"
-                      fa-icon="puzzle-piece"
+                      @click.native="scrollProject('#project-hhis');"
+                      fa-icon="info"
                       fa-style="fas">
-            Detail
+            More
           </IconButton>
         </ButtonGroup>
       </Card2>
@@ -253,7 +253,7 @@ export default {
     Card2
   },
   methods: {
-    scrollDetail(id) {
+    scrollProject(id) {
       this.$parent.$refs["project"].$refs["project-more"].$refs[
         "collapse"
       ].show = true;

@@ -103,6 +103,13 @@ export default {
           href: "//www.twitter.com/emfomy",
           text: "www.twitter.com/emfomy"
         }
+        // ,
+        // orcid: {
+        //   icon: "id-card",
+        //   style: "fas",
+        //   href: "//orcid.org/0000-0001-6404-7842",
+        //   text: "0000-0001-6404-7842"
+        // }
       }
     };
   },

@@ -9,20 +9,14 @@ export default {
         props: {
           ...this.$props
         },
-        class: [
-          "IconButton",
-          "pl-1",
-          {
-            "pr-1": !this.$slots.default
-          }
-        ]
+        class: ["IconButton"]
       },
       [
         createElement("font-awesome-icon", {
           props: {
             icon: [this.faStyle, this.faIcon]
           },
-          class: ["fa-fw"]
+          class: [{ "mr-1": !!this.$slots.default }]
         }),
         this.$slots.default
       ]
