@@ -59,7 +59,7 @@
 
     <Card3 id="project-isvd">
       <header>
-        <h4>Integrated Singular Value Decomposition (iSVD) Algorithm</h4>
+        <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015-Present</p>
       </header>
       <p>
@@ -99,7 +99,7 @@
 
     <Card3 id="project-pass">
       <header>
-        <h4>Particle Swarm Stepwise (PaSS) Algorithm</h4>
+        <h4>PaSS: Particle Swarm Stepwise Algorithm</h4>
         <p>2013-2015</p>
       </header>
       <p>
@@ -172,7 +172,7 @@
 
       <Card3 id="project-his">
         <header>
-          <h4>Hierarchical Schur (HiS) Solver</h4>
+          <h4>HiS: Hierarchical Schur Solver</h4>
           <p>2015-2016</p>
         </header>
         <p>
@@ -212,7 +212,7 @@
 
       <Card3 id="project-hhis">
         <header>
-          <h4>Hybrid Hierarchical Schur (hHiS) Solver</h4>
+          <h4>hHiS: Hybrid Hierarchical Schur Solver</h4>
           <p>2014-2016</p>
         </header>
         <p>
@@ -223,7 +223,7 @@
 
       <Card3 id="project-nbfmm">
         <header>
-          <h4>N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
+          <h4>NBFMM: N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
           <p>2016</p>
         </header>
         <p>
