@@ -2,7 +2,7 @@
   <Section>
     <template slot="header">
       <h1>Mu Yang</h1>
-      <p>Research Assistant, <b-link href="http://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link href="//www.sinica.edu.tw/en" target="_blank">Academia Sinica</b-link></p>
+      <p>Research Assistant, <b-link to="http://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link to="//www.sinica.edu.tw/en" target="_blank">Academia Sinica</b-link></p>
     </template>
 
     <header>

@@ -6,6 +6,46 @@
       <p></p>
     </template>
 
+    <Card3 id="project-ehn">
+      <header>
+        <h4>E-HowNet Parsing and Visualization</h4>
+        <p>2018</p>
+      </header>
+      <p>
+        A Parser for <b-link to="http://ehownet.iis.sinica.edu.tw" target="_blank">E-HowNet</b-link>, and the visualization demo.
+      </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="http://learn.iis.sinica.edu.tw:9185"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Demo
+        </IconButton>
+
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/ehn"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            Github
+          </IconButton>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="//github.com/emfomy/ehn-demo"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            (Demo)
+          </IconButton>
+        </b-button-group>
+      </ButtonGroup>
+    </Card3>
+
     <Card3 id="project-hwe">
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
@@ -52,7 +92,7 @@
         <p>2017-2018</p>
       </header>
       <p>
-        An industrial-academic project with <b-link href="//www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
+        An industrial-academic project with <b-link to="//www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
         My work including data analysis, data preprocessing, programming design, model design, Python code implementation.
       </p>
     </Card3>
