@@ -18,7 +18,7 @@
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="http://learn.iis.sinica.edu.tw:9185"
+                    href="http://ckip.iis.sinica.edu.tw/service/ehnvis"
                     target="_blank"
                     fa-icon="globe"
                     fa-style="fas">
