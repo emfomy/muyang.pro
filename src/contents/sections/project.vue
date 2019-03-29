@@ -67,11 +67,10 @@
           </IconButton>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href=""
+                      href="//doi.org/10.1109/ICOSC.2019.8665508"
                       target="_blank"
                       fa-icon="external-link-alt"
-                      fa-style="fas"
-                      disabled>
+                      fa-style="fas">
           </IconButton>
         </b-button-group>
 
