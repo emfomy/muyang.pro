@@ -17,18 +17,15 @@ export default {
   margin-right: -$spacing;
   margin-bottom: -$spacing;
 
-  & /deep/ .btn {
+  ::v-deep .btn,
+  ::v-deep .btn-group {
     margin-right: $spacing;
     margin-bottom: $spacing;
   }
 
-  & /deep/ .btn-group {
-    & /deep/ .btn {
-      margin-right: 0;
-      margin-bottom: 0;
-    }
-    margin-bottom: $spacing;
-    margin-right: $spacing;
+  ::v-deep .btn-group .btn {
+    margin-right: 0;
+    margin-bottom: 0;
   }
 }
 </style>
