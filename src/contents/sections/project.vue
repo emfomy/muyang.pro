@@ -9,7 +9,7 @@
     <Card3 id="project-ehn">
       <header>
         <h4>E-HowNet Parsing and Visualization</h4>
-        <p>2018</p>
+        <p>2018-2019</p>
       </header>
       <p>
         A Parser for <b-link to="http://ehownet.iis.sinica.edu.tw" target="_blank">E-HowNet</b-link>, and the visualization demo.
@@ -43,6 +43,36 @@
             (Demo)
           </IconButton>
         </b-button-group>
+      </ButtonGroup>
+    </Card3>
+
+    <Card3 id="project-ckip-nlp">
+      <header>
+        <h4>CKIP Word-Segmentation and Parser Python API</h4>
+        <p>2018-2019</p>
+      </header>
+      <p>
+        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link>.
+      </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//pypi.org/project/pyckip"
+                    target="_blank"
+                    fa-icon="python"
+                    fa-style="fab">
+          PyPI
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/pyckip"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
       </ButtonGroup>
     </Card3>
 

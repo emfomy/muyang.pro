@@ -17,10 +17,18 @@ export default {
   margin-right: -$spacing;
   margin-bottom: -$spacing;
 
-  >>> .btn,
-  >>> .btn-group {
+  & /deep/ .btn {
     margin-right: $spacing;
     margin-bottom: $spacing;
+  }
+
+  & /deep/ .btn-group {
+    & /deep/ .btn {
+      margin-right: 0;
+      margin-bottom: 0;
+    }
+    margin-bottom: $spacing;
+    margin-right: $spacing;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
-  <b-navbar class="SideBar text-center flex-column p-3" type="light" variant="light">
-    <div class="w-100">
+  <b-navbar class="SideBar text-center d-flex flex-column p-3" type="light" variant="light">
+    <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link href="/img/avatar.jpg" target="_blank">
           <b-img center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
@@ -86,6 +86,12 @@ export default {
           style: "fab",
           href: "//github.com/emfomy",
           text: "github.com/emfomy"
+        },
+        pypi: {
+          icon: "python",
+          style: "fab",
+          href: "//pypi.org/user/emfomy",
+          text: "pypi.org/user/emfomy"
         },
         linkedin: {
           icon: "linkedin-in",

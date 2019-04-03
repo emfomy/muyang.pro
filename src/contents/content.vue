@@ -39,7 +39,7 @@ export default {
     border-top: solid 6px #f4f4f4;
   }
 
-  >>> .Section:first-of-type {
+  .Section#about {
     border-top: 0 !important;
   }
 }
