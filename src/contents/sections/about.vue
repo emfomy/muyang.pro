@@ -30,7 +30,7 @@
 
 <script>
 import Section from "./_section.vue";
-import Progress from "../../components/progress.vue";
+import Progress from "@/components/progress.vue";
 
 export default {
   name: "About",

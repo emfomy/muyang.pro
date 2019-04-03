@@ -7,7 +7,7 @@
     </template>
 
     <Card2 src="/img/icsc_2019.jpg"
-           href="">
+           href="//semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
         <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li and Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
@@ -23,7 +23,9 @@
                       fa-style="far">
             Paper
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.1109/ICOSC.2019.8665508"
                       target="_blank"
@@ -43,7 +45,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//www.ieee-icsc.org"
+                    href="//semanticcomputing.wixsite.com/icsc-2019"
                     target="_blank"
                     fa-icon="globe"
                     fa-style="fas">
@@ -79,7 +81,9 @@
                       fa-style="far">
             Paper
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.6342/NTU201702960"
                       target="_blank"
@@ -124,7 +128,9 @@
                       fa-style="far">
             Paper
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.1109/CIT.2016.101"
                       target="_blank"
@@ -243,7 +249,7 @@
 
 <script>
 import Section from "./_section.vue";
-import Card2 from "../../components/card2.vue";
+import Card2 from "@/components/card2.vue";
 
 export default {
   name: "Publication",

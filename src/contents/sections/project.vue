@@ -95,7 +95,9 @@
                       fa-style="far">
             Paper (ICSC 2019)
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.1109/ICOSC.2019.8665508"
                       target="_blank"
@@ -146,7 +148,9 @@
                       fa-style="far">
             Paper (NTU Thesis)
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.6342/NTU201702960"
                       target="_blank"
@@ -186,7 +190,9 @@
                       fa-style="far">
             Paper (CIT 2016)
           </IconButton>
-          <IconButton size="sm"
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
                       variant="outline-primary"
                       href="//doi.org/10.1109/CIT.2016.101"
                       target="_blank"
@@ -228,7 +234,9 @@
                         fa-style="far">
               Paper (GEB 2017)
             </IconButton>
-            <IconButton size="sm"
+            <IconButton v-b-tooltip.hover
+                        title="Official Link"
+                        size="sm"
                         variant="outline-primary"
                         href="//doi.org/10.1016/j.geb.2017.04.012"
                         target="_blank"
@@ -253,13 +261,15 @@
           <b-button-group>
             <IconButton size="sm"
                         variant="outline-primary"
-                      href="/file/paper/other/ntu_thesis_2016_his.pdf"
+                        href="/file/paper/other/ntu_thesis_2016_his.pdf"
                         target="_blank"
                         fa-icon="file-pdf"
                         fa-style="far">
               Paper
             </IconButton>
-            <IconButton size="sm"
+            <IconButton v-b-tooltip.hover
+                        title="Official Link"
+                        size="sm"
                         variant="outline-primary"
                         href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
                         target="_blank"
@@ -416,7 +426,7 @@
 
 <script>
 import Section from "./_section.vue";
-import Card3 from "../../components/card3.vue";
+import Card3 from "@/components/card3.vue";
 
 export default {
   name: "Project",

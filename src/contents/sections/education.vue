@@ -25,7 +25,7 @@
 
 <script>
 import Section from "./_section.vue";
-import Card1 from "../../components/card1.vue";
+import Card1 from "@/components/card1.vue";
 
 export default {
   name: "Education",

@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Wrapper from "./wrapper.vue";
+import Wrapper from "./contents/wrapper.vue";
 
 export default {
   name: "app",

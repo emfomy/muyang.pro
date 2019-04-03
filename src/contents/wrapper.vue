@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import SideBar from "./contents/sidebar.vue";
-import Content from "./contents/content.vue";
-import Footer from "./contents/footer.vue";
+import SideBar from "./sidebar.vue";
+import Content from "./content.vue";
+import Footer from "./footer.vue";
 
 export default {
   name: "Wrapper",
