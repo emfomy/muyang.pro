@@ -3,6 +3,7 @@
     <b-button id="toggler" class="navbar-toggler navbar-light" variant="outline-light" :pressed.sync="is_toggled">
       <span class="navbar-toggler-icon" />
     </b-button>
+
     <b-container id="container" :class="{'is-toggled': is_toggled}" fluid>
       <b-row>
         <div id="sidebar">
@@ -10,10 +11,11 @@
         </div>
         <div id="content">
           <Content role="main" />
-          <Footer role="footer"/>
+          <Footer role="footer" />
         </div>
       </b-row>
     </b-container>
+
     <b-link id="back" v-scroll-to="'#app'" @click="resetToggle">
       <font-awesome-icon class="fa-2x text-primary" icon="chevron-circle-up" />
     </b-link>
@@ -120,6 +122,7 @@ export default {
 
   @include media-breakpoint-up(md) {
     @include layout(256px);
+
     #toggler {
       right: -4rem;
     }

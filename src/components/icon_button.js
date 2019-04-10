@@ -1,10 +1,11 @@
-import bButton from "bootstrap-vue/es/components/button/button";
+import BButton from "bootstrap-vue/es/components/button/button.js";
+import { props } from "bootstrap-vue/es/components/button/button.js";
 
 export default {
   name: "IconButton",
   render(createElement) {
     return createElement(
-      bButton,
+      BButton,
       {
         props: {
           ...this.$props
@@ -25,6 +26,6 @@ export default {
   props: {
     faIcon: String,
     faStyle: String,
-    ...bButton.props
+    ...props
   }
 };

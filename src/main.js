@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 
 import BootstrapVue from "bootstrap-vue";
 // import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap-vue/dist/bootstrap-vue.css";
+import "bootstrap-vue/dist/bootstrap-vue.min.css";
 
 Vue.use(BootstrapVue);
 
@@ -42,7 +42,7 @@ Vue.component("font-awesome-layers-text", FontAwesomeLayersText);
 
 /* Component */
 
-import IconButton from "./components/icon_button";
+import IconButton from "./components/icon_button.js";
 import ButtonGroup from "./components/button_group.vue";
 import Collapse from "./components/collapse.vue";
 

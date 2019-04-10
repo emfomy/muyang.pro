@@ -167,43 +167,43 @@
       </ButtonGroup>
     </Card2>
 
+    <Card2 src="/img/siam_cse_2017.jpg"
+           href="//www.siam.org/meetings/cse17">
+      <header>
+        <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
+        <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
+      </header>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/isvd"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//www.siam.org/meetings/cse17"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    v-scroll-to="'#project-isvd'"
+                    fa-icon="info"
+                    fa-style="fas">
+          More
+        </IconButton>
+      </ButtonGroup>
+    </Card2>
+
     <Collapse name="publication-more" class="mt-4">
-
-      <Card2 src="/img/siam_cse_2017.jpg"
-             href="//www.siam.org/meetings/cse17">
-        <header>
-          <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
-          <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
-        </header>
-
-        <ButtonGroup>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="//github.com/emfomy/isvd"
-                      target="_blank"
-                      fa-icon="github"
-                      fa-style="fab">
-            Github
-          </IconButton>
-
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="//www.siam.org/meetings/cse17"
-                      target="_blank"
-                      fa-icon="globe"
-                      fa-style="fas">
-            Conference
-          </IconButton>
-
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      v-scroll-to="'#project-isvd'"
-                      fa-icon="info"
-                      fa-style="fas">
-            More
-          </IconButton>
-        </ButtonGroup>
-      </Card2>
 
       <Card2 src="/img/tjjw_jsam_2016.png"
              href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
