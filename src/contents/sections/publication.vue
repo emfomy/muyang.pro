@@ -6,7 +6,7 @@
       <p></p>
     </template>
 
-    <Card2 src="/img/icsc_2019.jpg"
+    <Card2 src="/img/icsc_2019.png"
            href="//semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
