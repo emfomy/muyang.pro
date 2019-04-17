@@ -6,10 +6,10 @@
 
 <script>
 export default {
-  name: "Opener",
+  name: 'Opener',
   props: {
-    target: String
-  }
+    target: String,
+  },
 };
 </script>
 

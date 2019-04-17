@@ -23,27 +23,27 @@
 </template>
 
 <script>
-import SideBar from "./sidebar.vue";
-import Content from "./content.vue";
-import Footer from "./footer.vue";
+import SideBar from './sidebar.vue';
+import Content from './content.vue';
+import Footer from './footer.vue';
 
 export default {
-  name: "Wrapper",
+  name: 'Wrapper',
   components: {
     SideBar,
     Content,
-    Footer
+    Footer,
   },
   data() {
     return {
-      is_toggled: false
+      is_toggled: false,
     };
   },
   methods: {
     resetToggle() {
       this.is_toggled = false;
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -29,24 +29,24 @@
 </template>
 
 <script>
-import Section from "./_section.vue";
-import Progress from "@/components/progress.vue";
+import Section from './_section.vue';
+import Progress from '@/components/progress.vue';
 
 export default {
-  name: "About",
+  name: 'About',
   components: {
     Section,
-    Progress
+    Progress,
   },
   data() {
     return {
-      progress: 0
+      progress: 0,
     };
   },
   mounted() {
     setTimeout(() => {
       this.progress = 1;
     }, 1000);
-  }
+  },
 };
 </script>

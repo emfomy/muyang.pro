@@ -9,12 +9,12 @@
 
 <script>
 export default {
-  name: "Progress",
+  name: 'Progress',
   props: {
     name: String,
     value: Number,
-    variant: String
-  }
+    variant: String,
+  },
 };
 </script>
 

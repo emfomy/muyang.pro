@@ -15,21 +15,21 @@
 </template>
 
 <script>
-import About from "./sections/about.vue";
-import Education from "./sections/education.vue";
-import Employment from "./sections/employment.vue";
-import Publication from "./sections/publication.vue";
-import Project from "./sections/project.vue";
+import About from './sections/about.vue';
+import Education from './sections/education.vue';
+import Employment from './sections/employment.vue';
+import Publication from './sections/publication.vue';
+import Project from './sections/project.vue';
 
 export default {
-  name: "Content",
+  name: 'Content',
   components: {
     About,
     Education,
     Employment,
     Publication,
-    Project
-  }
+    Project,
+  },
 };
 </script>
 

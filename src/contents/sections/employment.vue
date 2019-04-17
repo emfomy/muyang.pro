@@ -49,14 +49,14 @@
 </template>
 
 <script>
-import Section from "./_section.vue";
-import Card1 from "@/components/card1.vue";
+import Section from './_section.vue';
+import Card1 from '@/components/card1.vue';
 
 export default {
-  name: "Employment",
+  name: 'Employment',
   components: {
     Section,
-    Card1
-  }
+    Card1,
+  },
 };
 </script>

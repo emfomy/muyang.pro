@@ -3,13 +3,13 @@
 </template>
 
 <script>
-import Wrapper from "./contents/wrapper.vue";
+import Wrapper from './contents/wrapper.vue';
 
 export default {
-  name: "app",
+  name: 'app',
   components: {
-    Wrapper
-  }
+    Wrapper,
+  },
 };
 </script>
 

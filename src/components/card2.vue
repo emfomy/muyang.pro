@@ -18,15 +18,15 @@
 
 <script>
 export default {
-  name: "Card2",
+  name: 'Card2',
   props: {
     src: String,
     srcSide: String,
     href: String,
     target: {
       style: String,
-      default: "_blank"
-    }
-  }
+      default: '_blank',
+    },
+  },
 };
 </script>

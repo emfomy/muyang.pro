@@ -8,15 +8,15 @@
 </template>
 
 <script>
-import Opener from "./opener.vue";
+import Opener from './opener.vue';
 
 export default {
-  name: "Collapse",
+  name: 'Collapse',
   props: {
-    name: String
+    name: String,
   },
   components: {
-    Opener
-  }
+    Opener,
+  },
 };
 </script>

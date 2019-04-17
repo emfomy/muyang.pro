@@ -15,22 +15,22 @@
 
 <script>
 export default {
-  name: "Card1",
+  name: 'Card1',
   props: {
     year: {
       style: String,
-      defulat: ""
+      defulat: '',
     },
     title: {
       style: String,
-      defulat: ""
+      defulat: '',
     },
     institution: {
       style: String,
-      defulat: ""
+      defulat: '',
     },
-    imgSrc: String
-  }
+    imgSrc: String,
+  },
 };
 </script>
 

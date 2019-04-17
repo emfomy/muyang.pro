@@ -61,56 +61,56 @@
 
 <script>
 export default {
-  name: "SideBar",
+  name: 'SideBar',
   props: {
-    resetToggle: Function
+    resetToggle: Function,
   },
   data() {
     return {
-      icon_text: "\xa0",
+      icon_text: '\xa0',
       icon_list: {
         email: {
-          icon: "envelope",
-          style: "fas",
-          href: "mailto:emfomy@gmail.com",
-          text: "emfomy@gmail.com"
+          icon: 'envelope',
+          style: 'fas',
+          href: 'mailto:emfomy@gmail.com',
+          text: 'emfomy@gmail.com',
         },
         phone: {
-          icon: "phone",
-          style: "fas",
-          href: "tel:+886-2-27883799;ext=1562",
-          text: "+886 (2) 2788-3799 ext. 1562"
+          icon: 'phone',
+          style: 'fas',
+          href: 'tel:+886-2-27883799;ext=1562',
+          text: '+886 (2) 2788-3799 ext. 1562',
         },
         github: {
-          icon: "github",
-          style: "fab",
-          href: "//github.com/emfomy",
-          text: "github.com/emfomy"
+          icon: 'github',
+          style: 'fab',
+          href: '//github.com/emfomy',
+          text: 'github.com/emfomy',
         },
         pypi: {
-          icon: "python",
-          style: "fab",
-          href: "//pypi.org/user/emfomy",
-          text: "pypi.org/user/emfomy"
+          icon: 'python',
+          style: 'fab',
+          href: '//pypi.org/user/emfomy',
+          text: 'pypi.org/user/emfomy',
         },
         linkedin: {
-          icon: "linkedin-in",
-          style: "fab",
-          href: "//www.linkedin.com/in/emfomy",
-          text: "www.linkedin.com/in/emfomy"
+          icon: 'linkedin-in',
+          style: 'fab',
+          href: '//www.linkedin.com/in/emfomy',
+          text: 'www.linkedin.com/in/emfomy',
         },
         facebook: {
-          icon: "facebook-f",
-          style: "fab",
-          href: "//www.facebook.com/emfomy",
-          text: "www.facebook.com/emfomy"
+          icon: 'facebook-f',
+          style: 'fab',
+          href: '//www.facebook.com/emfomy',
+          text: 'www.facebook.com/emfomy',
         },
         twitter: {
-          icon: "twitter",
-          style: "fab",
-          href: "//www.twitter.com/emfomy",
-          text: "www.twitter.com/emfomy"
-        }
+          icon: 'twitter',
+          style: 'fab',
+          href: '//www.twitter.com/emfomy',
+          text: 'www.twitter.com/emfomy',
+        },
         // ,
         // orcid: {
         //   icon: "id-card",
@@ -118,7 +118,7 @@ export default {
         //   href: "//orcid.org/0000-0001-6404-7842",
         //   text: "0000-0001-6404-7842"
         // }
-      }
+      },
     };
   },
   methods: {
@@ -126,9 +126,9 @@ export default {
       this.icon_text = item.text;
     },
     iconTextOff() {
-      this.icon_text = "\xa0";
-    }
-  }
+      this.icon_text = '\xa0';
+    },
+  },
 };
 </script>
 

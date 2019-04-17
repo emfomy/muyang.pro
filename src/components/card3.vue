@@ -6,27 +6,27 @@
 
 <script>
 export default {
-  name: "Card3",
+  name: 'Card3',
   props: {
     title: {
       style: String,
-      default: ""
+      default: '',
     },
     author: {
       style: String,
-      default: ""
+      default: '',
     },
     publish: {
       style: String,
-      default: ""
+      default: '',
     },
     imgSrc: String,
     imgLink: String,
     imgTarget: {
       style: String,
-      default: "_blank"
-    }
-  }
+      default: '_blank',
+    },
+  },
 };
 </script>
 

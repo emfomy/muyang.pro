@@ -425,15 +425,15 @@
 </template>
 
 <script>
-import Section from "./_section.vue";
-import Card3 from "@/components/card3.vue";
+import Section from './_section.vue';
+import Card3 from '@/components/card3.vue';
 
 export default {
-  name: "Project",
+  name: 'Project',
   components: {
     Section,
-    Card3
-  }
+    Card3,
+  },
 };
 </script>
 

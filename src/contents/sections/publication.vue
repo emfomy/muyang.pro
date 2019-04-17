@@ -248,25 +248,23 @@
 </template>
 
 <script>
-import Section from "./_section.vue";
-import Card2 from "@/components/card2.vue";
+import Section from './_section.vue';
+import Card2 from '@/components/card2.vue';
 
 export default {
-  name: "Publication",
+  name: 'Publication',
   components: {
     Section,
-    Card2
+    Card2,
   },
   methods: {
     scrollProject(id) {
-      this.$parent.$refs["project"].$refs["project-more"].$refs[
-        "collapse"
-      ].show = true;
+      this.$parent.$refs.project.$refs['project-more'].$refs.collapse.show = true;
       this.$nextTick(() => {
         this.$scrollTo(id);
       });
-    }
-  }
+    },
+  },
 };
 </script>
 

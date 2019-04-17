@@ -1,31 +1,31 @@
-import BButton from "bootstrap-vue/es/components/button/button.js";
-import { props } from "bootstrap-vue/es/components/button/button.js";
+import BButton, { props } from 'bootstrap-vue/es/components/button/button';
+
 
 export default {
-  name: "IconButton",
+  name: 'IconButton',
   render(createElement) {
     return createElement(
       BButton,
       {
         props: {
-          ...this.$props
+          ...this.$props,
         },
-        class: ["IconButton"]
+        class: ['IconButton'],
       },
       [
-        createElement("font-awesome-icon", {
+        createElement('font-awesome-icon', {
           props: {
-            icon: [this.faStyle, this.faIcon]
+            icon: [this.faStyle, this.faIcon],
           },
-          class: [{ "mr-1": !!this.$slots.default }]
+          class: [{ 'mr-1': !!this.$slots.default }],
         }),
-        this.$slots.default
-      ]
+        this.$slots.default,
+      ],
     );
   },
   props: {
     faIcon: String,
     faStyle: String,
-    ...props
-  }
+    ...props,
+  },
 };
