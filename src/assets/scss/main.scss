@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////////////////////////
+// Default
+
 // Font Family
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext");
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
@@ -9,6 +12,27 @@ $headings-font-weight: 700;
 // Color
 $primary: #888888;
 
+////////////////////////////////////////////////////////////////////////////////
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// Color
+$milk: #dcd9cd;
+$milk-light: lighten($milk, 10%);
+$milk-dark: darken($milk, 10%);
+
+.bg-milk {
+  background-color: $milk !important;
+}
+
+.bg-milk-light {
+  background-color: $milk-light !important;
+}
+
+.bg-milk-dark {
+  background-color: $milk-dark !important;
+}
+
 // Link
 p,
 span {
@@ -16,9 +40,6 @@ span {
     font-style: italic;
   }
 }
-
-// Bootstrap
-@import "~bootstrap/scss/bootstrap";
 
 // Font Size
 @include media-breakpoint-down(xs) {

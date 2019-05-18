@@ -1,5 +1,5 @@
 <template>
-  <div class="Wrapper">
+  <div class="Layout">
     <b-button id="toggler" class="navbar-toggler navbar-light" variant="outline-light" :pressed.sync="is_toggled">
       <span class="navbar-toggler-icon" />
     </b-button>
@@ -11,7 +11,7 @@
         </div>
         <div id="content">
           <Content role="main" />
-          <Footer role="footer" />
+          <!-- <Footer role="footer" /> -->
         </div>
       </b-row>
     </b-container>
@@ -25,14 +25,14 @@
 <script>
 import SideBar from './sidebar.vue';
 import Content from './content.vue';
-import Footer from './footer.vue';
+// import Footer from './footer.vue';
 
 export default {
-  name: 'Wrapper',
+  name: 'Layout',
   components: {
     SideBar,
     Content,
-    Footer,
+    // Footer,
   },
   data() {
     return {
@@ -52,7 +52,7 @@ export default {
 @import "~bootstrap/scss/variables";
 @import "~bootstrap/scss/mixins";
 
-.Wrapper {
+.Layout {
   overflow-x: hidden;
 
   #sidebar {

@@ -1,11 +1,12 @@
 import Vue from 'vue';
 
-import './main/bootstrap-vue';
-import './main/vue-scrollto';
-import './main/fontawesome';
+import './main/bootstrap';
 import './main/components';
+import './main/fontawesome';
+import './main/scrollto';
 
 import App from './app.vue';
+import './assets/scss/main.scss';
 
 Vue.config.productionTip = false;
 

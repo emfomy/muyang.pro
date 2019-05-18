@@ -1,5 +1,5 @@
 <template>
-  <b-navbar class="SideBar text-center d-flex flex-column p-3" type="light" variant="light">
+  <b-navbar class="SideBar text-center d-flex flex-column p-3" type="light" variant="milk-light">
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link href="/img/avatar.jpg" target="_blank">

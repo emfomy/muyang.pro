@@ -1,18 +1,14 @@
 <template>
-  <Wrapper id="app" />
+  <Layout id="app" />
 </template>
 
 <script>
-import Wrapper from './contents/wrapper.vue';
+import Layout from './views/layout.vue';
 
 export default {
   name: 'app',
   components: {
-    Wrapper,
+    Layout,
   },
 };
 </script>
-
-<style lang="scss">
-@import "assets/scss/main";
-</style>
