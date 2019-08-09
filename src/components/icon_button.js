@@ -1,6 +1,5 @@
 import BButton, { props } from 'bootstrap-vue/es/components/button/button';
 
-
 export default {
   name: 'IconButton',
   render(createElement) {

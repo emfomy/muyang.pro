@@ -6,9 +6,9 @@
       <p></p>
     </template>
 
-    <Card3 id="project-ehn">
+    <Card3 id="project-ehnvis">
       <header>
-        <h4>E-HowNet Parsing and Visualization</h4>
+        <h4>E-HowNet Visualization</h4>
         <p>2018-2019</p>
       </header>
       <p>
@@ -28,21 +28,34 @@
         <b-button-group>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//github.com/emfomy/ehn"
+                      href="//github.com/emfomy/ehn-demo"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
             Github
           </IconButton>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="//github.com/emfomy/ehn-demo"
-                      target="_blank"
-                      fa-icon="github"
-                      fa-style="fab">
-            (Demo)
-          </IconButton>
         </b-button-group>
+      </ButtonGroup>
+    </Card3>
+
+    <Card3 id="project-ehn-parser">
+      <header>
+        <h4>E-HowNet Parsing and Visualization</h4>
+        <p>2018-2019</p>
+      </header>
+      <p>
+        A Parser for <b-link to="http://ehownet.iis.sinica.edu.tw" target="_blank">E-HowNet</b-link>.
+      </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/ehownet"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
       </ButtonGroup>
     </Card3>
 
