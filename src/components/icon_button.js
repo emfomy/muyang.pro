@@ -1,4 +1,4 @@
-import BButton, { props } from 'bootstrap-vue/es/components/button/button';
+import BButton, { props as BButtonProps } from 'bootstrap-vue/es/components/button/button';
 
 export default {
   name: 'IconButton',
@@ -25,6 +25,6 @@ export default {
   props: {
     faIcon: String,
     faStyle: String,
-    ...props,
+    ...BButtonProps,
   },
 };
