@@ -6,9 +6,9 @@
       <p></p>
     </template>
 
-    <Card3 id="project-ehnvis">
+    <Card3 id="project-ehn">
       <header>
-        <h4>E-HowNet Visualization</h4>
+        <h4>E-HowNet Parsing and Visualization</h4>
         <p>2018-2019</p>
       </header>
       <p>
@@ -16,6 +16,15 @@
       </p>
 
       <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="//github.com/emfomy/ehownet"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github (Parser)
+        </IconButton>
+
         <IconButton size="sm"
                     variant="outline-primary"
                     href="http://ckip.iis.sinica.edu.tw/service/ehnvis"
@@ -32,30 +41,9 @@
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
-            Github
+            Github (Demo)
           </IconButton>
         </b-button-group>
-      </ButtonGroup>
-    </Card3>
-
-    <Card3 id="project-ehn-parser">
-      <header>
-        <h4>E-HowNet Parsing and Visualization</h4>
-        <p>2018-2019</p>
-      </header>
-      <p>
-        A Parser for <b-link to="http://ehownet.iis.sinica.edu.tw" target="_blank">E-HowNet</b-link>.
-      </p>
-
-      <ButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="//github.com/emfomy/ehownet"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
       </ButtonGroup>
     </Card3>
 
@@ -71,7 +59,7 @@
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//pypi.org/project/pyckip"
+                    href="//pypi.org/project/ckipnlp"
                     target="_blank"
                     fa-icon="python"
                     fa-style="fab">
@@ -80,7 +68,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/pyckip"
+                    href="//github.com/emfomy/ckipnlp"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">

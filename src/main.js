@@ -1,9 +1,9 @@
 import Vue from 'vue';
 
-import './main/bootstrap';
-import './main/components';
-import './main/fontawesome';
-import './main/scrollto';
+import './plugins/bootstrap';
+import './plugins/components';
+import './plugins/fontawesome';
+import './plugins/scrollto';
 
 import App from './app.vue';
 import './assets/scss/main.scss';
