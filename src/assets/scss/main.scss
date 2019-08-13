@@ -5,8 +5,8 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext");
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
 
-$font-family-sans-serif: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$headings-font-family: "Lora", $font-family-sans-serif;
+$font-family-sans-serif: "Lato", sans-serif;
+$headings-font-family: "Lora", serif, $font-family-sans-serif;
 $headings-font-weight: 700;
 
 // Color
