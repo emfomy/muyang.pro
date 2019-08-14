@@ -47,7 +47,8 @@
                   target="_blank"
                   @mouseenter="iconTextOn(item)"
                   @touchstart="iconTextOn(item)">
-            <font-awesome-icon class="fa-fw" :icon="[item.style, item.icon]" />
+            <i v-if="item.type == 'ai'" class="ai ai-fw" :class="`ai-${item.icon}`" />
+            <font-awesome-icon v-else class="fa-fw" :icon="[item.style, item.icon]" />
           </b-link>
         </div>
       </div>
@@ -60,6 +61,8 @@
 </template>
 
 <script>
+import '@/assets/vendor/academicons/css/academicons.min.css';
+
 export default {
   name: 'SideBar',
   props: {
@@ -105,19 +108,19 @@ export default {
           href: '//www.facebook.com/emfomy',
           text: 'www.facebook.com/emfomy',
         },
-        twitter: {
-          icon: 'twitter',
-          style: 'fab',
-          href: '//www.twitter.com/emfomy',
-          text: 'www.twitter.com/emfomy',
-        },
+        // twitter: {
+        //   icon: 'twitter',
+        //   style: 'fab',
+        //   href: '//www.twitter.com/emfomy',
+        //   text: 'www.twitter.com/emfomy',
+        // },
         // ,
-        // orcid: {
-        //   icon: "id-card",
-        //   style: "fas",
-        //   href: "//orcid.org/0000-0001-6404-7842",
-        //   text: "0000-0001-6404-7842"
-        // }
+        orcid: {
+          icon: 'orcid',
+          type: 'ai',
+          href: '//orcid.org/0000-0001-6404-7842',
+          text: '0000-0001-6404-7842',
+        },
       },
     };
   },
