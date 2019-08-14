@@ -441,11 +441,11 @@ export default {
 <style scoped lang="scss">
 .Project {
   .Card3 {
-    border-bottom: solid 4px #f4f4f4;
+    border-top: solid 4px #f4f4f4;
   }
 
-  .Card3:last-of-type {
-    border-bottom: 0 !important;
+  .Card3:first-of-type {
+    border-top: 0 !important;
   }
 }
 </style>

@@ -271,11 +271,11 @@ export default {
 <style scoped lang="scss">
 .Publication {
   .Card2 {
-    border-bottom: solid 4px #f4f4f4;
+    border-top: solid 4px #f4f4f4;
   }
 
-  .Card2:last-of-type {
-    border-bottom: 0 !important;
+  .Card2:first-of-type {
+    border-top: 0 !important;
   }
 }
 </style>
