@@ -2,11 +2,12 @@
   <Section class="Publication">
 
     <template slot="header">
-      <h2>Publications</h2>
+      <h2>Publications & Conferences</h2>
       <p></p>
     </template>
 
-    <Card2 src="/img/icsc_2019.png"
+    <Card2 id="publication-icsc-2019"
+           src="/img/icsc_2019.png"
            href="//semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
@@ -63,7 +64,8 @@
       </ButtonGroup>
     </Card2>
 
-    <Card2 src="/img/ntu_banner.png"
+    <Card2 id="publication-ntu-thesis"
+           src="/img/ntu_banner.png"
            srcSide="/img/ntu_logo.png"
            href="//doi.org/10.6342/NTU201702960">
       <header>
@@ -111,7 +113,8 @@
       </ButtonGroup>
     </Card2>
 
-    <Card2 src="/img/ieee_cit_2016.png"
+    <Card2 id="publication-ieee-cit-2016"
+           src="/img/ieee_cit_2016.png"
            href="http://nsclab.org/cit2016">
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
@@ -167,7 +170,8 @@
       </ButtonGroup>
     </Card2>
 
-    <Card2 src="/img/siam_cse_2017.jpg"
+    <Card2 id="publication-siam-cse-2017"
+           src="/img/siam_cse_2017.jpg"
            href="//www.siam.org/meetings/cse17">
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
@@ -203,9 +207,10 @@
       </ButtonGroup>
     </Card2>
 
-    <Collapse name="publication-more" class="mt-4">
+    <Collapse name="publication-more" ref="collapse" class="mt-4">
 
-      <Card2 src="/img/tjjw_jsam_2016.png"
+      <Card2 id="publication-tjjw-jsam-2016"
+             src="/img/tjjw_jsam_2016.png"
              href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
         <header>
@@ -259,7 +264,7 @@ export default {
   },
   methods: {
     scrollProject(id) {
-      this.$parent.$refs.project.$refs['project-more'].$refs.collapse.show = true;
+      this.$parent.$refs.project.$refs.collapse.$refs.collapse.show = true;
       this.$nextTick(() => {
         this.$scrollTo(id);
       });

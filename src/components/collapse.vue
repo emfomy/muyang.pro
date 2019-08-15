@@ -1,7 +1,7 @@
 <template>
   <div class="Collapse border rounded">
-    <Opener :target="name" />
-    <b-collapse :id="name">
+    <Opener :target="name" ref="opener" />
+    <b-collapse :id="name" ref="collapse">
       <slot />
     </b-collapse>
   </div>

@@ -213,7 +213,7 @@
       </ButtonGroup>
     </Card3>
 
-    <Collapse name="project-more" ref="project-more" class="mt-4">
+    <Collapse name="project-more" ref="collapse" class="mt-4">
 
       <Card3 id="project-voting">
         <header>

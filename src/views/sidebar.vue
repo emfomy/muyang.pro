@@ -24,6 +24,11 @@
                     @click="resetToggle">
           Experiences
         </b-nav-item>
+        <b-nav-item href="#certificate"
+                    v-scroll-to="'#certificate'"
+                    @click="resetToggle">
+          Certificates
+        </b-nav-item>
         <b-nav-item href="#publication"
                     v-scroll-to="'#publication'"
                     @click="resetToggle">

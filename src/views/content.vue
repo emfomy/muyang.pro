@@ -8,6 +8,7 @@
         <Employment id="employment" ref="employment" class="col-12 col-xl-6" />
       </b-row>
     </b-container>
+    <Certificate id="certificate" ref="certificate" />
     <Publication id="publication" ref="publication" />
     <Project id="project" ref="project" />
 
@@ -16,16 +17,18 @@
 
 <script>
 import About from './sections/about.vue';
+import Certificate from './sections/certificate.vue';
 import Education from './sections/education.vue';
 import Employment from './sections/employment.vue';
-import Publication from './sections/publication.vue';
 import Project from './sections/project.vue';
+import Publication from './sections/publication.vue';
 
 export default {
   name: 'Content',
   components: {
     About,
     Education,
+    Certificate,
     Employment,
     Publication,
     Project,
