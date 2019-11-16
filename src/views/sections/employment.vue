@@ -26,7 +26,7 @@
              title="Research Assistant"
              institution="Nat'l. Taiwan Univ."
              img-src="/img/ntu_logo.png">
-        <template slot="description">Supervised by Prof. Weichung Wang<br /><b-link href="https://meda.ai" target="_blank">MeDA Lab</b-link>, <b-link href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</b-link>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of parallel computing of large-scale hybrid CPU-GPU clusters</i></template>
+        <template slot="description">Supervised by Prof. Weichung Wang<br /><b-link href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</b-link>, National Taiwan University, Taipei, Taiwan<br /><i>conducting researches of parallel computing of large-scale hybrid CPU-GPU clusters</i></template>
       </Card1>
 
       <Card1 year="2016-2016"
