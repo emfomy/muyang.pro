@@ -2,22 +2,17 @@
   <Section>
     <template slot="header">
       <h1>Mu Yang</h1>
-      <p>Research Assistant, <b-link to="http://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link to="//www.sinica.edu.tw/en" target="_blank">Academia Sinica</b-link></p>
+      <h5>Research Assistant, <b-link to="https://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link to="https://www.sinica.edu.tw/en" target="_blank">Academia Sinica</b-link></h5>
     </template>
 
-    <header>
-      <h3>Skills</h3>
-      <p></p>
-    </header>
+    <p>I currently work as a research assistant at the <b-link to="https://www.iis.sinica.edu.tw/index_en.html" target="_blank">Institute of Information Science, Academia Sinica</b-link> at the <b-link to="https://ckip.iis.sinica.eu.tw" target="_blank">Chinese Knowledge and Information Processing (CKIP) Lab</b-link>,  advised by <b-link to="https://www.iis.sinica.edu.tw/pages/ma/">Dr. Wei-Yun Ma</b-link>, whose research interest is in natural language processing and computational linguistics.</p>
 
-    <div>
-      <Progress :value="progress*90" variant="success" name="C/C++" />
-      <Progress :value="progress*85" variant="info"    name="Python" />
-      <Progress :value="progress*75" variant="warning" name="Web Design" />
-      <Progress :value="progress*60" variant="danger"  name="Java" />
-    </div>
+    <p>Previously, I received my master degree at <b-link to="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences, National Taiwan University</b-link> at the <b-link to="https://meda.ai" target="_blank">Medical Data Analytics (MeDA) Lab</b-link>, advised by <b-link to="http://www.math.ntu.edu.tw/~wwang/" target="_blank">Dr. Weichung Wang</b-link>, whose research interest is in GPU and high-performance computing, data-driven modeling, and medical data analytics.</p>
 
-    <IconButton variant="outline-primary"
+    <p>I have a working experiences at <b-link to="http://www.watson.ibm.com/" target="_blank">Thomas J. Watson Research Center, IBM Corporation</b-link> as an internship.</p>
+
+    <IconButton size="sm"
+                variant="outline-primary"
                 href="/file/resume.pdf"
                 target="_blank"
                 fa-icon="file-pdf"
@@ -30,23 +25,11 @@
 
 <script>
 import Section from './_section.vue';
-import Progress from '@/components/progress.vue';
 
 export default {
   name: 'About',
   components: {
     Section,
-    Progress,
-  },
-  data() {
-    return {
-      progress: 0,
-    };
-  },
-  mounted() {
-    setTimeout(() => {
-      this.progress = 1;
-    }, 1000);
   },
 };
 </script>

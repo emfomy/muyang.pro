@@ -6,14 +6,23 @@
       <p></p>
     </template>
 
-    <Card3 id="certificate-gre">
+    <Card3 id="award-fgc">
       <header>
-        <h4>Subject GRE — Mathematics</h4>
-        <p>840 / 84%</p>
+        <h4>Top 2 Short Answer, Top 3 Multiple Choice, Out of 143 Teams.</h4>
+        <p>2018–2019, Formosa Grand Challenge (Chinese TOEFL-like listening comprehension QA).</p>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://fgc.stpi.narl.org.tw/news/newsDetail?id=4b11413069b2d4110169b3d72dfa0002"
+                    target="_blank"
+                    fa-icon="external-link-alt"
+                    fa-style="fas">
+          Official Post
+        </IconButton>
       </header>
     </Card3>
 
-    <!-- <Card3>
+    <Card3 id="award-tjjw-jsam-2016">
       <header>
         <h4>Presentation Excellence Award</h4>
         <p>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
@@ -26,7 +35,21 @@
           More
         </IconButton>
       </header>
+    </Card3>
+
+    <!-- <Card3 id="award-academic-ntu">
+      <header>
+        <h4>Top 1 Academic Award</h4>
+        <p>2012, National Taiwan University</p>
+      </header>
     </Card3> -->
+
+    <Card3 id="certificate-gre">
+      <header>
+        <h4>GRE Mathematics Subject Test</h4>
+        <p>2018, Score 840, Percentile 84%.</p>
+      </header>
+    </Card3>
 
   </Section>
 </template>

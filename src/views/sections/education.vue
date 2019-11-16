@@ -10,14 +10,14 @@
            title="Master of Science"
            institution="Nat'l. Taiwan Univ."
            img-src="/img/ntu_logo.png">
-      <template slot="description"><a href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</a>,<br />National Taiwan University, Taipei, Taiwan</template>
+      <template slot="description"><b-link href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</b-link>,<br />National Taiwan University, Taipei, Taiwan</template>
     </Card1>
 
     <Card1 year="2011-2015"
            title="Bachelor of Science"
            institution="Nat'l. Taiwan Univ."
            img-src="/img/ntu_logo.png">
-      <template slot="description"><a href="http://www.math.ntu.edu.tw/en" target="_blank">Department of Mathematics</a>,<br />National Taiwan University, Taipei, Taiwan</template>
+      <template slot="description"><b-link href="http://www.math.ntu.edu.tw/en" target="_blank">Department of Mathematics</b-link>,<br />National Taiwan University, Taipei, Taiwan</template>
     </Card1>
 
   </Section>

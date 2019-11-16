@@ -8,7 +8,7 @@
 
     <Card2 id="publication-icsc-2019"
            src="/img/icsc_2019.png"
-           href="//semanticcomputing.wixsite.com/icsc-2019">
+           href="https://semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
         <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li and Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
@@ -28,7 +28,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.1109/ICOSC.2019.8665508"
+                      href="https://doi.org/10.1109/ICOSC.2019.8665508"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -37,7 +37,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/hwe"
+                    href="https://github.com/emfomy/hwe"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -46,7 +46,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//semanticcomputing.wixsite.com/icsc-2019"
+                    href="https://semanticcomputing.wixsite.com/icsc-2019"
                     target="_blank"
                     fa-icon="globe"
                     fa-style="fas">
@@ -67,7 +67,7 @@
     <Card2 id="publication-ntu-thesis"
            src="/img/ntu_banner.png"
            srcSide="/img/ntu_logo.png"
-           href="//doi.org/10.6342/NTU201702960">
+           href="https://doi.org/10.6342/NTU201702960">
       <header>
         <h4>Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications</h4>
         <p>Mu Yang<br />2017, Master's Thesis, National Taiwan University</p>
@@ -87,7 +87,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.6342/NTU201702960"
+                      href="https://doi.org/10.6342/NTU201702960"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -96,7 +96,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/isvd"
+                    href="https://github.com/emfomy/isvd"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -135,7 +135,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.1109/CIT.2016.101"
+                      href="https://doi.org/10.1109/CIT.2016.101"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -144,7 +144,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/pass"
+                    href="https://github.com/emfomy/pass"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -172,7 +172,7 @@
 
     <Card2 id="publication-siam-cse-2017"
            src="/img/siam_cse_2017.jpg"
-           href="//www.siam.org/meetings/cse17">
+           href="https://archive.siam.org/meetings/cse17/">
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
         <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
@@ -181,7 +181,7 @@
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/isvd"
+                    href="https://github.com/emfomy/isvd"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -190,7 +190,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//www.siam.org/meetings/cse17"
+                    href="https://archive.siam.org/meetings/cse17/"
                     target="_blank"
                     fa-icon="globe"
                     fa-style="fas">
@@ -211,7 +211,7 @@
 
       <Card2 id="publication-tjjw-jsam-2016"
              src="/img/tjjw_jsam_2016.png"
-             href="//www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
+             href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
         <header>
           <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>

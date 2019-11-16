@@ -8,8 +8,8 @@
         <Employment id="employment" ref="employment" class="col-12 col-xl-6" />
       </b-row>
     </b-container>
-    <Certificate id="certificate" ref="certificate" />
     <Publication id="publication" ref="publication" />
+    <Certificate id="certificate" ref="certificate" />
     <Project id="project" ref="project" />
 
   </b-container>

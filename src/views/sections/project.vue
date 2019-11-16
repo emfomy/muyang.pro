@@ -18,7 +18,7 @@
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/ehownet"
+                    href="https://github.com/emfomy/ehownet"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -37,7 +37,7 @@
         <b-button-group>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//github.com/emfomy/ehn-demo"
+                      href="https://github.com/emfomy/ehn-demo"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
@@ -53,13 +53,13 @@
         <p>2018-2019</p>
       </header>
       <p>
-        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link>.
+        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">Sentence-Parsing</b-link>.
       </p>
 
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//pypi.org/project/ckipnlp"
+                    href="https://pypi.org/project/ckipnlp"
                     target="_blank"
                     fa-icon="python"
                     fa-style="fab">
@@ -68,7 +68,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/ckipnlp"
+                    href="https://github.com/emfomy/ckipnlp"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -100,7 +100,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.1109/ICOSC.2019.8665508"
+                      href="https://doi.org/10.1109/ICOSC.2019.8665508"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -109,7 +109,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/hwe"
+                    href="https://github.com/emfomy/hwe"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -124,7 +124,7 @@
         <p>2017-2018</p>
       </header>
       <p>
-        An industrial-academic project with <b-link to="//www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
+        An industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
         My work including data analysis, data preprocessing, programming design, model design, Python code implementation.
       </p>
     </Card3>
@@ -153,7 +153,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.6342/NTU201702960"
+                      href="https://doi.org/10.6342/NTU201702960"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -162,7 +162,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/isvd"
+                    href="https://github.com/emfomy/isvd"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -195,7 +195,7 @@
                       title="Official Link"
                       size="sm"
                       variant="outline-primary"
-                      href="//doi.org/10.1109/CIT.2016.101"
+                      href="https://doi.org/10.1109/CIT.2016.101"
                       target="_blank"
                       fa-icon="external-link-alt"
                       fa-style="fas">
@@ -204,7 +204,7 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="//github.com/emfomy/pass"
+                    href="https://github.com/emfomy/pass"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
@@ -239,7 +239,7 @@
                         title="Official Link"
                         size="sm"
                         variant="outline-primary"
-                        href="//doi.org/10.1016/j.geb.2017.04.012"
+                        href="https://doi.org/10.1016/j.geb.2017.04.012"
                         target="_blank"
                         fa-icon="external-link-alt"
                         fa-style="fas">
@@ -281,7 +281,7 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//bitbucket.org/nanaHa1003/his"
+                      href="https://bitbucket.org/nanaHa1003/his"
                       target="_blank"
                       fa-icon="bitbucket"
                       fa-style="fab">
@@ -314,7 +314,7 @@
         <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//sites.google.com/site/nbfmmprojectforgpuprograming"
+                      href="https://sites.google.com/site/nbfmmprojectforgpuprograming"
                       target="_blank"
                       fa-icon="globe"
                       fa-style="fas">
@@ -323,7 +323,7 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//github.com/emfomy/nbfmm"
+                      href="https://github.com/emfomy/nbfmm"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
@@ -345,7 +345,7 @@
         <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//github.com/emfomy/dsa_final"
+                      href="https://github.com/emfomy/dsa_final"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
@@ -367,7 +367,7 @@
         <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//sites.google.com/site/wonderfultf"
+                      href="https://sites.google.com/site/wonderfultf"
                       target="_blank"
                       fa-icon="globe"
                       fa-style="fas">
@@ -389,7 +389,7 @@
         <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//sites.google.com/site/tragedytriangle"
+                      href="https://sites.google.com/site/tragedytriangle"
                       target="_blank"
                       fa-icon="globe"
                       fa-style="fas">
@@ -411,7 +411,7 @@
         <ButtonGroup>
           <IconButton size="sm"
                       variant="outline-primary"
-                      href="//github.com/emfomy/chess_ai"
+                      href="https://github.com/emfomy/chess_ai"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">
