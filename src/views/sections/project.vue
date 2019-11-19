@@ -18,11 +18,29 @@
       <ButtonGroup>
         <IconButton size="sm"
                     variant="outline-primary"
+                    href="https://pypi.org/project/ehownet"
+                    target="_blank"
+                    fa-icon="python"
+                    fa-style="fab">
+          PyPI (Parser)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
                     href="https://github.com/emfomy/ehownet"
                     target="_blank"
                     fa-icon="github"
                     fa-style="fab">
           Github (Parser)
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://ehownet.readthedocs.io"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs (Parser)
         </IconButton>
 
         <IconButton size="sm"
@@ -73,6 +91,15 @@
                     fa-icon="github"
                     fa-style="fab">
           Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://ckipnlp.readthedocs.io"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs
         </IconButton>
       </ButtonGroup>
     </Card2a>
