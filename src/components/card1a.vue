@@ -23,7 +23,7 @@ export default {
   },
   props: {
     imgSrc: String,
-    icon: Object,
+    icon: [String, Object],
   },
 };
 </script>

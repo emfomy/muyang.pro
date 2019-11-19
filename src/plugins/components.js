@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-import IconButton from '@/components/icon_button';
+import IconButton from '@/components/icon_button.vue';
 import ButtonGroup from '@/components/button_group.vue';
 import Collapse from '@/components/collapse.vue';
 

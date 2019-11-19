@@ -1,5 +1,5 @@
 <template>
-  <Card1a class="Card1b" :img-src="imgSrc">
+  <Card1a class="Card1b" :img-src="imgSrc" :icon="icon">
     <template>
       <h4>{{ year }} | {{ institution }}<br />{{ title }}</h4>
       <p><slot /></p>
@@ -29,7 +29,7 @@ export default {
       defulat: '',
     },
     imgSrc: String,
-    icon: Object,
+    icon: [String, Object],
   },
 };
 </script>
