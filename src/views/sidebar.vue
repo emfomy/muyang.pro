@@ -29,10 +29,10 @@
                     @click="resetToggle">
           Publications
         </b-nav-item>
-        <b-nav-item href="#certificate"
-                    v-scroll-to="'#certificate'"
+        <b-nav-item href="#honor"
+                    v-scroll-to="'#honor'"
                     @click="resetToggle">
-          Certificates
+          Honors
         </b-nav-item>
         <b-nav-item href="#project"
                     v-scroll-to="'#project'"

@@ -6,7 +6,7 @@
       <p></p>
     </template>
 
-    <Card3 id="project-ehn">
+    <Card2a id="project-ehn">
       <header>
         <h4>E-HowNet Parsing and Visualization</h4>
         <p>2018-2019</p>
@@ -45,9 +45,9 @@
           </IconButton>
         </b-button-group>
       </ButtonGroup>
-    </Card3>
+    </Card2a>
 
-    <Card3 id="project-ckip-nlp">
+    <Card2a id="project-ckip-nlp">
       <header>
         <h4>CKIP Word-Segmentation and Parser Python API</h4>
         <p>2018-2019</p>
@@ -75,9 +75,9 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card3>
+    </Card2a>
 
-    <Card3 id="project-hwe">
+    <Card2a id="project-hwe">
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017-2018</p>
@@ -116,9 +116,9 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card3>
+    </Card2a>
 
-    <Card3 id="project-cosmel">
+    <Card2a id="project-cosmel">
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
         <p>2017-2018</p>
@@ -127,9 +127,9 @@
         An industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
         My work including data analysis, data preprocessing, programming design, model design, Python code implementation.
       </p>
-    </Card3>
+    </Card2a>
 
-    <Card3 id="project-isvd">
+    <Card2a id="project-isvd">
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015-Present</p>
@@ -169,9 +169,9 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card3>
+    </Card2a>
 
-    <Card3 id="project-pass">
+    <Card2a id="project-pass">
       <header>
         <h4>PaSS: Particle Swarm Stepwise Algorithm</h4>
         <p>2013-2015</p>
@@ -211,11 +211,11 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card3>
+    </Card2a>
 
     <Collapse name="project-more" ref="collapse" class="mt-4">
 
-      <Card3 id="project-voting">
+      <Card2a id="project-voting">
         <header>
           <h4>Ordinal Versus Cardinal Voting Rules</h4>
           <p>2016</p>
@@ -246,9 +246,9 @@
             </IconButton>
           </b-button-group>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-his">
+      <Card2a id="project-his">
         <header>
           <h4>HiS: Hierarchical Schur Solver</h4>
           <p>2015-2016</p>
@@ -288,9 +288,9 @@
             BitBucket
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-hhis">
+      <Card2a id="project-hhis">
         <header>
           <h4>hHiS: Hybrid Hierarchical Schur Solver</h4>
           <p>2014-2016</p>
@@ -299,9 +299,9 @@
           hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
           My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
         </p>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-nbfmm">
+      <Card2a id="project-nbfmm">
         <header>
           <h4>NBFMM: N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
           <p>2016</p>
@@ -330,9 +330,9 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-dsa">
+      <Card2a id="project-dsa">
         <header>
           <h4>Bank Account Management System Project</h4>
           <p>2015</p>
@@ -352,9 +352,9 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-wtf">
+      <Card2a id="project-wtf">
         <header>
           <h4>Wonderful Transportation Forming</h4>
           <p>2013</p>
@@ -374,9 +374,9 @@
             Website
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3 id="project-assembly">
+      <Card2a id="project-assembly">
         <header>
           <h4>The Matrix Project</h4>
           <p>2012</p>
@@ -396,9 +396,9 @@
             Website
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
-      <Card3>
+      <Card2a>
         <header id="project-chessai">
           <h4>Chess AI Project</h4>
           <p>2007</p>
@@ -418,7 +418,7 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card3>
+      </Card2a>
 
     </Collapse>
 
@@ -427,24 +427,24 @@
 
 <script>
 import Section from './_section.vue';
-import Card3 from '@/components/card3.vue';
+import Card2a from '@/components/card2a.vue';
 
 export default {
   name: 'Project',
   components: {
     Section,
-    Card3,
+    Card2a,
   },
 };
 </script>
 
 <style scoped lang="scss">
 .Project {
-  .Card3 {
+  .Card {
     border-top: solid 4px #f4f4f4;
   }
 
-  .Card3:first-of-type {
+  .Card:first-of-type {
     border-top: 0 !important;
   }
 }

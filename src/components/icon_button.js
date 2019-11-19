@@ -1,4 +1,4 @@
-import BButton, { props as BButtonProps } from 'bootstrap-vue/es/components/button/button';
+import BButton, { props as BButtonProps } from 'bootstrap-vue/src/components/button/button';
 
 export default {
   name: 'IconButton',

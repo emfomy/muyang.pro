@@ -1,35 +1,29 @@
 <template>
-  <b-container class="my-1 my-md-3">
+  <Card class="my-1 my-md-3">
     <header class="d-flex">
       <div class="Logo d-flex align-items-center justify-content-center h-100 mr-3 my-1">
         <b-img v-if="imgSrc" center class="mh-100 mw-100" :src="imgSrc" />
+        <font-awesome-icon v-if="icon" class="mh-100 mw-100 text-milk-dark" :icon="icon" size="2x" />
       </div>
       <div>
-        <h4>{{ year }} | {{ institution }}<br />{{ title }}</h4>
-        <p><slot name="description" /></p>
+        <slot />
       </div>
     </header>
-    <slot />
-  </b-container>
+    <slot name="footer" />
+  </Card>
 </template>
 
 <script>
+import Card from './card.vue';
+
 export default {
-  name: 'Card1',
+  name: 'Card1a',
+  components: {
+    Card,
+  },
   props: {
-    year: {
-      style: String,
-      defulat: '',
-    },
-    title: {
-      style: String,
-      defulat: '',
-    },
-    institution: {
-      style: String,
-      defulat: '',
-    },
     imgSrc: String,
+    icon: Object,
   },
 };
 </script>

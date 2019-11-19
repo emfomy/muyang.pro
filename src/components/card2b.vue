@@ -1,5 +1,5 @@
 <template>
-  <b-container class="Card2 p-3 p-lg-4">
+  <Card2a class="Card2b">
     <b-row>
       <b-col cols="12" lg="3" class="d-flex align-items-center justify-content-center mb-3 mb-lg-0">
         <b-link :href="href" :target="target" :disabled="href === undefined">
@@ -13,12 +13,17 @@
         <slot />
       </b-col>
     </b-row>
-  </b-container>
+  </Card2a>
 </template>
 
 <script>
+import Card2a from './card2a.vue';
+
 export default {
-  name: 'Card2',
+  name: 'Card2b',
+  components: {
+    Card2a,
+  },
   props: {
     src: String,
     srcSide: String,

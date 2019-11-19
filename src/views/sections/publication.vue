@@ -6,7 +6,7 @@
       <p></p>
     </template>
 
-    <Card2 id="publication-icsc-2019"
+    <Card2b id="publication-icsc-2019"
            src="/img/icsc_2019.png"
            href="https://semanticcomputing.wixsite.com/icsc-2019">
       <header>
@@ -62,9 +62,9 @@
           More
         </IconButton>
       </ButtonGroup>
-    </Card2>
+    </Card2b>
 
-    <Card2 id="publication-ntu-thesis"
+    <Card2b id="publication-ntu-thesis"
            src="/img/ntu_banner.png"
            srcSide="/img/ntu_logo.png"
            href="https://doi.org/10.6342/NTU201702960">
@@ -111,9 +111,9 @@
           More
         </IconButton>
       </ButtonGroup>
-    </Card2>
+    </Card2b>
 
-    <Card2 id="publication-ieee-cit-2016"
+    <Card2b id="publication-ieee-cit-2016"
            src="/img/ieee_cit_2016.png"
            href="http://nsclab.org/cit2016">
       <header>
@@ -168,9 +168,9 @@
           More
         </IconButton>
       </ButtonGroup>
-    </Card2>
+    </Card2b>
 
-    <Card2 id="publication-siam-cse-2017"
+    <Card2b id="publication-siam-cse-2017"
            src="/img/siam_cse_2017.jpg"
            href="https://archive.siam.org/meetings/cse17/">
       <header>
@@ -205,11 +205,11 @@
           More
         </IconButton>
       </ButtonGroup>
-    </Card2>
+    </Card2b>
 
     <Collapse name="publication-more" ref="collapse" class="mt-4">
 
-      <Card2 id="publication-tjjw-jsam-2016"
+      <Card2b id="publication-tjjw-jsam-2016"
              src="/img/tjjw_jsam_2016.png"
              href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
@@ -245,7 +245,7 @@
             More
           </IconButton>
         </ButtonGroup>
-      </Card2>
+      </Card2b>
 
     </Collapse>
 
@@ -254,13 +254,13 @@
 
 <script>
 import Section from './_section.vue';
-import Card2 from '@/components/card2.vue';
+import Card2b from '@/components/card2b.vue';
 
 export default {
   name: 'Publication',
   components: {
     Section,
-    Card2,
+    Card2b,
   },
   methods: {
     scrollProject(id) {
@@ -275,11 +275,11 @@ export default {
 
 <style scoped lang="scss">
 .Publication {
-  .Card2 {
+  .Card {
     border-top: solid 4px #f4f4f4;
   }
 
-  .Card2:first-of-type {
+  .Card:first-of-type {
     border-top: 0 !important;
   }
 }

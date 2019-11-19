@@ -9,7 +9,7 @@
 
     <p>Previously, I received my master degree at <b-link to="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences, National Taiwan University</b-link>, advised by <b-link to="http://www.math.ntu.edu.tw/~wwang/" target="_blank">Dr. Weichung Wang</b-link>, conducting researches of high-performance parallel computing on hybrid CPU-GPU structures.</p>
 
-    <p>I have a working experiences at <b-link to="http://www.watson.ibm.com/" target="_blank">Thomas J. Watson Research Center, IBM Corporation</b-link> as an internship.</p>
+    <p>I have working experience in <b-link to="http://www.watson.ibm.com/" target="_blank">Thomas J. Watson Research Center, IBM Corporation</b-link> as an internship.</p>
 
     <IconButton size="sm"
                 variant="outline-primary"

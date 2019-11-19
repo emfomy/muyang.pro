@@ -9,7 +9,7 @@
       </b-row>
     </b-container>
     <Publication id="publication" ref="publication" />
-    <Certificate id="certificate" ref="certificate" />
+    <Honor id="honor" ref="honor" />
     <Project id="project" ref="project" />
 
   </b-container>
@@ -17,9 +17,9 @@
 
 <script>
 import About from './sections/about.vue';
-import Certificate from './sections/certificate.vue';
 import Education from './sections/education.vue';
 import Employment from './sections/employment.vue';
+import Honor from './sections/honor.vue';
 import Project from './sections/project.vue';
 import Publication from './sections/publication.vue';
 
@@ -28,10 +28,10 @@ export default {
   components: {
     About,
     Education,
-    Certificate,
     Employment,
-    Publication,
+    Honor,
     Project,
+    Publication,
   },
 };
 </script>
