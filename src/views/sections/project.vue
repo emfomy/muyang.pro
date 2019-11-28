@@ -151,19 +151,18 @@
         <p>2017-2018</p>
       </header>
       <p>
-        An industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link>. Cosmetics domain entity linking.<br />
-        My work including data analysis, data preprocessing, programming design, model design, Python code implementation.
+        A novel entity linking project on cosmetic domain with dataset and baseline.<br />
+        This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link> Corporation.
       </p>
     </Card2a>
 
     <Card2a id="project-isvd">
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
-        <p>2015-Present</p>
+        <p>2015-2017</p>
       </header>
       <p>
-        iSVD is a parallel low-rank approximate singular value decomposition solver using integrated randomized algorithm for multinode systems.<br />
-        My work including algorithm modifying, programming design, C++ code implementation.
+        A parallel low-rank approximate singular value decomposition solver using integrated randomized algorithm. Implemented for multinode hybrid CPU-GPU systems.
       </p>
 
       <ButtonGroup>
@@ -204,8 +203,7 @@
         <p>2013-2015</p>
       </header>
       <p>
-        PaSS is a parallel stochastic search algorithm for information criterion variable selection problems on multinode systems.<br />
-        My work including programming design, CUDA &amp; C++ code implementation, non-general model developing and implementation.
+        A parallel stochastic search algorithm for information criterion variable selection problems. Implemented for multinode hybrid CPU-GPU systems.
       </p>
 
       <ButtonGroup>

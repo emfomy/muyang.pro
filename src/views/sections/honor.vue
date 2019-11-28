@@ -42,18 +42,18 @@
     <Card1a id="award-academic-ntu"
             img-src="/img/ntu_logo.png">
       <header>
-        <h4>Top 1 Academic Award</h4>
-        <p>2012, National Taiwan University</p>
+        <h4>Top 1 Academic Excellence Award</h4>
+        <p>Fall 2011, Department of Mathematics, National Taiwan University</p>
       </header>
     </Card1a>
 
-    <Card1a id="certificate-gre"
+    <!-- <Card1a id="certificate-gre"
             img-src="/img/gre_logo.svg">
       <header>
         <h4>GRE Mathematics Subject Test</h4>
         <p>2018, Score 840, Percentile 84%.</p>
       </header>
-    </Card1a>
+    </Card1a> -->
 
   </Section>
 </template>

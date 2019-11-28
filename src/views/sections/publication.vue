@@ -11,7 +11,7 @@
            href="https://semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
-        <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li and Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
+        <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li, Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
       </header>
 
       <ButtonGroup>
@@ -118,7 +118,7 @@
            href="http://nsclab.org/cit2016">
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
-        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, and Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
+        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
       </header>
 
       <ButtonGroup>
