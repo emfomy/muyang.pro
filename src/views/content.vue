@@ -33,6 +33,14 @@ export default {
     Project,
     Publication,
   },
+  methods: {
+    scrollTo(section, id) {
+      this.$refs[section].$refs.collapse.$refs.collapse.show = true;
+      this.$nextTick(() => {
+        this.$scrollTo(id);
+      });
+    },
+  },
 };
 </script>
 

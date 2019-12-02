@@ -56,10 +56,10 @@
         <IconButton size="sm"
                     variant="outline-primary"
                     href=""
-                    v-scroll-to="'#project-hwe'"
-                    fa-icon="info"
+                    @click.native="$parent.scrollTo('project', '#project-hwe');"
+                    fa-icon="level-down-alt"
                     fa-style="fas">
-          More
+          Related Project
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -105,10 +105,10 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    v-scroll-to="'#project-isvd'"
-                    fa-icon="info"
+                    @click.native="$parent.scrollTo('project', '#project-isvd');"
+                    fa-icon="level-down-alt"
                     fa-style="fas">
-          More
+          Related Project
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -162,10 +162,10 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    v-scroll-to="'#project-pass'"
-                    fa-icon="info"
+                    @click.native="$parent.scrollTo('project', '#project-pass');"
+                    fa-icon="level-down-alt"
                     fa-style="fas">
-          More
+          Related Project
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -199,10 +199,10 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    v-scroll-to="'#project-isvd'"
-                    fa-icon="info"
+                    @click.native="$parent.scrollTo('project', '#project-isvd');"
+                    fa-icon="level-down-alt"
                     fa-style="fas">
-          More
+          Related Project
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -239,10 +239,10 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
-                      @click.native="scrollProject('#project-hhis');"
-                      fa-icon="info"
+                      @click.native="$parent.scrollTo('project', '#project-hhis');"
+                      fa-icon="level-down-alt"
                       fa-style="fas">
-            More
+            Related Project
           </IconButton>
         </ButtonGroup>
       </Card2b>
@@ -261,14 +261,6 @@ export default {
   components: {
     Section,
     Card2b,
-  },
-  methods: {
-    scrollProject(id) {
-      this.$parent.$refs.project.$refs.collapse.$refs.collapse.show = true;
-      this.$nextTick(() => {
-        this.$scrollTo(id);
-      });
-    },
   },
 };
 </script>

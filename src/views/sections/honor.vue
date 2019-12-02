@@ -30,10 +30,10 @@
         <p>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics.
           <IconButton size="xs"
                       variant="outline-primary"
-                      @click.native="scrollPublication('#publication-tjjw-jsam-2016');"
-                      fa-icon="info"
+                      @click.native="$parent.scrollTo('publication', '#publication-tjjw-jsam-2016');"
+                      fa-icon="level-up-alt"
                       fa-style="fas">
-            More
+            Related Workshop
           </IconButton>
         </p>
       </header>
@@ -67,14 +67,6 @@ export default {
   components: {
     Section,
     Card1a,
-  },
-  methods: {
-    scrollPublication(id) {
-      this.$parent.$refs.publication.$refs.collapse.$refs.collapse.show = true;
-      this.$nextTick(() => {
-        this.$scrollTo(id);
-      });
-    },
   },
 };
 </script>
