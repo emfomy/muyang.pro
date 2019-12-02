@@ -173,6 +173,7 @@
                     fa-style="fas">
           Docs
         </IconButton>
+      </ButtonGroup>
     </Card2a>
 
     <Card2a id="project-isvd">
