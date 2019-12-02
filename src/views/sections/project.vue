@@ -154,6 +154,25 @@
         A novel entity linking project on cosmetic domain with dataset and baseline.<br />
         This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link> Corporation.
       </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://github.com/emfomy/cosmel"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://emfomy.github.io/cosmel-data"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs
+        </IconButton>
     </Card2a>
 
     <Card2a id="project-isvd">
