@@ -37,10 +37,22 @@
       </Card1b>
 
       <Card1b year="2015-2017"
-              title="Research Assistant"
+              title="Teaching Assistant"
               institution="Nat'l. Taiwan Univ."
               img-src="/img/ntu_logo.png">
-        <template><i>Software Development for Computational and Data Science, High Performance Computing and Deep Learning, Introduction to Computational &amp; Data Sciences, Introduction to Scientific Computing, Numerical Linear Algebra, Introduction to Computational Mathematics, Computer Programming, Mathematic Software, Calculus</i></template>
+        <template>
+          <ul class="pl-4">
+            <li>Software Development for Computational and Data Science</li>
+            <li>High Performance Computing and Deep Learning</li>
+            <li>Introduction to Computational &amp; Data Sciences</li>
+            <li>Introduction to Scientific Computing</li>
+            <li>Numerical Linear Algebra</li>
+            <li>Introduction to Computational Mathematics</li>
+            <li>Computer Programming</li>
+            <li>Mathematic Software</li>
+            <li>Calculus</li>
+          </ul>
+        </template>
       </Card1b>
 
     </Collapse>
