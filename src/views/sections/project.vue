@@ -104,6 +104,37 @@
       </ButtonGroup>
     </Card2a>
 
+    <Card2a id="project-cosmel">
+      <header>
+        <h4>CosmEL: Cosmetic Entity Linking</h4>
+        <p>2017-2018</p>
+      </header>
+      <p>
+        A novel entity linking project on cosmetic domain with dataset and baseline.<br />
+        This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link> Corporation.
+      </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://github.com/emfomy/cosmel"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://emfomy.github.io/cosmel-data"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs
+        </IconButton>
+      </ButtonGroup>
+    </Card2a>
+
     <Card2a id="project-hwe">
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
@@ -141,37 +172,6 @@
                     fa-icon="github"
                     fa-style="fab">
           Github
-        </IconButton>
-      </ButtonGroup>
-    </Card2a>
-
-    <Card2a id="project-cosmel">
-      <header>
-        <h4>CosmEL: Cosmetic Entity Linking</h4>
-        <p>2017-2018</p>
-      </header>
-      <p>
-        A novel entity linking project on cosmetic domain with dataset and baseline.<br />
-        This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">PIXNET</b-link> Corporation.
-      </p>
-
-      <ButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://github.com/emfomy/cosmel"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://emfomy.github.io/cosmel-data"
-                    target="_blank"
-                    fa-icon="file-code"
-                    fa-style="fas">
-          Docs
         </IconButton>
       </ButtonGroup>
     </Card2a>
@@ -299,7 +299,7 @@
           <p>2015-2016</p>
         </header>
         <p>
-          HiS is a direct linear solver exploiting the sparse structure of multilevel nested dissection matrix to maximize parallel scalability on multinode GPU clusters.<br />
+          A direct linear solver exploiting the sparse structure of multilevel nested dissection matrix to maximize parallel scalability on multinode GPU clusters.<br />
           My work including algorithm modifying, C++ code implementation, matrix structure and operation forming.
         </p>
 
@@ -341,7 +341,7 @@
           <p>2014-2016</p>
         </header>
         <p>
-          hHiS is a parallel linear system solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
+          A parallel linear solver for sparse symmetric positive definite matrices using direct/iterative method on each parts of k-way vertex partitioning to maximize parallel scalability on multinode systems.<br />
           My work including theoretical researching, algorithm modifying, programming design, C++ code implementation.
         </p>
 
@@ -380,6 +380,36 @@
           <IconButton size="sm"
                       variant="outline-primary"
                       href="https://github.com/emfomy/nbfmm"
+                      target="_blank"
+                      fa-icon="github"
+                      fa-style="fab">
+            GitHub
+          </IconButton>
+        </ButtonGroup>
+      </Card2a>
+
+      <Card2a id="project-mandelbrot">
+        <header>
+          <h4>Mandelbrot Set Zooming</h4>
+          <p>2016</p>
+        </header>
+        <p>
+          Mandelbrot Set Zooming using CUDA GPU acceleration.
+        </p>
+
+        <ButtonGroup>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="https://www.youtube.com/watch?v=BsRrcccV-X4"
+                      target="_blank"
+                      fa-icon="youtube"
+                      fa-style="fab">
+            Video
+          </IconButton>
+
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="https://github.com/emfomy/gpgpu/tree/master/lab2"
                       target="_blank"
                       fa-icon="github"
                       fa-style="fab">

@@ -42,15 +42,15 @@
               img-src="/img/ntu_logo.png">
         <template>
           <ul class="pl-4">
-            <li>Software Development for Computational and Data Science</li>
-            <li>High Performance Computing and Deep Learning</li>
-            <li>Introduction to Computational &amp; Data Sciences</li>
-            <li>Introduction to Scientific Computing</li>
-            <li>Numerical Linear Algebra</li>
-            <li>Introduction to Computational Mathematics</li>
-            <li>Computer Programming</li>
-            <li>Mathematic Software</li>
-            <li>Calculus</li>
+            <li>High Performance Computing and Deep Learning (2017S)</li>
+            <li>Computational Methods and Tools for Data Science (2016F)</li>
+            <li>Introduction to Scientific Computing (2016F)</li>
+            <li>Introduction to Computational Mathematics (2016S)</li>
+            <li>Software Development for Computational and Data Science (2015F)</li>
+            <li>Numerical Linear Algebra (2015F)</li>
+            <li>Calculus (2016S, 2017S)</li>
+            <li>Computer Programming (2015F, 2016F)</li>
+            <li>Mathematic Software (2015S)</li>
           </ul>
         </template>
       </Card1b>
