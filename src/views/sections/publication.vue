@@ -2,7 +2,7 @@
   <Section class="Publication">
 
     <template slot="header">
-      <h2>Publications & Conferences</h2>
+      <h2>Publications & Presentations</h2>
       <p></p>
     </template>
 
@@ -37,15 +37,6 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="https://github.com/emfomy/hwe"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
                     href="https://semanticcomputing.wixsite.com/icsc-2019"
                     target="_blank"
                     fa-icon="globe"
@@ -57,6 +48,54 @@
                     variant="outline-primary"
                     href=""
                     @click.native="$parent.scrollTo('project', '#project-hwe');"
+                    fa-icon="level-down-alt"
+                    fa-style="fas">
+          Related Project
+        </IconButton>
+      </ButtonGroup>
+    </Card2b>
+
+    <Card2b id="publication-ieee-cit-2016"
+           src="/img/ieee_cit_2016.png"
+           href="http://nsclab.org/cit2016">
+      <header>
+        <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
+        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
+      </header>
+
+      <ButtonGroup>
+        <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/ieee_cse_2016_pass.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
+                      variant="outline-primary"
+                      href="https://doi.org/10.1109/CIT.2016.101"
+                      target="_blank"
+                      fa-icon="external-link-alt"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="http://nsclab.org/cit2016"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    @click.native="$parent.scrollTo('project', '#project-pass');"
                     fa-icon="level-down-alt"
                     fa-style="fas">
           Related Project
@@ -96,11 +135,30 @@
 
         <IconButton size="sm"
                     variant="outline-primary"
-                    href="https://github.com/emfomy/isvd"
+                    @click.native="$parent.scrollTo('project', '#project-isvd');"
+                    fa-icon="level-down-alt"
+                    fa-style="fas">
+          Related Project
+        </IconButton>
+      </ButtonGroup>
+    </Card2b>
+
+    <Card2b id="publication-apcom-2019"
+           src="/img/apcom_2019.png"
+           href="http://www.apcom2019.org">
+      <header>
+        <h4>Parallelized Integration of Multiple Random Sketches from Randomized Singular Value Decomposition with Multi-Level Pairwise Integration Method</h4>
+        <p>Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br>2019, 7th Asian Pacific Congress on Computational Mechanics (APCOM2019)</p>
+      </header>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="http://www.apcom2019.org"
                     target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
         </IconButton>
 
         <IconButton size="sm"
@@ -113,81 +171,15 @@
       </ButtonGroup>
     </Card2b>
 
-    <Card2b id="publication-ieee-cit-2016"
-           src="/img/ieee_cit_2016.png"
-           href="http://nsclab.org/cit2016">
-      <header>
-        <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
-        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
-      </header>
-
-      <ButtonGroup>
-        <b-button-group>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="/file/paper/ieee_cse_2016_pass.pdf"
-                      target="_blank"
-                      fa-icon="file-pdf"
-                      fa-style="far">
-            Paper
-          </IconButton>
-          <IconButton v-b-tooltip.hover
-                      title="Official Link"
-                      size="sm"
-                      variant="outline-primary"
-                      href="https://doi.org/10.1109/CIT.2016.101"
-                      target="_blank"
-                      fa-icon="external-link-alt"
-                      fa-style="fas">
-          </IconButton>
-        </b-button-group>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://github.com/emfomy/pass"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="http://nsclab.org/cit2016"
-                    target="_blank"
-                    fa-icon="globe"
-                    fa-style="fas">
-          Conference
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    @click.native="$parent.scrollTo('project', '#project-pass');"
-                    fa-icon="level-down-alt"
-                    fa-style="fas">
-          Related Project
-        </IconButton>
-      </ButtonGroup>
-    </Card2b>
-
     <Card2b id="publication-siam-cse-2017"
            src="/img/siam_cse_2017.jpg"
            href="https://archive.siam.org/meetings/cse17/">
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
-        <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, and Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
+        <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
       </header>
 
       <ButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://github.com/emfomy/isvd"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
-
         <IconButton size="sm"
                     variant="outline-primary"
                     href="https://archive.siam.org/meetings/cse17/"
@@ -215,7 +207,7 @@
 
         <header>
           <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
-          <p>Mu Yang and Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
+          <p>Mu Yang, Weichung Wang<br>2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied Mathematics</p>
         </header>
 
         <ButtonGroup>

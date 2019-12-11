@@ -107,7 +107,7 @@
     <Card2a id="project-cosmel">
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
-        <p>2017-2018</p>
+        <p>2017-2019</p>
       </header>
       <p>
         A novel entity linking project on cosmetic domain with dataset and baseline.<br />
