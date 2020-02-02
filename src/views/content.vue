@@ -1,7 +1,7 @@
 <template>
   <b-container class="Content px-0 px-md-3">
 
-    <About id="about" ref="about" />
+    <About id="about" ref="about" class="border-top-0" />
     <b-container>
       <b-row>
         <Education id="education" ref="education" class="col-12 col-xl-6" />
@@ -48,10 +48,6 @@ export default {
 .Content {
   .Section {
     border-top: solid 6px #f4f4f4;
-  }
-
-  >> .Section:first-of-type {
-    border-top: 0 !important;
   }
 }
 </style>
