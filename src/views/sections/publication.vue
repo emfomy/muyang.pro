@@ -6,12 +6,61 @@
       <p></p>
     </template>
 
+    <Card2b id="publication-lrec-2020"
+           src="/img/lrec_2020.png"
+           href="https://semanticcomputing.wixsite.com/lrec-2020">
+      <header>
+        <h4>Headword-Oriented Entity Linking: A New Entity Linking Task with Dataset and Baseline</h4>
+        <p>Mu Yang, Chi-Yen Chen, Yi-Hui Lee, Qian-Hui Zeng, Wei-Yun Ma<br />2020, 12th International Conference on Language Resources and Evaluation (LREC'20)</p>
+      </header>
+
+      <ButtonGroup>
+        <!-- <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/lrec_2020_cosmel.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper
+          </IconButton>
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="external-link-alt"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group> -->
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://lrec2020.lrec-conf.org"
+                    target="_blank"
+                    fa-icon="globe"
+                    fa-style="fas">
+          Conference
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href=""
+                    @click.native="$parent.scrollTo('project', '#project-cosmel');"
+                    fa-icon="level-down-alt"
+                    fa-style="fas">
+          Related Project
+        </IconButton>
+      </ButtonGroup>
+    </Card2b>
+
     <Card2b id="publication-icsc-2019"
            src="/img/icsc_2019.png"
            href="https://semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
-        <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li, Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (ICSC2019)</p>
+        <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li, Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (IEEE-ICSC'19)</p>
       </header>
 
       <ButtonGroup>
@@ -60,7 +109,7 @@
            href="http://nsclab.org/cit2016">
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
-        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (CIT2016)</p>
+        <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (IEEE-CIT'16)</p>
       </header>
 
       <ButtonGroup>
@@ -148,7 +197,7 @@
            href="http://www.apcom2019.org">
       <header>
         <h4>Parallelized Integration of Multiple Random Sketches from Randomized Singular Value Decomposition with Multi-Level Pairwise Integration Method</h4>
-        <p>Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br>2019, 7th Asian Pacific Congress on Computational Mechanics (APCOM2019)</p>
+        <p>Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br>2019, 7th Asian Pacific Congress on Computational Mechanics (APCOM'19)</p>
       </header>
 
       <ButtonGroup>
@@ -176,7 +225,7 @@
            href="https://archive.siam.org/meetings/cse17/">
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
-        <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (CSE2017)</p>
+        <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (SIAM CSE'17)</p>
       </header>
 
       <ButtonGroup>

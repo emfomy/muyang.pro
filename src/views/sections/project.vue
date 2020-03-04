@@ -6,6 +6,45 @@
       <p></p>
     </template>
 
+    <Card2a id="project-ckip-nlp">
+      <header>
+        <h4>CKIP Word-Segmentation and Parser Python API</h4>
+        <p>2018-2020</p>
+      </header>
+      <p>
+        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">Sentence-Parsing</b-link>.
+      </p>
+
+      <ButtonGroup>
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://pypi.org/project/ckipnlp"
+                    target="_blank"
+                    fa-icon="python"
+                    fa-style="fab">
+          PyPI
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://github.com/emfomy/ckipnlp"
+                    target="_blank"
+                    fa-icon="github"
+                    fa-style="fab">
+          Github
+        </IconButton>
+
+        <IconButton size="sm"
+                    variant="outline-primary"
+                    href="https://ckipnlp.readthedocs.io"
+                    target="_blank"
+                    fa-icon="file-code"
+                    fa-style="fas">
+          Docs
+        </IconButton>
+      </ButtonGroup>
+    </Card2a>
+
     <Card2a id="project-ehn">
       <header>
         <h4>E-HowNet Parsing and Visualization</h4>
@@ -65,45 +104,6 @@
       </ButtonGroup>
     </Card2a>
 
-    <Card2a id="project-ckip-nlp">
-      <header>
-        <h4>CKIP Word-Segmentation and Parser Python API</h4>
-        <p>2018-2019</p>
-      </header>
-      <p>
-        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">Word-Segmentation</b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">Sentence-Parsing</b-link>.
-      </p>
-
-      <ButtonGroup>
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://pypi.org/project/ckipnlp"
-                    target="_blank"
-                    fa-icon="python"
-                    fa-style="fab">
-          PyPI
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://github.com/emfomy/ckipnlp"
-                    target="_blank"
-                    fa-icon="github"
-                    fa-style="fab">
-          Github
-        </IconButton>
-
-        <IconButton size="sm"
-                    variant="outline-primary"
-                    href="https://ckipnlp.readthedocs.io"
-                    target="_blank"
-                    fa-icon="file-code"
-                    fa-style="fas">
-          Docs
-        </IconButton>
-      </ButtonGroup>
-    </Card2a>
-
     <Card2a id="project-cosmel">
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
@@ -115,6 +115,26 @@
       </p>
 
       <ButtonGroup>
+        <!-- <b-button-group>
+          <IconButton size="sm"
+                      variant="outline-primary"
+                      href="/file/paper/lrec_2020_cosmel.pdf"
+                      target="_blank"
+                      fa-icon="file-pdf"
+                      fa-style="far">
+            Paper (LREC 2020)
+          </IconButton>
+          <IconButton v-b-tooltip.hover
+                      title="Official Link"
+                      size="sm"
+                      variant="outline-primary"
+                      href=""
+                      target="_blank"
+                      fa-icon="external-link-alt"
+                      fa-style="fas">
+          </IconButton>
+        </b-button-group> -->
+
         <IconButton size="sm"
                     variant="outline-primary"
                     href="https://github.com/emfomy/cosmel"
@@ -152,7 +172,7 @@
                       target="_blank"
                       fa-icon="file-pdf"
                       fa-style="far">
-            Paper (ICSC 2019)
+            Paper (IEEE ICSC 2019)
           </IconButton>
           <IconButton v-b-tooltip.hover
                       title="Official Link"
@@ -234,7 +254,7 @@
                       target="_blank"
                       fa-icon="file-pdf"
                       fa-style="far">
-            Paper (CIT 2016)
+            Paper (IEEE CIT 2016)
           </IconButton>
           <IconButton v-b-tooltip.hover
                       title="Official Link"
