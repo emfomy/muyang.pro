@@ -7,7 +7,8 @@
     </template>
 
     <Card2b id="publication-lrec-2020"
-           src="/img/lrec_2020.png"
+           src="/img/lrec_2020.jpg"
+           srcSide="/img/lrec_2020_sm.jpg"
            href="https://semanticcomputing.wixsite.com/lrec-2020">
       <header>
         <h4>Headword-Oriented Entity Linking: A New Entity Linking Task with Dataset and Baseline</h4>
