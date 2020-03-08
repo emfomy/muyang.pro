@@ -6,7 +6,8 @@
       <p></p>
     </template>
 
-    <Card2a id="project-ckip-nlp">
+    <Card2b id="project-ckip-nlp"
+            right>
       <header>
         <h4>CKIP Word-Segmentation and Parser Python API</h4>
         <p>2018-2020</p>
@@ -43,9 +44,10 @@
           Docs
         </IconButton>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
-    <Card2a id="project-ehn">
+    <Card2b id="project-ehn"
+            right>
       <header>
         <h4>E-HowNet Parsing and Visualization</h4>
         <p>2018-2019</p>
@@ -102,9 +104,11 @@
           </IconButton>
         </b-button-group>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
-    <Card2a id="project-cosmel">
+    <Card2b id="project-cosmel"
+            src="/img/project/cosmel.png"
+            right>
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
         <p>2017-2019</p>
@@ -153,9 +157,10 @@
           Docs
         </IconButton>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
-    <Card2a id="project-hwe">
+    <Card2b id="project-hwe"
+            right>
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017-2018</p>
@@ -194,9 +199,10 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
-    <Card2a id="project-isvd">
+    <Card2b id="project-isvd"
+            right>
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015-2017</p>
@@ -235,9 +241,11 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
-    <Card2a id="project-pass">
+    <Card2b id="project-pass"
+            src="/img/project/pass.png"
+            right>
       <header>
         <h4>PaSS: Particle Swarm Stepwise Algorithm</h4>
         <p>2013-2015</p>
@@ -276,11 +284,13 @@
           Github
         </IconButton>
       </ButtonGroup>
-    </Card2a>
+    </Card2b>
 
     <Collapse name="project-more" ref="collapse" class="mt-4">
 
-      <Card2a id="project-voting">
+      <Card2b id="project-voting"
+              src="/img/project/voting.jpg"
+              right>
         <header>
           <h4>Ordinal Versus Cardinal Voting Rules</h4>
           <p>2016</p>
@@ -294,7 +304,7 @@
           <b-button-group>
             <IconButton size="sm"
                         variant="outline-primary"
-                        href="/file/paper/other/geb_2017_voting.pdf"
+                        href="/file/paper/geb_2017_voting.pdf"
                         target="_blank"
                         fa-icon="file-pdf"
                         fa-style="far">
@@ -311,9 +321,11 @@
             </IconButton>
           </b-button-group>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-his">
+      <Card2b id="project-his"
+              src="/img/project/his.jpg"
+              right>
         <header>
           <h4>HiS: Hierarchical Schur Solver</h4>
           <p>2015-2016</p>
@@ -327,7 +339,7 @@
           <b-button-group>
             <IconButton size="sm"
                         variant="outline-primary"
-                        href="/file/paper/other/ntu_thesis_2016_his.pdf"
+                        href="/file/paper/ntu_thesis_2016_his.pdf"
                         target="_blank"
                         fa-icon="file-pdf"
                         fa-style="far">
@@ -353,9 +365,11 @@
             BitBucket
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-hhis">
+      <Card2b id="project-hhis"
+              src="/img/project/hhis.png"
+              right>
         <header>
           <h4>hHiS: Hybrid Hierarchical Schur Solver</h4>
           <p>2014-2016</p>
@@ -375,9 +389,11 @@
             BitBucket
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-nbfmm">
+      <Card2b id="project-nbfmm"
+              src="/img/project/nbfmm.png"
+              right>
         <header>
           <h4>NBFMM: N-Body Simulation Using Fast Multipole Method with CUDA GPU</h4>
           <p>2016</p>
@@ -399,6 +415,15 @@
 
           <IconButton size="sm"
                       variant="outline-primary"
+                      href="http://emfomy.github.io/nbfmm"
+                      target="_blank"
+                      fa-icon="file-code"
+                      fa-style="fas">
+            Docs
+          </IconButton>
+
+          <IconButton size="sm"
+                      variant="outline-primary"
                       href="https://github.com/emfomy/nbfmm"
                       target="_blank"
                       fa-icon="github"
@@ -406,9 +431,11 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-mandelbrot">
+      <Card2b id="project-mandelbrot"
+              src="/img/project/mandelbrot.jpg"
+              right>
         <header>
           <h4>Mandelbrot Set Zooming</h4>
           <p>2016</p>
@@ -436,9 +463,11 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-dsa">
+      <Card2b id="project-dsa"
+              src="/img/project/dsa.jpg"
+              right>
         <header>
           <h4>Bank Account Management System Project</h4>
           <p>2015</p>
@@ -458,9 +487,11 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-wtf">
+      <Card2b id="project-wonderfultf"
+              src="/img/project/wonderfultf.jpg"
+              right>
         <header>
           <h4>Wonderful Transportation Forming</h4>
           <p>2013</p>
@@ -480,9 +511,11 @@
             Website
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a id="project-assembly">
+      <Card2b id="project-assembly"
+              src="/img/project/assembly.jpg"
+              right>
         <header>
           <h4>The Matrix Project</h4>
           <p>2012</p>
@@ -502,10 +535,12 @@
             Website
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
-      <Card2a>
-        <header id="project-chessai">
+      <Card2b id="project-chessai"
+              src="/img/project/chessai.jpg"
+              right>
+        <header>
           <h4>Chess AI Project</h4>
           <p>2007</p>
         </header>
@@ -524,7 +559,7 @@
             GitHub
           </IconButton>
         </ButtonGroup>
-      </Card2a>
+      </Card2b>
 
     </Collapse>
 
@@ -533,13 +568,13 @@
 
 <script>
 import Section from './_section.vue';
-import Card2a from '@/components/card2a.vue';
+import Card2b from '@/components/card2b.vue';
 
 export default {
   name: 'Project',
   components: {
     Section,
-    Card2a,
+    Card2b,
   },
 };
 </script>

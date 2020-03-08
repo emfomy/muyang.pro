@@ -7,7 +7,7 @@
     </template>
 
     <Card1a id="award-fgc"
-            img-src="/img/fgc_logo.png">
+            img-src="/img/award/fgc_logo.png">
       <header>
         <h4>Top 2 Short Answer, Top 3 Multiple Choice, Out of 143 Teams.</h4>
         <p>2018–2019, Formosa Grand Challenge (Chinese TOEFL-like listening comprehension QA).
@@ -40,20 +40,12 @@
     </Card1a>
 
     <Card1a id="award-academic-ntu"
-            img-src="/img/ntu_logo.png">
+            img-src="/img/logo/ntu_logo.png">
       <header>
         <h4>Top 1 Academic Excellence Award</h4>
         <p>Fall 2011, Department of Mathematics, National Taiwan University</p>
       </header>
     </Card1a>
-
-    <!-- <Card1a id="certificate-gre"
-            img-src="/img/gre_logo.svg">
-      <header>
-        <h4>GRE Mathematics Subject Test</h4>
-        <p>2018, Score 840, Percentile 84%.</p>
-      </header>
-    </Card1a> -->
 
   </Section>
 </template>

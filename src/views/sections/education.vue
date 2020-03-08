@@ -9,14 +9,14 @@
     <Card1b year="2015-2017"
             title="Master of Science"
             institution="Nat'l. Taiwan Univ."
-            img-src="/img/ntu_logo.png">
+            img-src="/img/logo/ntu_logo.png">
       <template><b-link href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank">Institute of Applied Mathematical Sciences</b-link>,<br />National Taiwan University, Taipei, Taiwan</template>
     </Card1b>
 
     <Card1b year="2011-2015"
             title="Bachelor of Science"
             institution="Nat'l. Taiwan Univ."
-            img-src="/img/ntu_logo.png">
+            img-src="/img/logo/ntu_logo.png">
       <template><b-link href="http://www.math.ntu.edu.tw/en" target="_blank">Department of Mathematics</b-link>,<br />National Taiwan University, Taipei, Taiwan</template>
     </Card1b>
 

@@ -3,7 +3,7 @@
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link href="/img/avatar.jpg" target="_blank">
-          <b-img center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
+          <b-img-lazy center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
         </b-link>
       </b-navbar-brand>
 

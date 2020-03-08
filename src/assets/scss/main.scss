@@ -30,6 +30,10 @@ span {
   }
 }
 
+a.disabled {
+  pointer-events: none;
+}
+
 // Font Size
 @include media-breakpoint-down(xs) {
   html {

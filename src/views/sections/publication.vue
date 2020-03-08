@@ -7,9 +7,9 @@
     </template>
 
     <Card2b id="publication-lrec-2020"
-           src="/img/lrec_2020.jpg"
-           srcSide="/img/lrec_2020_sm.jpg"
-           href="https://semanticcomputing.wixsite.com/lrec-2020">
+            src="/img/venue/lrec_2020.jpg"
+            srcSide="/img/venue/lrec_2020_sm.jpg"
+            href="https://semanticcomputing.wixsite.com/lrec-2020">
       <header>
         <h4>Headword-Oriented Entity Linking: A New Entity Linking Task with Dataset and Baseline</h4>
         <p>Mu Yang, Chi-Yen Chen, Yi-Hui Lee, Qian-Hui Zeng, Wei-Yun Ma<br />2020, 12th International Conference on Language Resources and Evaluation (LREC'20)</p>
@@ -57,8 +57,8 @@
     </Card2b>
 
     <Card2b id="publication-icsc-2019"
-           src="/img/icsc_2019.png"
-           href="https://semanticcomputing.wixsite.com/icsc-2019">
+            src="/img/venue/icsc_2019.png"
+            href="https://semanticcomputing.wixsite.com/icsc-2019">
       <header>
         <h4>HWE: Word Embedding with Heterogeneous Features</h4>
         <p>Jhih-Sheng Fan, Mu Yang, Peng-Hsuan Li, Wei-Yun Ma<br />2019, 13th IEEE International Conference on Semantic Computing (IEEE-ICSC'19)</p>
@@ -106,8 +106,8 @@
     </Card2b>
 
     <Card2b id="publication-ieee-cit-2016"
-           src="/img/ieee_cit_2016.png"
-           href="http://nsclab.org/cit2016">
+            src="/img/venue/ieee_cit_2016.png"
+            href="http://nsclab.org/cit2016">
       <header>
         <h4>Particle Swarm Stepwise Algorithm (PaSS) on Multicore Hybrid CPU-GPU Clusters</h4>
         <p>Mu Yang, Ray-Bing Chen, I-Hsin Chung, Weichung Wang<br />2016, 16th IEEE International Conference on Computer and Information Technology (IEEE-CIT'16)</p>
@@ -154,9 +154,9 @@
     </Card2b>
 
     <Card2b id="publication-ntu-thesis"
-           src="/img/ntu_banner.png"
-           srcSide="/img/ntu_logo.png"
-           href="https://doi.org/10.6342/NTU201702960">
+            src="/img/logo/ntu_banner.png"
+            srcSide="/img/logo/ntu_logo.png"
+            href="https://doi.org/10.6342/NTU201702960">
       <header>
         <h4>Highly Scalable Parallelism of Integrated Randomized Singular Value Decomposition with Big Data Applications</h4>
         <p>Mu Yang<br />2017, Master's Thesis, National Taiwan University</p>
@@ -194,8 +194,8 @@
     </Card2b>
 
     <Card2b id="publication-apcom-2019"
-           src="/img/apcom_2019.png"
-           href="http://www.apcom2019.org">
+            src="/img/venue/apcom_2019.png"
+            href="http://www.apcom2019.org">
       <header>
         <h4>Parallelized Integration of Multiple Random Sketches from Randomized Singular Value Decomposition with Multi-Level Pairwise Integration Method</h4>
         <p>Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br>2019, 7th Asian Pacific Congress on Computational Mechanics (APCOM'19)</p>
@@ -222,8 +222,8 @@
     </Card2b>
 
     <Card2b id="publication-siam-cse-2017"
-           src="/img/siam_cse_2017.jpg"
-           href="https://archive.siam.org/meetings/cse17/">
+            src="/img/venue/siam_cse_2017.jpg"
+            href="https://archive.siam.org/meetings/cse17/">
       <header>
         <h4>Parallel Implementations of Integrated Singular Value Decomposition (iSVD)</h4>
         <p>Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br>2017, 9th SIAM Conference on Computational Science and Engineering (SIAM CSE'17)</p>
@@ -252,8 +252,8 @@
     <Collapse name="publication-more" ref="collapse" class="mt-4">
 
       <Card2b id="publication-tjjw-jsam-2016"
-             src="/img/tjjw_jsam_2016.png"
-             href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
+              src="/img/venue/tjjw_jsam_2016.png"
+              href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54">
 
         <header>
           <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
