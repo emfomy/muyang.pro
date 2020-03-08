@@ -1,9 +1,9 @@
 <template>
   <Card1a class="Card1b" :img-src="imgSrc" :icon="icon">
-    <template>
-      <h4>{{ year }} | {{ institution }}<br />{{ title }}</h4>
-      <p><slot /></p>
-    </template>
+    <h4>{{ year }} | {{ institution }}<br>{{ title }}</h4>
+    <div class="mb-3">
+      <slot />
+    </div>
   </Card1a>
 </template>
 
@@ -17,15 +17,15 @@ export default {
   },
   props: {
     year: {
-      style: String,
+      type: String,
       defulat: '',
     },
     title: {
-      style: String,
+      type: String,
       defulat: '',
     },
     institution: {
-      style: String,
+      type: String,
       defulat: '',
     },
     imgSrc: String,

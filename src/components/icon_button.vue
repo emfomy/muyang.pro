@@ -1,23 +1,19 @@
 <template>
-  <BButton class="IconButton" v-bind="$props">
-    <font-awesome-icon :icon="[faStyle, faIcon]" :class="{ 'mr-1': !!$slots.default }" />
+  <b-button class="IconButton" v-bind="$props">
+    <fa-icon :icon="[faStyle, faIcon]" :class="{ 'mr-1': !!$slots.default }" />
     <slot />
-  </BButton>
+  </b-button>
 </template>
 
 <script>
-import { BButton, props as BButtonProps } from 'bootstrap-vue/esm/components/button/button';
+import { BButton } from 'bootstrap-vue';
 
 export default {
   name: 'IconButton',
-  components: {
-    BButton,
-  },
   props: {
     faIcon: String,
     faStyle: String,
-    ...BButtonProps,
+    ...BButton.options.props,
   },
 };
-
 </script>

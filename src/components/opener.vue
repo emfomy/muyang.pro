@@ -1,8 +1,8 @@
 <template>
-  <b-button class="Opener text-center w-100 collapsed" size="sm" variant="light" v-b-toggle="target">
-    <font-awesome-icon class="OpenerInner1 text-primary" icon="chevron-down" />
+  <b-button v-b-toggle="target" class="Opener text-center w-100 collapsed" size="sm" variant="light">
+    <fa-icon class="OpenerInner1 text-primary" icon="chevron-down" />
     <span class="OpenerText mx-2" />
-    <font-awesome-icon class="OpenerInner2 text-primary" icon="chevron-down" />
+    <fa-icon class="OpenerInner2 text-primary" icon="chevron-down" />
   </b-button>
 </template>
 

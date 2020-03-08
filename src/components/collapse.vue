@@ -1,6 +1,6 @@
 <template>
   <div class="Collapse border rounded">
-    <Opener :target="name" ref="opener" />
+    <Opener ref="opener" :target="name" />
     <b-collapse :id="name" ref="collapse">
       <slot />
     </b-collapse>
@@ -12,11 +12,11 @@ import Opener from './opener.vue';
 
 export default {
   name: 'Collapse',
-  props: {
-    name: String,
-  },
   components: {
     Opener,
+  },
+  props: {
+    name: String,
   },
 };
 </script>

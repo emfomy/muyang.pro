@@ -29,7 +29,7 @@ export default {
     srcSide: String,
     href: String,
     target: {
-      style: String,
+      type: String,
       default: '_blank',
     },
     right: Boolean,
