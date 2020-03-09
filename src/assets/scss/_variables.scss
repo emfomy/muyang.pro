@@ -1,0 +1,19 @@
+// https://github.com/twbs/bootstrap/blob/v4.4.1/scss/_variables.scss
+
+// Font Family
+$font-family-sans-serif: "Lato", sans-serif;
+$headings-font-family: "Lora", serif, $font-family-sans-serif;
+$headings-font-weight: 700;
+
+// Color
+$primary: #888888;
+
+$milk: #dcd9cd;
+$milk-light: lighten($milk, 10%);
+$milk-dark: darken($milk, 10%);
+
+$theme-colors: (
+  "milk": $milk,
+  "milk-light": $milk-light,
+  "milk-dark": $milk-dark,
+);

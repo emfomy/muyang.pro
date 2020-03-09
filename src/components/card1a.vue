@@ -1,9 +1,9 @@
 <template>
   <Card class="my-1 my-md-3">
     <header class="d-flex">
-      <div class="Logo d-flex align-items-center justify-content-center h-100 mr-3 my-1">
-        <b-img-lazy v-if="imgSrc" center class="mh-100 mw-100" :src="imgSrc" />
-        <fa-icon v-if="icon" class="mh-100 mw-100 text-milk-dark" :icon="icon" size="2x" />
+      <div class="Logo d-flex align-items-center justify-content-center mr-3 my-1">
+        <b-img-lazy v-if="imgSrc" center class="w-100" :src="imgSrc" />
+        <fa-icon v-if="icon" class="w-100 text-milk-dark" :icon="icon" size="2x" />
       </div>
       <div>
         <slot />

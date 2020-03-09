@@ -10,9 +10,18 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
+      { name: 'msapplication-TileColor', content: '#888888' },
+      { name: 'theme-color', content: '#ffffff' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'manifest', href: '/site.webmanifest' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#888888' },
     ],
   },
   /*
@@ -24,8 +33,8 @@ export default {
   */
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css',
-    '@/assets/scss/main.scss',
     '@/assets/vendor/academicons/css/academicons.min.css',
+    '@/assets/scss/main.scss',
   ],
   /*
   ** Plugins to load before mounting the App
@@ -68,6 +77,13 @@ export default {
   */
   generate: {
     dir: 'docs',
+  },
+  /*
+  ** Bootstrap
+  */
+  bootstrapVue: {
+    bootstrapCSS: false,
+    bootstrapVueCSS: false,
   },
   /*
   ** Font Awesome

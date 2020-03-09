@@ -3,11 +3,11 @@
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link href="/img/avatar.jpg" target="_blank">
-          <b-img-lazy center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
+          <b-img center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
         </b-link>
       </b-navbar-brand>
 
-      <b-nav-text class="p-0">
+      <b-nav-text class="py-0 px-3 w-100">
         <h3>Mu Yang</h3>
         <p>Research Assistant</p>
         <hr>

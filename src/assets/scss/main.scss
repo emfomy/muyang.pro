@@ -1,50 +1,9 @@
-// Font Family
-@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext");
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i');
-
-$font-family-sans-serif: "Lato", sans-serif;
-$headings-font-family: "Lora", serif, $font-family-sans-serif;
-$headings-font-weight: 700;
-
-// Color
-$primary: #888888;
-
-$milk: #dcd9cd;
-$milk-light: lighten($milk, 10%);
-$milk-dark: darken($milk, 10%);
-
-$theme-colors: (
-  "milk": $milk,
-  "milk-light": $milk-light,
-  "milk-dark": $milk-dark,
-);
+// Variables
+@import "./_variables";
 
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-vue/src/index.scss";
 
-// Link
-p,
-span {
-  a {
-    font-style: italic;
-  }
-}
-
-a.disabled {
-  pointer-events: none;
-}
-
-// Font Size
-@include media-breakpoint-down(xs) {
-  html {
-    font-size: 0.875rem;
-  }
-}
-
-// Button
-.btn-xs, .btn-group-xs > .btn {
-    padding: 0.125rem 0.25rem;
-    font-size: 0.75rem;
-    line-height: 1.5;
-    border-radius: 0.15rem;
-}
+// Custom
+@import "./_custom";
