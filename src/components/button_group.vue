@@ -12,7 +12,7 @@ export default {
 
 <style scoped lang="scss">
 .ButtonGroup {
-  $spacing: 0.25rem;
+  $spacing: .25rem;
 
   margin-right: -$spacing;
   margin-bottom: -$spacing;

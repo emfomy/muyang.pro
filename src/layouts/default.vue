@@ -87,6 +87,7 @@ export default {
     z-index: $zindex-fixed;
   }
 
+  // stylelint-disable-next-line order/order
   @include media-breakpoint-down(sm) {
     $sidebar-width: 240px;
 
@@ -108,6 +109,7 @@ export default {
     }
   }
 
+  // stylelint-disable-next-line order/order
   @mixin layout($sidebar-width) {
     #sidebar {
       width: $sidebar-width;
@@ -118,7 +120,9 @@ export default {
     }
   }
 
+  // stylelint-disable-next-line order/order
   @include media-breakpoint-up(md) {
+
     @include layout(256px);
 
     #toggler {
@@ -126,11 +130,15 @@ export default {
     }
   }
 
+  // stylelint-disable-next-line order/order
   @include media-breakpoint-up(lg) {
+
     @include layout(25%);
   }
 
+  // stylelint-disable-next-line order/order
   @include media-breakpoint-up(xl) {
+
     @include layout(20%);
   }
 }

@@ -17,8 +17,9 @@ export default {
 
 <style scoped lang="scss">
 .Opener {
-  .OpenerText::before, .OpenerText::after {
-    transition: opacity 0.5s ease;
+  .OpenerText::before,
+  .OpenerText::after {
+    transition: opacity .5s ease;
   }
 
   .OpenerText::before {
@@ -29,13 +30,15 @@ export default {
     content: "Hide";
   }
 
-  &:not(.collapsed) .OpenerText::before, &.collapsed .OpenerText::after {
+  &:not(.collapsed) .OpenerText::before,
+  &.collapsed .OpenerText::after {
     content: "";
     opacity: 0;
   }
 
-  .OpenerInner1, .OpenerInner2 {
-    transition: transform 0.5s ease;
+  .OpenerInner1,
+  .OpenerInner2 {
+    transition: transform .5s ease;
     transform: rotate(0);
   }
 

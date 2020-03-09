@@ -71,15 +71,3 @@ export default {
   },
 };
 </script>
-
-<style scoped lang="scss">
-// .Honor {
-//   .Card {
-//     border-top: solid 4px #f4f4f4;
-//   }
-
-//   .Card:first-of-type {
-//     border-top: 0 !important;
-//   }
-// }
-</style>
