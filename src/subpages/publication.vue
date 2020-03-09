@@ -16,25 +16,28 @@
       </header>
 
       <ButtonGroup>
-        <!-- <b-button-group>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="/file/paper/lrec_2020_cosmel.pdf"
-                      target="_blank"
-                      fa-icon="file-pdf"
-                      fa-style="far">
+        <b-button-group>
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="/file/paper/lrec_2020_cosmel.pdf"
+            target="_blank"
+            fa-icon="file-pdf"
+            fa-style="far"
+          >
             Paper
           </IconButton>
-          <IconButton v-b-tooltip.hover
-                      title="Official Link"
-                      size="sm"
-                      variant="outline-primary"
-                      href=""
-                      target="_blank"
-                      fa-icon="external-link-alt"
-                      fa-style="fas">
-          </IconButton>
-        </b-button-group> -->
+          <!-- <IconButton
+            v-b-tooltip.hover
+            title="Official Link"
+            size="sm"
+            variant="outline-primary"
+            href=""
+            target="_blank"
+            fa-icon="external-link-alt"
+            fa-style="fas"
+          /> -->
+        </b-button-group>
 
         <IconButton
           size="sm"

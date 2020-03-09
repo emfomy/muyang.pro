@@ -5,7 +5,7 @@
         <b-link :href="href" :target="target" :disabled="href === undefined">
           <picture v-if="src">
             <source v-if="srcSide" media="(min-width: 992px)" :srcset="srcSide">
-            <b-img-lazy class="mh-100 mw-100" center rounded fluid :src="src" />
+            <b-img class="mh-100 mw-100" center rounded fluid :src="src" />
           </picture>
         </b-link>
       </b-col>

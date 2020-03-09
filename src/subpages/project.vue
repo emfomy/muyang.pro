@@ -107,7 +107,7 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="http://ckip.iis.sinica.edu.tw/service/ehnvis"
+          href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
           target="_blank"
           fa-icon="globe"
           fa-style="fas"
@@ -147,25 +147,28 @@
       </p>
 
       <ButtonGroup>
-        <!-- <b-button-group>
-          <IconButton size="sm"
-                      variant="outline-primary"
-                      href="/file/paper/lrec_2020_cosmel.pdf"
-                      target="_blank"
-                      fa-icon="file-pdf"
-                      fa-style="far">
+        <b-button-group>
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="/file/paper/lrec_2020_cosmel.pdf"
+            target="_blank"
+            fa-icon="file-pdf"
+            fa-style="far"
+          >
             Paper (LREC 2020)
           </IconButton>
-          <IconButton v-b-tooltip.hover
-                      title="Official Link"
-                      size="sm"
-                      variant="outline-primary"
-                      href=""
-                      target="_blank"
-                      fa-icon="external-link-alt"
-                      fa-style="fas">
-          </IconButton>
-        </b-button-group> -->
+          <!-- <IconButt
+            v-b-tooltip.hover
+            title="Official Link"
+            size="sm"
+            variant="outline-primary"
+            href=""
+            target="_blank"
+            fa-icon="external-link-alt"
+            fa-style="fas"
+          /> -->
+        </b-button-group>
 
         <IconButton
           size="sm"

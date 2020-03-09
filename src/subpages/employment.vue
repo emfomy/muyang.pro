@@ -10,7 +10,7 @@
       institution="Academia Sinica"
       img-src="/img/logo/sinica_logo.png"
     >
-      <b-link href="http://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link href="https://www.iis.sinica.edu.tw/index_en.html" target="_blank">Institute of Information Science</b-link>,<br>Academia Sinica, Taipei, Taiwan
+      <b-link href="https://ckip.iis.sinica.edu.tw" target="_blank">CKIP Lab</b-link>, <b-link href="https://www.iis.sinica.edu.tw/index_en.html" target="_blank">Institute of Information Science</b-link>,<br>Academia Sinica, Taipei, Taiwan
     </Card1b>
 
     <Card1b
