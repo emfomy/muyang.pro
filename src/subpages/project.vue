@@ -13,9 +13,9 @@
         <p>2018-2020</p>
       </header>
       <p>
-        A Python API for CKIP <b-link to="http://ckipsvr.iis.sinica.edu.tw" target="_blank">
+        A Python API for CKIP <b-link href="http://ckipsvr.iis.sinica.edu.tw" target="_blank">
           Word-Segmentation
-        </b-link> and <b-link to="http://parser.iis.sinica.edu.tw" target="_blank">
+        </b-link> and <b-link href="http://parser.iis.sinica.edu.tw" target="_blank">
           Sentence-Parsing
         </b-link>.
       </p>
@@ -65,7 +65,7 @@
         <p>2018-2019</p>
       </header>
       <p>
-        A Parser for <b-link to="http://ehownet.iis.sinica.edu.tw" target="_blank">
+        A Parser for <b-link href="http://ehownet.iis.sinica.edu.tw" target="_blank">
           E-HowNet
         </b-link>, and the visualization demo.
       </p>
@@ -141,7 +141,7 @@
       </header>
       <p>
         A novel entity linking project on cosmetic domain with dataset and baseline.<br>
-        This project is an industrial-academic project with <b-link to="https://www.pixnet.net" target="_blank">
+        This project is an industrial-academic project with <b-link href="https://www.pixnet.net" target="_blank">
           PIXNET
         </b-link> Corporation.
       </p>
