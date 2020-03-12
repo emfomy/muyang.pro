@@ -158,7 +158,7 @@ export default {
   }
 
   .navbar-text {
-    padding: 0 0.5rem;
+    padding: 0 .5rem;
   }
 }
 
