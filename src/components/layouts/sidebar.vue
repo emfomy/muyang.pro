@@ -2,8 +2,8 @@
   <b-navbar class="SideBar text-center d-flex flex-column p-3" type="light" variant="milk-light">
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
-        <b-link href="/img/avatar.jpg" target="_blank">
-          <b-img center class="h-50 w-50" rounded="circle" src="/img/avatar.jpg" />
+        <b-link :href="require('@/assets/img/avatar.jpg')" target="_blank">
+          <b-img center class="h-50 w-50" rounded="circle" :src="require('@/assets/img/avatar.jpg?resize')" />
         </b-link>
       </b-navbar-brand>
 

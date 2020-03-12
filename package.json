@@ -14,6 +14,7 @@
     "lint:css": "stylelint src/**/*.scss src/**/*.vue"
   },
   "dependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.3.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-regular-svg-icons": "^5.12.1",
@@ -22,9 +23,14 @@
     "@nuxtjs/fontawesome": "^1.1.1",
     "bootstrap": "^4.1.3",
     "bootstrap-vue": "^2.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
+    "imagemin-svgo": "^7.1.0",
     "nuxt": "^2.0.0",
+    "responsive-loader": "^1.2.0",
     "vue": "^2.6.11",
-    "vue-scrollto": "^2.17.1"
+    "vue-scrollto": "^2.17.1",
+    "yarn-run-all": "^3.1.1"
   },
   "devDependencies": {
     "@mapbox/stylelint-processor-arbitrary-tags": "^0.3.0",

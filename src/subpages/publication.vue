@@ -6,8 +6,8 @@
 
     <Card2b
       id="publication-lrec-2020"
-      src="/img/venue/lrec_2020.jpg"
-      src-side="/img/venue/lrec_2020_sm.jpg"
+      :img-src="require('@/assets/img/venue/lrec_2020.jpg?resize')"
+      :img-src-side="require('@/assets/img/venue/lrec_2020_sm.jpg?resize')"
       href="https://semanticcomputing.wixsite.com/lrec-2020"
     >
       <header>
@@ -65,7 +65,7 @@
 
     <Card2b
       id="publication-icsc-2019"
-      src="/img/venue/icsc_2019.png"
+      :img-src="require('@/assets/img/venue/icsc_2019.png?resize')"
       href="https://semanticcomputing.wixsite.com/icsc-2019"
     >
       <header>
@@ -123,7 +123,7 @@
 
     <Card2b
       id="publication-ieee-cit-2016"
-      src="/img/venue/ieee_cit_2016.png"
+      :img-src="require('@/assets/img/venue/ieee_cit_2016.png?resize')"
       href="http://nsclab.org/cit2016"
     >
       <header>
@@ -180,8 +180,8 @@
 
     <Card2b
       id="publication-ntu-thesis"
-      src="/img/logo/ntu_banner.png"
-      src-side="/img/logo/ntu_logo.png"
+      :img-src="require('@/assets/img/logo/ntu_banner.png?resize')"
+      :img-src-side="require('@/assets/img/logo/ntu_logo.png?resize')"
       href="https://doi.org/10.6342/NTU201702960"
     >
       <header>
@@ -227,7 +227,7 @@
 
     <Card2b
       id="publication-apcom-2019"
-      src="/img/venue/apcom_2019.png"
+      :img-src="require('@/assets/img/venue/apcom_2019.png?resize')"
       href="http://www.apcom2019.org"
     >
       <header>
@@ -261,7 +261,7 @@
 
     <Card2b
       id="publication-siam-cse-2017"
-      src="/img/venue/siam_cse_2017.jpg"
+      :img-src="require('@/assets/img/venue/siam_cse_2017.jpg?resize')"
       href="https://archive.siam.org/meetings/cse17/"
     >
       <header>
@@ -296,7 +296,7 @@
     <Collapse ref="collapse" name="publication-more" class="mt-4">
       <Card2b
         id="publication-tjjw-jsam-2016"
-        src="/img/venue/tjjw_jsam_2016.png"
+        :img-src="require('@/assets/img/venue/tjjw_jsam_2016.png?resize')"
         href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
       >
         <header>

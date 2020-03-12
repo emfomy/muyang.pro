@@ -132,7 +132,7 @@
 
     <Card2b
       id="project-cosmel"
-      src="/img/project/cosmel.png"
+      :img-src="require('@/assets/img/project/cosmel.png?resize')"
       right
     >
       <header>
@@ -294,7 +294,7 @@
 
     <Card2b
       id="project-pass"
-      src="/img/project/pass.png"
+      :img-src="require('@/assets/img/project/pass.png?resize')"
       right
     >
       <header>
@@ -345,7 +345,7 @@
     <Collapse ref="collapse" name="project-more" class="mt-4">
       <Card2b
         id="project-voting"
-        src="/img/project/voting.jpg"
+        :img-src="require('@/assets/img/project/voting.jpg?resize')"
         right
       >
         <header>
@@ -385,7 +385,7 @@
 
       <Card2b
         id="project-his"
-        src="/img/project/his.jpg"
+        :img-src="require('@/assets/img/project/his.jpg?resize')"
         right
       >
         <header>
@@ -436,7 +436,7 @@
 
       <Card2b
         id="project-hhis"
-        src="/img/project/hhis.png"
+        :img-src="require('@/assets/img/project/hhis.png?resize')"
         right
       >
         <header>
@@ -464,7 +464,7 @@
 
       <Card2b
         id="project-nbfmm"
-        src="/img/project/nbfmm.png"
+        :img-src="require('@/assets/img/project/nbfmm.png?resize')"
         right
       >
         <header>
@@ -514,7 +514,7 @@
 
       <Card2b
         id="project-mandelbrot"
-        src="/img/project/mandelbrot.jpg"
+        :img-src="require('@/assets/img/project/mandelbrot.jpg?resize')"
         right
       >
         <header>
@@ -552,7 +552,7 @@
 
       <Card2b
         id="project-dsa"
-        src="/img/project/dsa.jpg"
+        :img-src="require('@/assets/img/project/dsa.jpg?resize')"
         right
       >
         <header>
@@ -580,7 +580,7 @@
 
       <Card2b
         id="project-wonderfultf"
-        src="/img/project/wonderfultf.jpg"
+        :img-src="require('@/assets/img/project/wonderfultf.jpg?resize')"
         right
       >
         <header>
@@ -608,7 +608,7 @@
 
       <Card2b
         id="project-assembly"
-        src="/img/project/assembly.jpg"
+        :img-src="require('@/assets/img/project/assembly.jpg?resize')"
         right
       >
         <header>
@@ -636,7 +636,7 @@
 
       <Card2b
         id="project-chessai"
-        src="/img/project/chessai.jpg"
+        :img-src="require('@/assets/img/project/chessai.jpg?resize')"
         right
       >
         <header>

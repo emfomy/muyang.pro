@@ -48,18 +48,16 @@ export default {
   ** Nuxt.js dev-modules
   */
   buildModules: [
-    // Doc: https://github.com/nuxt-community/eslint-module
     '@nuxtjs/eslint-module',
-    // Doc: https://github.com/nuxt-community/stylelint-module
     '@nuxtjs/stylelint-module',
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
-    // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     '@nuxtjs/fontawesome',
+    '@bazzite/nuxt-optimized-images',
   ],
   /*
   ** Build configuration
@@ -70,6 +68,10 @@ export default {
     */
     // eslint-disable-next-line no-unused-vars
     extend(config, ctx) {
+      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader');
+      vueLoader.options.transformAssetUrls.Card1a = 'img-src';
+      vueLoader.options.transformAssetUrls.Card1b = 'img-src';
+      vueLoader.options.transformAssetUrls.Card2b = ['img-src', 'img-src-side'];
     },
   },
   /*
@@ -95,6 +97,15 @@ export default {
       solid: true,
       regular: true,
       brands: true,
+    },
+  },
+  /*
+  ** Optimized Images
+  */
+  optimizedImages: {
+    optimizeImages: true,
+    responsive: {
+      size: 300,
     },
   },
 };
