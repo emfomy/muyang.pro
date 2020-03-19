@@ -8,7 +8,7 @@
       id="publication-lrec-2020"
       :img-src="require('@/assets/img/venue/lrec_2020.jpg?resize')"
       :img-src-side="require('@/assets/img/venue/lrec_2020_sm.jpg?resize')"
-      href="https://semanticcomputing.wixsite.com/lrec-2020"
+      href="https://lrec2020.lrec-conf.org"
     >
       <header>
         <h4>Headword-Oriented Entity Linking: A New Entity Linking Task with Dataset and Baseline</h4>
