@@ -12,7 +12,7 @@
     >
       <header>
         <h4>Headword-Oriented Entity Linking: A New Entity Linking Task with Dataset and Baseline</h4>
-        <p>Mu Yang, Chi-Yen Chen, Yi-Hui Lee, Qian-Hui Zeng, Wei-Yun Ma<br>2020, 12th International Conference on Language Resources and Evaluation (LREC'20)</p>
+        <p>Mu Yang, Chi-Yen Chen, Yi-Hui Lee, Qian-Hui Zeng, Wei-Yun Ma, Chen-Yang Shih, Wei-Jhih Chen<br>2020, 12th International Conference on Language Resources and Evaluation (LREC'20)</p>
       </header>
 
       <ButtonGroup>
