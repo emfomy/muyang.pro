@@ -25,8 +25,8 @@ export default {
     Card2a,
   },
   props: {
-    imgSrc: String,
-    imgSrcSide: String,
+    imgSrc: [String, Object],
+    imgSrcSide: [String, Object],
     href: String,
     target: {
       type: String,

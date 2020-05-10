@@ -22,7 +22,7 @@ export default {
     Card,
   },
   props: {
-    imgSrc: String,
+    imgSrc: [String, Object],
     icon: [String, Object],
   },
 };

@@ -28,7 +28,7 @@ export default {
       type: String,
       defulat: '',
     },
-    imgSrc: String,
+    imgSrc: [String, Object],
     icon: [String, Object],
   },
 };

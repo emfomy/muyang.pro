@@ -9,18 +9,36 @@
       right
     >
       <header>
-        <h4>CKIP Word-Segmentation and Parser Python API</h4>
+        <h4>CKIP CoreNLP</h4>
         <p>2018-2020</p>
       </header>
       <p>
-        A Python API for CKIP <b-link href="http://ckipsvr.iis.sinica.edu.tw" target="_blank">
-          Word-Segmentation
-        </b-link> and <b-link href="http://parser.iis.sinica.edu.tw" target="_blank">
-          Sentence-Parsing
-        </b-link>.
+        A Python Package of CKIP CoreNLP Toolkits with Sentence Segmentation, Word Segmentation, Part-of-Speech Tagging, Named-Entity Recognition, Sentence Parsing, Co-Reference Resolution.
       </p>
 
       <ButtonGroup>
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/corenlp"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckipnlp.readthedocs.io"
+          target="_blank"
+          fa-icon="file-code"
+          fa-style="fas"
+        >
+          Docs
+        </IconButton>
+
         <IconButton
           size="sm"
           variant="outline-primary"
@@ -41,17 +59,6 @@
           fa-style="fab"
         >
           Github
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="https://ckipnlp.readthedocs.io"
-          target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
-        >
-          Docs
         </IconButton>
       </ButtonGroup>
     </Card2b>
@@ -74,6 +81,17 @@
         <IconButton
           size="sm"
           variant="outline-primary"
+          href="https://ehownet.readthedocs.io"
+          target="_blank"
+          fa-icon="file-code"
+          fa-style="fas"
+        >
+          Docs (Parser)
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
           href="https://pypi.org/project/ehownet"
           target="_blank"
           fa-icon="python"
@@ -93,29 +111,18 @@
           Github (Parser)
         </IconButton>
 
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="https://ehownet.readthedocs.io"
-          target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
-        >
-          Docs (Parser)
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
-          target="_blank"
-          fa-icon="globe"
-          fa-style="fas"
-        >
-          Demo
-        </IconButton>
-
         <b-button-group>
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
+            target="_blank"
+            fa-icon="globe"
+            fa-style="fas"
+          >
+            Demo
+          </IconButton>
+
           <IconButton
             size="sm"
             variant="outline-primary"
@@ -123,9 +130,7 @@
             target="_blank"
             fa-icon="github"
             fa-style="fab"
-          >
-            Github (Demo)
-          </IconButton>
+          />
         </b-button-group>
       </ButtonGroup>
     </Card2b>
@@ -173,23 +178,23 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/emfomy/cosmel"
-          target="_blank"
-          fa-icon="github"
-          fa-style="fab"
-        >
-          Github
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
           href="https://emfomy.github.io/cosmel-data"
           target="_blank"
           fa-icon="file-code"
           fa-style="fas"
         >
           Docs
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://github.com/emfomy/cosmel"
+          target="_blank"
+          fa-icon="github"
+          fa-style="fab"
+        >
+          Github
         </IconButton>
       </ButtonGroup>
     </Card2b>
