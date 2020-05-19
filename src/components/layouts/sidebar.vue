@@ -3,7 +3,7 @@
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link :href="require('@/assets/img/avatar.jpg')" target="_blank">
-          <b-img center class="h-50 w-50" rounded="circle" :src="require('@/assets/img/avatar.jpg?resize')" />
+          <b-img center class="h-50 w-50" rounded="circle" :src="require('@/assets/img/avatar.jpg?resize').src" />
         </b-link>
       </b-navbar-brand>
 
@@ -130,12 +130,12 @@ export default {
         //   text: 'www.twitter.com/emfomy',
         // },
         // ,
-        orcid: {
-          icon: 'orcid',
-          type: 'ai',
-          href: '//orcid.org/0000-0001-6404-7842',
-          text: '0000-0001-6404-7842',
-        },
+        // orcid: {
+        //   icon: 'orcid',
+        //   type: 'ai',
+        //   href: '//orcid.org/0000-0001-6404-7842',
+        //   text: '0000-0001-6404-7842',
+        // },
       },
     };
   },

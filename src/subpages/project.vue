@@ -137,7 +137,7 @@
 
     <Card2b
       id="project-cosmel"
-      :img-src="require('@/assets/img/project/cosmel.png?resize')"
+      :img-src="require('@/assets/img/project/cosmel.png?resize').src"
       right
     >
       <header>
@@ -163,16 +163,16 @@
           >
             Paper (LREC 2020)
           </IconButton>
-          <!-- <IconButt
+          <IconButt
             v-b-tooltip.hover
             title="Official Link"
             size="sm"
             variant="outline-primary"
-            href=""
+            href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.234.pdf"
             target="_blank"
             fa-icon="external-link-alt"
             fa-style="fas"
-          /> -->
+          />
         </b-button-group>
 
         <IconButton
@@ -299,7 +299,7 @@
 
     <Card2b
       id="project-pass"
-      :img-src="require('@/assets/img/project/pass.png?resize')"
+      :img-src="require('@/assets/img/project/pass.png?resize').src"
       right
     >
       <header>
@@ -350,7 +350,7 @@
     <Collapse ref="collapse" name="project-more" class="mt-4">
       <Card2b
         id="project-voting"
-        :img-src="require('@/assets/img/project/voting.jpg?resize')"
+        :img-src="require('@/assets/img/project/voting.jpg?resize').src"
         right
       >
         <header>
@@ -390,7 +390,7 @@
 
       <Card2b
         id="project-his"
-        :img-src="require('@/assets/img/project/his.jpg?resize')"
+        :img-src="require('@/assets/img/project/his.jpg?resize').src"
         right
       >
         <header>
@@ -441,7 +441,7 @@
 
       <Card2b
         id="project-hhis"
-        :img-src="require('@/assets/img/project/hhis.png?resize')"
+        :img-src="require('@/assets/img/project/hhis.png?resize').src"
         right
       >
         <header>
@@ -469,7 +469,7 @@
 
       <Card2b
         id="project-nbfmm"
-        :img-src="require('@/assets/img/project/nbfmm.png?resize')"
+        :img-src="require('@/assets/img/project/nbfmm.png?resize').src"
         right
       >
         <header>
@@ -519,7 +519,7 @@
 
       <Card2b
         id="project-mandelbrot"
-        :img-src="require('@/assets/img/project/mandelbrot.jpg?resize')"
+        :img-src="require('@/assets/img/project/mandelbrot.jpg?resize').src"
         right
       >
         <header>
@@ -557,7 +557,7 @@
 
       <Card2b
         id="project-dsa"
-        :img-src="require('@/assets/img/project/dsa.jpg?resize')"
+        :img-src="require('@/assets/img/project/dsa.jpg?resize').src"
         right
       >
         <header>
@@ -585,7 +585,7 @@
 
       <Card2b
         id="project-wonderfultf"
-        :img-src="require('@/assets/img/project/wonderfultf.jpg?resize')"
+        :img-src="require('@/assets/img/project/wonderfultf.jpg?resize').src"
         right
       >
         <header>
@@ -613,7 +613,7 @@
 
       <Card2b
         id="project-assembly"
-        :img-src="require('@/assets/img/project/assembly.jpg?resize')"
+        :img-src="require('@/assets/img/project/assembly.jpg?resize').src"
         right
       >
         <header>
@@ -641,7 +641,7 @@
 
       <Card2b
         id="project-chessai"
-        :img-src="require('@/assets/img/project/chessai.jpg?resize')"
+        :img-src="require('@/assets/img/project/chessai.jpg?resize').src"
         right
       >
         <header>

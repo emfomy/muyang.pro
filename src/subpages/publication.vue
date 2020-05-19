@@ -6,8 +6,8 @@
 
     <Card2b
       id="publication-lrec-2020"
-      :img-src="require('@/assets/img/venue/lrec_2020.jpg?resize')"
-      :img-src-side="require('@/assets/img/venue/lrec_2020_sm.jpg?resize')"
+      :img-src="require('@/assets/img/venue/lrec_2020.jpg?resize').src"
+      :img-src-side="require('@/assets/img/venue/lrec_2020_sm.jpg?resize').src"
       href="https://lrec2020.lrec-conf.org"
     >
       <header>
@@ -27,16 +27,16 @@
           >
             Paper
           </IconButton>
-          <!-- <IconButton
+          <IconButton
             v-b-tooltip.hover
             title="Official Link"
             size="sm"
             variant="outline-primary"
-            href=""
+            href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.234.pdf"
             target="_blank"
             fa-icon="external-link-alt"
             fa-style="fas"
-          /> -->
+          />
         </b-button-group>
 
         <IconButton
@@ -65,7 +65,7 @@
 
     <Card2b
       id="publication-icsc-2019"
-      :img-src="require('@/assets/img/venue/icsc_2019.png?resize')"
+      :img-src="require('@/assets/img/venue/icsc_2019.png?resize').src"
       href="https://semanticcomputing.wixsite.com/icsc-2019"
     >
       <header>
@@ -123,7 +123,7 @@
 
     <Card2b
       id="publication-ieee-cit-2016"
-      :img-src="require('@/assets/img/venue/ieee_cit_2016.png?resize')"
+      :img-src="require('@/assets/img/venue/ieee_cit_2016.png?resize').src"
       href="http://nsclab.org/cit2016"
     >
       <header>
@@ -180,8 +180,8 @@
 
     <Card2b
       id="publication-ntu-thesis"
-      :img-src="require('@/assets/img/logo/ntu_banner.png?resize')"
-      :img-src-side="require('@/assets/img/logo/ntu_logo.png?resize')"
+      :img-src="require('@/assets/img/logo/ntu_banner.png?resize').src"
+      :img-src-side="require('@/assets/img/logo/ntu_logo.png?resize').src"
       href="https://doi.org/10.6342/NTU201702960"
     >
       <header>
@@ -227,7 +227,7 @@
 
     <Card2b
       id="publication-apcom-2019"
-      :img-src="require('@/assets/img/venue/apcom_2019.png?resize')"
+      :img-src="require('@/assets/img/venue/apcom_2019.png?resize').src"
       href="http://www.apcom2019.org"
     >
       <header>
@@ -261,7 +261,7 @@
 
     <Card2b
       id="publication-siam-cse-2017"
-      :img-src="require('@/assets/img/venue/siam_cse_2017.jpg?resize')"
+      :img-src="require('@/assets/img/venue/siam_cse_2017.jpg?resize').src"
       href="https://archive.siam.org/meetings/cse17/"
     >
       <header>
@@ -296,7 +296,7 @@
     <Collapse ref="collapse" name="publication-more" class="mt-4">
       <Card2b
         id="publication-tjjw-jsam-2016"
-        :img-src="require('@/assets/img/venue/tjjw_jsam_2016.png?resize')"
+        :img-src="require('@/assets/img/venue/tjjw_jsam_2016.png?resize').src"
         href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
       >
         <header>

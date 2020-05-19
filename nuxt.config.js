@@ -50,6 +50,7 @@ export default {
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
+    '@aceforth/nuxt-optimized-images',
   ],
   /*
   ** Nuxt.js modules
@@ -57,7 +58,6 @@ export default {
   modules: [
     'bootstrap-vue/nuxt',
     '@nuxtjs/fontawesome',
-    '@bazzite/nuxt-optimized-images',
   ],
   /*
   ** Build configuration
@@ -105,7 +105,7 @@ export default {
   optimizedImages: {
     optimizeImages: true,
     responsive: {
-      size: 300,
+      sizes: 600,
     },
   },
 };

@@ -6,7 +6,7 @@
 
     <Card1a
       id="award-fgc"
-      :img-src="require('@/assets/img/award/fgc_logo.png?resize')"
+      :img-src="require('@/assets/img/award/fgc_logo.png?resize').src"
     >
       <header>
         <h4>Top 2 Short Answer, Top 3 Multiple Choice, Out of 143 Teams.</h4>
@@ -49,7 +49,7 @@
 
     <Card1a
       id="award-academic-ntu"
-      :img-src="require('@/assets/img/logo/ntu_logo.png?resize')"
+      :img-src="require('@/assets/img/logo/ntu_logo.png?resize').src"
     >
       <header>
         <h4>Top 1 Academic Excellence Award</h4>
