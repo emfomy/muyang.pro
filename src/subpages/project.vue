@@ -168,7 +168,7 @@
             title="Official Link"
             size="sm"
             variant="outline-primary"
-            href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.234.pdf"
+            href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.235.pdf"
             target="_blank"
             fa-icon="external-link-alt"
             fa-style="fas"
