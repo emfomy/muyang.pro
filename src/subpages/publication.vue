@@ -32,7 +32,7 @@
             title="Official Link"
             size="sm"
             variant="outline-primary"
-            href="http://www.lrec-conf.org/proceedings/lrec2020/pdf/2020.lrec-1.235.pdf"
+            href="https://www.aclweb.org/anthology/2020.lrec-1.235"
             target="_blank"
             fa-icon="external-link-alt"
             fa-style="fas"
