@@ -1,24 +1,29 @@
 <template>
-  <b-navbar class="SideBar text-center d-flex flex-column p-3" type="light" variant="milk-light">
+  <b-navbar
+    class="SideBar text-center d-flex flex-column p-3"
+    type="light"
+    variant="milk-light"
+  >
     <div class="flex-fill w-100">
       <b-navbar-brand class="pt-3">
         <b-link :href="require('@/assets/img/avatar.jpg')" target="_blank">
-          <b-img center class="h-50 w-50" rounded="circle" :src="require('@/assets/img/avatar.jpg?resize').src" />
+          <b-img
+            center
+            class="h-50 w-50"
+            rounded="circle"
+            :src="require('@/assets/img/avatar.jpg?resize').src"
+          />
         </b-link>
       </b-navbar-brand>
 
       <b-nav-text class="py-0 px-3 w-100">
         <h3>Mu Yang</h3>
         <p>Research Assistant</p>
-        <hr>
+        <hr />
       </b-nav-text>
 
       <b-nav v-b-scrollspy pills vertical class="w-100">
-        <b-nav-item
-          v-scroll-to="'#about'"
-          href="#about"
-          @click="resetToggle"
-        >
+        <b-nav-item v-scroll-to="'#about'" href="#about" @click="resetToggle">
           About
         </b-nav-item>
         <b-nav-item
@@ -35,11 +40,7 @@
         >
           Publications
         </b-nav-item>
-        <b-nav-item
-          v-scroll-to="'#honor'"
-          href="#honor"
-          @click="resetToggle"
-        >
+        <b-nav-item v-scroll-to="'#honor'" href="#honor" @click="resetToggle">
           Honors
         </b-nav-item>
         <b-nav-item
@@ -54,7 +55,10 @@
 
     <div class="w-100 mt-3">
       <div class="d-block" @mouseleave="iconTextOff">
-        <b-nav-text class="IconText text-nowrap p-0" v-text="iconText || '\xA0'" />
+        <b-nav-text
+          class="IconText text-nowrap p-0"
+          v-text="iconText || '\xA0'"
+        />
         <div class="d-flex justify-content-around my-1">
           <b-link
             v-for="(item, key) in iconList"
@@ -64,14 +68,22 @@
             @mouseenter="iconTextOn(item)"
             @touchstart="iconTextOn(item)"
           >
-            <i v-if="item.type == 'ai'" class="ai ai-fw" :class="`ai-${item.icon}`" />
+            <i
+              v-if="item.type == 'ai'"
+              class="ai ai-fw"
+              :class="`ai-${item.icon}`"
+            />
             <fa-icon v-else class="fa-fw" :icon="[item.style, item.icon]" />
           </b-link>
         </div>
       </div>
-      <hr>
+      <hr />
       <footer>
-        <small><span class="text-muted">&copy; Mu Yang. All rights reserved.</span></small>
+        <small
+          ><span class="text-muted"
+            >&copy; Mu Yang. All rights reserved.</span
+          ></small
+        >
       </footer>
     </div>
   </b-navbar>
@@ -79,7 +91,6 @@
 
 <script>
 export default {
-  name: 'SideBar',
   props: {
     resetToggle: Function,
   },
@@ -158,7 +169,7 @@ export default {
   }
 
   .navbar-text {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 }
 

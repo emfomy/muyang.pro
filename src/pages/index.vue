@@ -14,23 +14,7 @@
 </template>
 
 <script>
-import About from '@/subpages/about.vue';
-import Education from '@/subpages/education.vue';
-import Employment from '@/subpages/employment.vue';
-import Honor from '@/subpages/honor.vue';
-import Project from '@/subpages/project.vue';
-import Publication from '@/subpages/publication.vue';
-
 export default {
-  name: 'Content',
-  components: {
-    About,
-    Education,
-    Employment,
-    Honor,
-    Project,
-    Publication,
-  },
   methods: {
     scrollTo(section, id) {
       this.$refs[section].$refs.collapse.$refs.collapse.show = true;

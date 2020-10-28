@@ -1,10 +1,15 @@
 <template>
   <div class="Layout">
-    <b-button id="toggler" class="navbar-toggler navbar-light" variant="outline-light" :pressed.sync="is_toggled">
+    <b-button
+      id="toggler"
+      class="navbar-toggler navbar-light"
+      variant="outline-light"
+      :pressed.sync="is_toggled"
+    >
       <span class="navbar-toggler-icon" />
     </b-button>
 
-    <b-container id="container" :class="{'is-toggled': is_toggled}" fluid>
+    <b-container id="container" :class="{ 'is-toggled': is_toggled }" fluid>
       <b-row>
         <div id="sidebar">
           <SideBar role="navigation" :reset-toggle="resetToggle" />
@@ -27,7 +32,6 @@ import SideBar from '@/components/layouts/sidebar.vue';
 // import Footer from '@/components/layouts/footer.vue';
 
 export default {
-  name: 'Layout',
   components: {
     SideBar,
     // Footer,
@@ -46,9 +50,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-@import "~bootstrap/scss/functions";
-@import "~bootstrap/scss/variables";
-@import "~bootstrap/scss/mixins";
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
 
 .Layout {
   overflow-x: hidden;
@@ -122,7 +126,6 @@ export default {
 
   // stylelint-disable-next-line order/order
   @include media-breakpoint-up(md) {
-
     @include layout(256px);
 
     #toggler {
@@ -132,13 +135,11 @@ export default {
 
   // stylelint-disable-next-line order/order
   @include media-breakpoint-up(lg) {
-
     @include layout(25%);
   }
 
   // stylelint-disable-next-line order/order
   @include media-breakpoint-up(xl) {
-
     @include layout(20%);
   }
 }

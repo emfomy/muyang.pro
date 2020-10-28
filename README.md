@@ -1,10 +1,8 @@
 # muyang.pro
 
-> 
-
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 

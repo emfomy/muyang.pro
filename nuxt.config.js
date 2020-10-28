@@ -1,9 +1,27 @@
 export default {
-  mode: 'universal',
-  srcDir: 'src/',
   /*
-  ** Headers of the page
-  */
+   ** Nuxt Configures
+   ** https://nuxtjs.org/guide/configuration
+   */
+  ssr: false,
+  srcDir: 'src/',
+  target: 'static',
+  build: {
+    babel: {
+      compact: true,
+    },
+    // eslint-disable-next-line no-unused-vars
+    extend(config, ctx) {
+      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader');
+      vueLoader.options.transformAssetUrls.CardA1 = 'img-src';
+      vueLoader.options.transformAssetUrls.CardA2 = 'img-src';
+      vueLoader.options.transformAssetUrls.CardB2 = ['img-src', 'img-src-side'];
+    },
+  },
+  generate: {
+    dir: 'docs',
+  },
+  components: true,
   head: {
     title: process.env.npm_package_name || '',
     meta: [
@@ -25,71 +43,45 @@ export default {
     ],
   },
   /*
-  ** Customize the progress-bar color
-  */
-  loading: { color: '#fff' },
-  /*
-  ** Global CSS
-  */
+   ** Styles
+   */
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css',
     '@/assets/vendor/academicons/css/academicons.min.css',
     '@/assets/scss/main.scss',
   ],
+  loading: true,
   /*
-  ** Plugins to load before mounting the App
-  */
+   ** Plugins
+   ** https://nuxtjs.org/guide/plugins
+   */
   plugins: [
-    { src: '@/plugins/components' },
-
     { src: '@/plugins/scrollto' },
   ],
   /*
-  ** Nuxt.js dev-modules
-  */
+   ** Modules
+   ** https://nuxtjs.org/guide/modules
+   */
+  modules: [
+    'bootstrap-vue/nuxt',
+    '@nuxtjs/fontawesome',
+  ],
   buildModules: [
     '@nuxtjs/eslint-module',
     '@nuxtjs/stylelint-module',
     '@aceforth/nuxt-optimized-images',
   ],
   /*
-  ** Nuxt.js modules
-  */
-  modules: [
-    'bootstrap-vue/nuxt',
-    '@nuxtjs/fontawesome',
-  ],
-  /*
-  ** Build configuration
-  */
-  build: {
-    /*
-    ** You can extend webpack config here
-    */
-    // eslint-disable-next-line no-unused-vars
-    extend(config, ctx) {
-      const vueLoader = config.module.rules.find((rule) => rule.loader === 'vue-loader');
-      vueLoader.options.transformAssetUrls.Card1a = 'img-src';
-      vueLoader.options.transformAssetUrls.Card1b = 'img-src';
-      vueLoader.options.transformAssetUrls.Card2b = ['img-src', 'img-src-side'];
-    },
-  },
-  /*
-  ** Generate configuration
-  */
-  generate: {
-    dir: 'docs',
-  },
-  /*
-  ** Bootstrap
-  */
+   ** Bootstrap Vue
+   */
   bootstrapVue: {
     bootstrapCSS: false,
     bootstrapVueCSS: false,
+    icons: false,
   },
   /*
-  ** Font Awesome
-  */
+   ** Font Awesome
+   */
   fontawesome: {
     component: 'fa',
     suffix: true,
@@ -105,7 +97,11 @@ export default {
   optimizedImages: {
     optimizeImages: true,
     responsive: {
-      sizes: 600,
+      sizes: [600],
+    },
+    webp: {
+      preset: 'default',
+      quality: 75,
     },
   },
-};
+}
