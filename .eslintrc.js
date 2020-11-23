@@ -1,5 +1,5 @@
 module.exports = {
-  ignorePatterns: ['src/assets/vendor/**/*'],
+  ignorePatterns: ['.nuxt/**/*', 'docs/**/*', 'src/assets/vendor/**/*'],
   root: true,
   env: {
     browser: true,

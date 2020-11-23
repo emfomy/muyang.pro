@@ -4,15 +4,72 @@
       <h2>Projects</h2>
     </template>
 
+    <CardB2 id="project-ckip-transformers" right>
+      <header>
+        <h4>CKIP Transformers</h4>
+        <p>2020</p>
+      </header>
+      <p>
+        A collection of Chinese NLP transformers models (including ALBERT, BERT,
+        GPT and some NLP tasks).
+      </p>
+
+      <ButtonGroup>
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://huggingface.co/ckiplab/"
+          target="_blank"
+          fa-icon="database"
+          fa-style="fas"
+        >
+          Models
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip-transformers.readthedocs.io"
+          target="_blank"
+          fa-icon="file-code"
+          fa-style="fas"
+        >
+          Docs
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://pypi.org/project/ckip-transformers"
+          target="_blank"
+          fa-icon="python"
+          fa-style="fab"
+        >
+          PyPI
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://github.com/emfomy/ckip-transformers"
+          target="_blank"
+          fa-icon="github"
+          fa-style="fab"
+        >
+          Github
+        </IconButton>
+      </ButtonGroup>
+    </CardB2>
+
     <CardB2 id="project-ckipnlp" right>
       <header>
         <h4>CKIP CoreNLP</h4>
         <p>2018-2020</p>
       </header>
       <p>
-        A Python Package of CKIP CoreNLP Toolkits with Sentence Segmentation,
-        Word Segmentation, Part-of-Speech Tagging, Named-Entity Recognition,
-        Sentence Parsing, Co-Reference Resolution.
+        A python package of CKIP CoreNLP toolkits with sentence segmentation,
+        word segmentation, part-of-speech tagging, named-entity recognition,
+        sentence parsing, co-reference resolution.
       </p>
 
       <ButtonGroup>
@@ -52,7 +109,7 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/emfomy/ckipnlp"
+          href="https://github.com/ckiplab/ckipnlp"
           target="_blank"
           fa-icon="github"
           fa-style="fab"
@@ -68,7 +125,7 @@
         <p>2018-2019</p>
       </header>
       <p>
-        A Parser for
+        A parser for
         <b-link href="http://ehownet.iis.sinica.edu.tw" target="_blank">
           E-HowNet </b-link
         >, and the visualization demo.

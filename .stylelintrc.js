@@ -1,5 +1,5 @@
 module.exports = {
-  ignoreFiles: ['src/assets/vendor/**/*'],
+  ignoreFiles: ['.nuxt/**/*', 'docs/**/*', 'src/assets/vendor/**/*'],
   extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
   // add your custom config here
   // https://stylelint.io/user-guide/configuration
