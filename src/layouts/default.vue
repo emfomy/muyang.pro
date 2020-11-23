@@ -1,5 +1,5 @@
 <template>
-  <div class="Layout">
+  <div id="top" class="Layout">
     <b-button
       id="toggler"
       class="navbar-toggler navbar-light"
@@ -21,7 +21,7 @@
       </b-row>
     </b-container>
 
-    <b-link id="back" v-scroll-to="'#app'" @click="resetToggle">
+    <b-link id="back" v-scroll-to="'#top'" @click="resetToggle">
       <fa-icon class="fa-2x text-primary" icon="chevron-circle-up" />
     </b-link>
   </div>

@@ -245,88 +245,89 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2
-      id="publication-apcom-2019"
-      :img-src="require('@/assets/img/venue/apcom_2019.png?resize').src"
-      href="http://www.apcom2019.org"
-    >
-      <header>
-        <h4>
-          Parallelized Integration of Multiple Random Sketches from Randomized
-          Singular Value Decomposition with Multi-Level Pairwise Integration
-          Method
-        </h4>
-        <p>
-          Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br />2019,
-          7th Asian Pacific Congress on Computational Mechanics (APCOM'19)
-        </p>
-      </header>
-
-      <ButtonGroup>
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="http://www.apcom2019.org"
-          target="_blank"
-          fa-icon="globe"
-          fa-style="fas"
-        >
-          Conference
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          fa-icon="level-down-alt"
-          fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-isvd')"
-        >
-          Related Project
-        </IconButton>
-      </ButtonGroup>
-    </CardB2>
-
-    <CardB2
-      id="publication-siam-cse-2017"
-      :img-src="require('@/assets/img/venue/siam_cse_2017.jpg?resize').src"
-      href="https://archive.siam.org/meetings/cse17/"
-    >
-      <header>
-        <h4>
-          Parallel Implementations of Integrated Singular Value Decomposition
-          (iSVD)
-        </h4>
-        <p>
-          Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br />2017, 9th SIAM
-          Conference on Computational Science and Engineering (SIAM CSE'17)
-        </p>
-      </header>
-
-      <ButtonGroup>
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="https://archive.siam.org/meetings/cse17/"
-          target="_blank"
-          fa-icon="globe"
-          fa-style="fas"
-        >
-          Conference
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          fa-icon="level-down-alt"
-          fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-isvd')"
-        >
-          Related Project
-        </IconButton>
-      </ButtonGroup>
-    </CardB2>
-
     <Collapse ref="collapse" name="publication-more" class="mt-4">
+      <CardB2
+        id="publication-apcom-2019"
+        :img-src="require('@/assets/img/venue/apcom_2019.png?resize').src"
+        href="http://www.apcom2019.org"
+      >
+        <header>
+          <h4>
+            Parallelized Integration of Multiple Random Sketches from Randomized
+            Singular Value Decomposition with Multi-Level Pairwise Integration
+            Method
+          </h4>
+          <p>
+            Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen<br />2019,
+            7th Asian Pacific Congress on Computational Mechanics (APCOM'19)
+          </p>
+        </header>
+
+        <ButtonGroup>
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="http://www.apcom2019.org"
+            target="_blank"
+            fa-icon="globe"
+            fa-style="fas"
+          >
+            Conference
+          </IconButton>
+
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            fa-icon="level-down-alt"
+            fa-style="fas"
+            @click.native="$parent.scrollTo('project', '#project-isvd')"
+          >
+            Related Project
+          </IconButton>
+        </ButtonGroup>
+      </CardB2>
+
+      <CardB2
+        id="publication-siam-cse-2017"
+        :img-src="require('@/assets/img/venue/siam_cse_2017.jpg?resize').src"
+        href="https://archive.siam.org/meetings/cse17/"
+      >
+        <header>
+          <h4>
+            Parallel Implementations of Integrated Singular Value Decomposition
+            (iSVD)
+          </h4>
+          <p>
+            Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang<br />2017, 9th
+            SIAM Conference on Computational Science and Engineering (SIAM
+            CSE'17)
+          </p>
+        </header>
+
+        <ButtonGroup>
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://archive.siam.org/meetings/cse17/"
+            target="_blank"
+            fa-icon="globe"
+            fa-style="fas"
+          >
+            Conference
+          </IconButton>
+
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            fa-icon="level-down-alt"
+            fa-style="fas"
+            @click.native="$parent.scrollTo('project', '#project-isvd')"
+          >
+            Related Project
+          </IconButton>
+        </ButtonGroup>
+      </CardB2>
+
       <CardB2
         id="publication-tjjw-jsam-2016"
         :img-src="require('@/assets/img/venue/tjjw_jsam_2016.png?resize').src"
