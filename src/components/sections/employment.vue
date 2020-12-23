@@ -5,7 +5,18 @@
     </template>
 
     <CardA2
-      year="2017-Pres."
+      year="2021-Pres."
+      title="Frontend Engineer"
+      institution="Taiwan AI Labs"
+      :img-src="require('@/assets/img/logo/ailabs_logo.png?resize&size=80').src"
+    >
+      <b-link href="https://ailabs.tw" target="_blank">Taiwan AI Labs</b-link>
+      <br />
+      Taipei, Taiwan
+    </CardA2>
+
+    <CardA2
+      year="2017-2021"
       title="Research Assistant"
       institution="Academia Sinica"
       :img-src="require('@/assets/img/logo/sinica_logo.png?resize&size=80').src"
@@ -15,7 +26,9 @@
       >,
       <b-link href="https://www.iis.sinica.edu.tw/en/index.html" target="_blank"
         >Institute of Information Science</b-link
-      >,<br />Academia Sinica, Taipei, Taiwan
+      >
+      <br />
+      Academia Sinica, Taipei, Taiwan
     </CardA2>
 
     <CardA2
@@ -26,7 +39,9 @@
     >
       <b-link href="http://www.watson.ibm.com" target="_blank"
         >Thomas J. Watson Research Center</b-link
-      >,<br />IBM, Yorktown Heights, NY, USA
+      >
+      <br />
+      IBM, Yorktown Heights, NY, USA
     </CardA2>
 
     <Collapse name="employment-more">
@@ -36,11 +51,13 @@
         institution="Nat'l. Taiwan Univ."
         :img-src="require('@/assets/img/logo/ntu_logo.png?resize&size=80').src"
       >
-        Supervised by Prof. Weichung Wang<br /><b-link
-          href="http://www.math.ntu.edu.tw/~iams/eng"
-          target="_blank"
+        Supervised by Prof. Weichung Wang
+        <br />
+        <b-link href="http://www.math.ntu.edu.tw/~iams/eng" target="_blank"
           >Institute of Applied Mathematical Sciences</b-link
-        >, National Taiwan University, Taipei, Taiwan<br /><i
+        >, National Taiwan University, Taipei, Taiwan
+        <br />
+        <i
           >conducting researches of high-performance parallel computing on
           hybrid CPU-GPU structures</i
         >
@@ -52,13 +69,13 @@
         institution="Nat'l. Taiwan Univ."
         :img-src="require('@/assets/img/logo/ntu_logo.png?resize&size=80').src"
       >
-        Supervised by Prof. Semin Kim<br /><b-link
-          href="http://www.econ.ntu.edu.tw/?locale=en"
-          target="_blank"
+        Supervised by Prof. Semin Kim
+        <br />
+        <b-link href="http://www.econ.ntu.edu.tw/?locale=en" target="_blank"
           >Department of Economics</b-link
-        >, National Taiwan University, Taipei, Taiwan<br /><i
-          >conducting researches of ordinal versus cardinal voting rules</i
-        >
+        >, National Taiwan University, Taipei, Taiwan
+        <br />
+        <i>conducting researches of ordinal versus cardinal voting rules</i>
       </CardA2>
 
       <CardA2

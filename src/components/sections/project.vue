@@ -10,8 +10,9 @@
         <p>2020</p>
       </header>
       <p>
-        A collection of Chinese NLP transformers models (including ALBERT, BERT,
-        GPT and some NLP tasks).
+        This project provides traditional Chinese transformers models (including
+        ALBERT, BERT, GPT2) and NLP tools (including word segmentation,
+        part-of-speech tagging, named entity recognition).
       </p>
 
       <ButtonGroup>
@@ -29,12 +30,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://ckip-transformers.readthedocs.io"
+          href="https://github.com/emfomy/ckip-transformers"
           target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
+          fa-icon="github"
+          fa-style="fab"
         >
-          Docs
+          Github
         </IconButton>
 
         <IconButton
@@ -51,12 +52,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/emfomy/ckip-transformers"
+          href="https://ckip-transformers.readthedocs.io"
           target="_blank"
-          fa-icon="github"
-          fa-style="fab"
+          fa-icon="file-code"
+          fa-style="fas"
         >
-          Github
+          Docs
         </IconButton>
       </ButtonGroup>
     </CardB2>
@@ -87,12 +88,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://ckipnlp.readthedocs.io"
+          href="https://github.com/ckiplab/ckipnlp"
           target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
+          fa-icon="github"
+          fa-style="fab"
         >
-          Docs
+          Github
         </IconButton>
 
         <IconButton
@@ -109,12 +110,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/ckiplab/ckipnlp"
+          href="https://ckipnlp.readthedocs.io"
           target="_blank"
-          fa-icon="github"
-          fa-style="fab"
+          fa-icon="file-code"
+          fa-style="fas"
         >
-          Github
+          Docs
         </IconButton>
       </ButtonGroup>
     </CardB2>
@@ -135,12 +136,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://ehownet.readthedocs.io"
+          href="https://github.com/emfomy/ehownet"
           target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
+          fa-icon="github"
+          fa-style="fab"
         >
-          Docs (Parser)
+          Github (Parser)
         </IconButton>
 
         <IconButton
@@ -157,12 +158,12 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/emfomy/ehownet"
+          href="https://ehownet.readthedocs.io"
           target="_blank"
-          fa-icon="github"
-          fa-style="fab"
+          fa-icon="file-code"
+          fa-style="fas"
         >
-          Github (Parser)
+          Docs (Parser)
         </IconButton>
 
         <b-button-group>
