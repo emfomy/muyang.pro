@@ -3,12 +3,9 @@
     <template #header>
       <h1>Mu Yang</h1>
       <h5>
-        Research Assistant,
-        <b-link href="https://ckip.iis.sinica.edu.tw" target="_blank"
-          >CKIP Lab</b-link
-        >,
-        <b-link href="https://www.sinica.edu.tw/en" target="_blank"
-          >Academia Sinica</b-link
+        Front-end Engineer,
+        <b-link href="https://ailabs.tw" target="_blank"
+          >Taiwan AI Labs</b-link
         >
       </h5>
     </template>
