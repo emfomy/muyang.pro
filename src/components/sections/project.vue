@@ -122,26 +122,26 @@
 
     <CardB2 id="project-ehn" right>
       <header>
-        <h4>E-HowNet Parsing and Visualization</h4>
+        <h4>E-HowNet Toolkit and Visualization</h4>
         <p>2018-2019</p>
       </header>
       <p>
-        A parser for
+        A toolkit (including database and syntax parsing) for
         <b-link href="http://ehownet.iis.sinica.edu.tw" target="_blank">
           E-HowNet </b-link
-        >, and the visualization demo.
+        >, and its visualization demo.
       </p>
 
       <ButtonGroup>
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://github.com/emfomy/ehownet"
+          href="https://github.com/ckiplab/ehownet"
           target="_blank"
           fa-icon="github"
           fa-style="fab"
         >
-          Github (Parser)
+          Github (Toolkit)
         </IconButton>
 
         <IconButton
@@ -152,7 +152,7 @@
           fa-icon="python"
           fa-style="fab"
         >
-          PyPI (Parser)
+          PyPI (Toolkit)
         </IconButton>
 
         <IconButton
@@ -163,7 +163,7 @@
           fa-icon="file-code"
           fa-style="fas"
         >
-          Docs (Parser)
+          Docs (Toolkit)
         </IconButton>
 
         <b-button-group>

@@ -13,7 +13,7 @@ export default {
     // eslint-disable-next-line no-unused-vars
     extend(config, ctx) {
       const vueLoader = config.module.rules.find(
-        (rule) => rule.loader === 'vue-loader'
+        (rule) => rule.loader === 'vue-loader',
       );
       vueLoader.options.transformAssetUrls.CardA1 = 'img-src';
       vueLoader.options.transformAssetUrls.CardA2 = 'img-src';
