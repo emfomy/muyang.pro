@@ -166,27 +166,16 @@
           Docs (Toolkit)
         </IconButton>
 
-        <b-button-group>
-          <IconButton
-            size="sm"
-            variant="outline-primary"
-            href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
-            target="_blank"
-            fa-icon="globe"
-            fa-style="fas"
-          >
-            Demo
-          </IconButton>
-
-          <IconButton
-            size="sm"
-            variant="outline-primary"
-            href="https://github.com/emfomy/ehn-demo"
-            target="_blank"
-            fa-icon="github"
-            fa-style="fab"
-          />
-        </b-button-group>
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo
+        </IconButton>
       </ButtonGroup>
     </CardB2>
 
