@@ -22,234 +22,235 @@
 	-webkit-font-smoothing:antialiased;
 	-moz-osx-font-smoothing:grayscale;
 }
-.ai-academia:before {
+.ai-academia::before {
   content: "\e9af";
 }
-.ai-academia-square:before {
+.ai-academia-square::before {
   content: "\e93d";
 }
-.ai-acclaim:before {
+.ai-acclaim::before {
   content: "\e92e";
 }
-.ai-acclaim-square:before {
+.ai-acclaim-square::before {
   content: "\e93a";
 }
-.ai-acm:before {
+.ai-acm::before {
   content: "\e93c";
 }
-.ai-acm-square:before {
+.ai-acm-square::before {
   content: "\e95d";
 }
-.ai-acmdl:before {
+.ai-acmdl::before {
   content: "\e96a";
 }
-.ai-acmdl-square:before {
+.ai-acmdl-square::before {
   content: "\e9d3";
 }
-.ai-ads:before {
+.ai-ads::before {
   content: "\e9cb";
 }
-.ai-ads-square:before {
+.ai-ads-square::before {
   content: "\e94a";
 }
-.ai-arxiv:before {
+.ai-arxiv::before {
   content: "\e974";
 }
-.ai-arxiv-square:before {
+.ai-arxiv-square::before {
   content: "\e9a6";
 }
-.ai-biorxiv:before {
+.ai-biorxiv::before {
   content: "\e9a2";
 }
-.ai-biorxiv-square:before {
+.ai-biorxiv-square::before {
   content: "\e98b";
 }
-.ai-ceur:before {
+.ai-ceur::before {
   content: "\e96d";
 }
-.ai-ceur-square:before {
+.ai-ceur-square::before {
   content: "\e92f";
 }
-.ai-coursera:before {
+.ai-coursera::before {
   content: "\e95f";
 }
-.ai-coursera-square:before {
+.ai-coursera-square::before {
   content: "\e97f";
 }
-.ai-cv:before {
+.ai-cv::before {
   content: "\e9a5";
 }
-.ai-cv-square:before {
+.ai-cv-square::before {
   content: "\e90a";
 }
-.ai-dataverse:before {
+.ai-dataverse::before {
   content: "\e9f7";
 }
-.ai-dataverse-square:before {
+.ai-dataverse-square::before {
   content: "\e9e4";
 }
-.ai-dblp:before {
+.ai-dblp::before {
   content: "\e94f";
 }
-.ai-dblp-square:before {
+.ai-dblp-square::before {
   content: "\e93f";
 }
-.ai-depsy:before {
+.ai-depsy::before {
   content: "\e97a";
 }
-.ai-depsy-square:before {
+.ai-depsy-square::before {
   content: "\e94b";
 }
-.ai-doi:before {
+.ai-doi::before {
   content: "\e97e";
 }
-.ai-doi-square:before {
+.ai-doi-square::before {
   content: "\e98f";
 }
-.ai-dryad:before {
+.ai-dryad::before {
   content: "\e97c";
 }
-.ai-dryad-square:before {
+.ai-dryad-square::before {
   content: "\e98c";
 }
-.ai-figshare:before {
+.ai-figshare::before {
   content: "\e981";
 }
-.ai-figshare-square:before {
+.ai-figshare-square::before {
   content: "\e9e7";
 }
-.ai-google-scholar:before {
+.ai-google-scholar::before {
   content: "\e9d4";
 }
-.ai-google-scholar-square:before {
+.ai-google-scholar-square::before {
   content: "\e9f9";
 }
-.ai-ideas-repec:before {
+.ai-ideas-repec::before {
   content: "\e9ed";
 }
-.ai-ideas-repec-square:before {
+.ai-ideas-repec-square::before {
   content: "\e9f8";
 }
-.ai-ieee:before {
+.ai-ieee::before {
   content: "\e929";
 }
-.ai-ieee-square:before {
+.ai-ieee-square::before {
   content: "\e9b9";
 }
-.ai-impactstory:before {
+.ai-impactstory::before {
   content: "\e9cf";
 }
-.ai-impactstory-square:before {
+.ai-impactstory-square::before {
   content: "\e9aa";
 }
-.ai-inspire:before {
+.ai-inspire::before {
   content: "\e9e9";
 }
-.ai-inspire-square:before {
+.ai-inspire-square::before {
   content: "\e9fe";
 }
-.ai-lattes:before {
+.ai-lattes::before {
   content: "\e9b3";
 }
-.ai-lattes-square:before {
+.ai-lattes-square::before {
   content: "\e99c";
 }
-.ai-mathoverflow:before {
+.ai-mathoverflow::before {
   content: "\e9f6";
 }
-.ai-mathoverflow-square:before {
+.ai-mathoverflow-square::before {
   content: "\e97b";
 }
-.ai-mendeley:before {
+.ai-mendeley::before {
   content: "\e9f0";
 }
-.ai-mendeley-square:before {
+.ai-mendeley-square::before {
   content: "\e9f3";
 }
-.ai-open-access:before {
+.ai-open-access::before {
   content: "\e939";
 }
-.ai-open-access-square:before {
+.ai-open-access-square::before {
   content: "\e9f4";
 }
-.ai-orcid:before {
+.ai-orcid::before {
   content: "\e9d9";
 }
-.ai-orcid-square:before {
+.ai-orcid-square::before {
   content: "\e9c3";
 }
-.ai-osf:before {
+.ai-osf::before {
   content: "\e9ef";
 }
-.ai-osf-square:before {
+.ai-osf-square::before {
   content: "\e931";
 }
-.ai-overleaf:before {
+.ai-overleaf::before {
   content: "\e914";
 }
-.ai-overleaf-square:before {
+.ai-overleaf-square::before {
   content: "\e98d";
 }
-.ai-philpapers:before {
+.ai-philpapers::before {
   content: "\e98a";
 }
-.ai-philpapers-square:before {
+.ai-philpapers-square::before {
   content: "\e96f";
 }
-.ai-piazza:before {
+.ai-piazza::before {
   content: "\e99a";
 }
-.ai-piazza-square:before {
+.ai-piazza-square::before {
   content: "\e90c";
 }
-.ai-publons:before {
+.ai-publons::before {
   content: "\e937";
 }
-.ai-publons-square:before {
+.ai-publons-square::before {
   content: "\e94e";
 }
-.ai-pubmed:before {
+.ai-pubmed::before {
   content: "\e99f";
 }
-.ai-pubmed-square:before {
+.ai-pubmed-square::before {
   content: "\e97d";
 }
-.ai-researcherid:before {
+.ai-researcherid::before {
   content: "\e91a";
 }
-.ai-researcherid-square:before {
+.ai-researcherid-square::before {
   content: "\e95c";
 }
-.ai-researchgate:before {
+.ai-researchgate::before {
   content: "\e95e";
 }
-.ai-researchgate-square:before {
+.ai-researchgate-square::before {
   content: "\e99e";
 }
-.ai-scirate:before {
+.ai-scirate::before {
   content: "\e98e";
 }
-.ai-scirate-square:before {
+.ai-scirate-square::before {
   content: "\e99d";
 }
-.ai-semantic-scholar:before {
+.ai-semantic-scholar::before {
   content: "\e96e";
 }
-.ai-semantic-scholar-square:before {
+.ai-semantic-scholar-square::before {
   content: "\e96c";
 }
-.ai-springer:before {
+.ai-springer::before {
   content: "\e928";
 }
-.ai-springer-square:before {
+.ai-springer-square::before {
   content: "\e99b";
 }
-.ai-zotero:before {
+.ai-zotero::before {
   content: "\e962";
 }
-.ai-zotero-square:before {
+.ai-zotero-square::before {
   content: "\e932";
 }
+
 /*  Duplication of the FontAwesome style classes using 'ai' in place of 'fa'. */
 .ai-lg {
   font-size: 1.33333333em;
@@ -307,6 +308,7 @@
 .ai.fa-pull-right {
   margin-left: .3em;
 }
+
 /*  
  *  Repeat of the FontAwesome style classes to prevent override if academicons.css
  *  is called after font-awesome.css.

@@ -4,9 +4,7 @@
       <h1>Mu Yang</h1>
       <h5>
         Front-end Engineer,
-        <b-link href="https://ailabs.tw" target="_blank"
-          >Taiwan AI Labs</b-link
-        >
+        <b-link href="https://ailabs.tw" target="_blank">Taiwan AI Labs</b-link>
       </h5>
     </template>
 

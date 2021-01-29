@@ -19,6 +19,28 @@
         <IconButton
           size="sm"
           variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/transformers"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo (NLP Tools)
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/gpt2"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo (Text Generation)
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
           href="https://huggingface.co/ckiplab/"
           target="_blank"
           fa-icon="database"
@@ -141,7 +163,7 @@
           fa-icon="github"
           fa-style="fab"
         >
-          Github (Toolkit)
+          Github
         </IconButton>
 
         <IconButton
@@ -152,7 +174,7 @@
           fa-icon="python"
           fa-style="fab"
         >
-          PyPI (Toolkit)
+          PyPI
         </IconButton>
 
         <IconButton
@@ -163,7 +185,7 @@
           fa-icon="file-code"
           fa-style="fas"
         >
-          Docs (Toolkit)
+          Docs
         </IconButton>
 
         <IconButton
