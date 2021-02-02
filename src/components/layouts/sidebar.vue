@@ -44,8 +44,8 @@
           Honors
         </b-nav-item>
         <b-nav-item
-          v-scroll-to="'#project'"
-          href="#project"
+          v-scroll-to="'#protfolio'"
+          href="#protfolio"
           @click="resetToggle"
         >
           Portfolio
