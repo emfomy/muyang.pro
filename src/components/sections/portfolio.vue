@@ -1,14 +1,15 @@
 <template>
-  <Section class="Project">
+  <Section class="Portfolio">
     <template #header>
-      <h2>Projects</h2>
+      <h2>Portfolio</h2>
     </template>
 
     <CardB2
       id="project-ckip-transformers"
       :img-src="
-        require('@/assets/img/project/ckip-transformers.png?resize').src
+        require('@/assets/img/project/ckip-gpt2.png?resize').src
       "
+      href="https://ckip.iis.sinica.edu.tw/service/gpt2"
       right
     >
       <header>
@@ -25,23 +26,23 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://ckip.iis.sinica.edu.tw/service/transformers"
-          target="_blank"
-          fa-icon="globe"
-          fa-style="fas"
-        >
-          Demo (NLP Tools)
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
           href="https://ckip.iis.sinica.edu.tw/service/gpt2"
           target="_blank"
           fa-icon="globe"
           fa-style="fas"
         >
           Demo (Text Generation)
+        </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/transformers"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo (NLP Tools)
         </IconButton>
 
         <IconButton
@@ -93,6 +94,7 @@
     <CardB2
       id="project-ckiplab"
       :img-src="require('@/assets/img/project/ckiplab.png?resize').src"
+      href="https://ckip.iis.sinica.edu.tw"
       right
     >
       <header>
@@ -116,6 +118,7 @@
     <CardB2
       id="project-ckipnlp"
       :img-src="require('@/assets/img/project/ckipnlp.png?resize').src"
+      href="https://ckip.iis.sinica.edu.tw/service/corenlp"
       right
     >
       <header>
@@ -178,6 +181,7 @@
     <CardB2
       id="project-ehownet"
       :img-src="require('@/assets/img/project/ehownet.png?resize').src"
+      href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
       right
     >
       <header>
@@ -241,6 +245,7 @@
     <CardB2
       id="project-cosmel"
       :img-src="require('@/assets/img/project/cosmel.png?resize').src"
+      href="/file/paper/lrec_2020_cosmel.pdf"
       right
     >
       <header>
@@ -303,7 +308,11 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-hwe" right>
+    <CardB2
+      id="project-hwe"
+      href="/file/paper/icsc_2019_hwe.pdf"
+      right
+    >
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017–2018</p>
@@ -351,7 +360,11 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-isvd" right>
+    <CardB2
+      id="project-isvd"
+      href="/file/paper/ntu_thesis_2017_isvd.pdf"
+      right
+    >
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015–2017</p>
@@ -402,6 +415,7 @@
     <CardB2
       id="project-pass"
       :img-src="require('@/assets/img/project/pass.png?resize').src"
+      href="/file/paper/ieee_cse_2016_pass.pdf"
       right
     >
       <header>
@@ -455,6 +469,7 @@
       <CardB2
         id="project-voting"
         :img-src="require('@/assets/img/project/voting.jpg?resize').src"
+        href="/file/paper/geb_2017_voting.pdf"
         right
       >
         <header>
@@ -496,6 +511,7 @@
       <CardB2
         id="project-his"
         :img-src="require('@/assets/img/project/his.jpg?resize').src"
+        href="/file/paper/ntu_thesis_2016_his.pdf"
         right
       >
         <header>
@@ -550,6 +566,7 @@
       <CardB2
         id="project-hhis"
         :img-src="require('@/assets/img/project/hhis.png?resize').src"
+        href="https://bitbucket.org/emfomy/lorarc"
         right
       >
         <header>
@@ -581,6 +598,7 @@
       <CardB2
         id="project-nbfmm"
         :img-src="require('@/assets/img/project/nbfmm.png?resize').src"
+        href="https://sites.google.com/site/nbfmmprojectforgpuprograming"
         right
       >
         <header>
@@ -635,6 +653,7 @@
       <CardB2
         id="project-mandelbrot"
         :img-src="require('@/assets/img/project/mandelbrot.jpg?resize').src"
+        href="https://www.youtube.com/watch?v=BsRrcccV-X4"
         right
       >
         <header>
@@ -671,6 +690,7 @@
       <CardB2
         id="project-dsa"
         :img-src="require('@/assets/img/project/dsa.jpg?resize').src"
+        href="https://github.com/emfomy/dsa_final"
         right
       >
         <header>
@@ -700,6 +720,7 @@
       <CardB2
         id="project-wonderfultf"
         :img-src="require('@/assets/img/project/wonderfultf.jpg?resize').src"
+        href="https://sites.google.com/site/wonderfultf"
         right
       >
         <header>
@@ -730,6 +751,7 @@
       <CardB2
         id="project-assembly"
         :img-src="require('@/assets/img/project/assembly.jpg?resize').src"
+        href="https://github.com/emfomy/tragedytriangle"
         right
       >
         <header>
@@ -759,6 +781,7 @@
       <CardB2
         id="project-chessai"
         :img-src="require('@/assets/img/project/chessai.jpg?resize').src"
+        href="https://github.com/emfomy/chess_ai"
         right
       >
         <header>
@@ -794,7 +817,7 @@ export default {};
 </script>
 
 <style scoped lang="scss">
-.Project {
+.Portfolio {
   .Card {
     border-top: solid 4px #f4f4f4;
   }

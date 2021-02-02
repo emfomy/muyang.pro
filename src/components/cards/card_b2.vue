@@ -9,7 +9,7 @@
         xl="3"
         class="d-flex align-items-center justify-content-center mb-3 mb-lg-0"
       >
-        <b-link :href="href" :target="target" :disabled="!href">
+        <b-link :href="href" :target="target" :disabled="!href" class="image">
           <picture v-if="imgSrc">
             <source
               v-if="imgSrcSide"

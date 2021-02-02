@@ -9,7 +9,7 @@
     </b-container>
     <Publication id="publication" ref="publication" />
     <Honor id="honor" ref="honor" />
-    <Project id="project" ref="project" />
+    <Portfolio id="portfolio" ref="portfolio" />
   </b-container>
 </template>
 

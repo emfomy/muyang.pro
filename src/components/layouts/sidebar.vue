@@ -31,7 +31,7 @@
           href="#education"
           @click="resetToggle"
         >
-          Experiences
+          Experience
         </b-nav-item>
         <b-nav-item
           v-scroll-to="'#publication'"
@@ -48,7 +48,7 @@
           href="#project"
           @click="resetToggle"
         >
-          Projects
+          Portfolio
         </b-nav-item>
       </b-nav>
     </div>

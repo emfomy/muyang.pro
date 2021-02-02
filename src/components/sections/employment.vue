@@ -1,7 +1,7 @@
 <template>
   <Section>
     <template #header>
-      <h2>Employments</h2>
+      <h2>Employment</h2>
     </template>
 
     <CardA2
