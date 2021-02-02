@@ -6,9 +6,7 @@
 
     <CardB2
       id="project-ckip-transformers"
-      :img-src="
-        require('@/assets/img/project/ckip-gpt2.png?resize').src
-      "
+      :img-src="require('@/assets/img/project/ckip-gpt2.png?resize').src"
       href="https://ckip.iis.sinica.edu.tw/service/gpt2"
       right
     >
@@ -308,11 +306,7 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2
-      id="project-hwe"
-      href="/file/paper/icsc_2019_hwe.pdf"
-      right
-    >
+    <CardB2 id="project-hwe" href="/file/paper/icsc_2019_hwe.pdf" right>
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017–2018</p>
@@ -360,11 +354,7 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2
-      id="project-isvd"
-      href="/file/paper/ntu_thesis_2017_isvd.pdf"
-      right
-    >
+    <CardB2 id="project-isvd" href="/file/paper/ntu_thesis_2017_isvd.pdf" right>
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015–2017</p>
