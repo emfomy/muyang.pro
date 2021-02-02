@@ -25,14 +25,14 @@ export default {
   },
   components: true,
   head: {
-    title: process.env.npm_package_name || '',
+    title: 'Mu Yang',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || '',
+        content: 'Mu Yang',
       },
       { name: 'msapplication-TileColor', content: '#888888' },
       { name: 'theme-color', content: '#ffffff' },

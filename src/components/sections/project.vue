@@ -4,10 +4,16 @@
       <h2>Projects</h2>
     </template>
 
-    <CardB2 id="project-ckip-transformers" right>
+    <CardB2
+      id="project-ckip-transformers"
+      :img-src="
+        require('@/assets/img/project/ckip-transformers.png?resize').src
+      "
+      right
+    >
       <header>
         <h4>CKIP Transformers</h4>
-        <p>2020</p>
+        <p>2020–2021</p>
       </header>
       <p>
         This project provides traditional Chinese transformers models (including
@@ -84,10 +90,37 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-ckipnlp" right>
+    <CardB2
+      id="project-ckiplab"
+      :img-src="require('@/assets/img/project/ckiplab.png?resize').src"
+      right
+    >
+      <header>
+        <h4>CKIP Website</h4>
+        <p>2019–2021</p>
+      </header>
+      <p>A landing website for CKIP Lab.</p>
+
+      <IconButton
+        size="sm"
+        variant="outline-primary"
+        href="https://ckip.iis.sinica.edu.tw"
+        target="_blank"
+        fa-icon="globe"
+        fa-style="fas"
+      >
+        Website
+      </IconButton>
+    </CardB2>
+
+    <CardB2
+      id="project-ckipnlp"
+      :img-src="require('@/assets/img/project/ckipnlp.png?resize').src"
+      right
+    >
       <header>
         <h4>CKIP CoreNLP</h4>
-        <p>2018-2020</p>
+        <p>2018–2020</p>
       </header>
       <p>
         A python package of CKIP CoreNLP toolkits with sentence segmentation,
@@ -142,10 +175,14 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-ehn" right>
+    <CardB2
+      id="project-ehownet"
+      :img-src="require('@/assets/img/project/ehownet.png?resize').src"
+      right
+    >
       <header>
         <h4>E-HowNet Toolkit and Visualization</h4>
-        <p>2018-2019</p>
+        <p>2018–2019</p>
       </header>
       <p>
         A toolkit (including database and syntax parsing) for
@@ -155,6 +192,17 @@
       </p>
 
       <ButtonGroup>
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
+          target="_blank"
+          fa-icon="globe"
+          fa-style="fas"
+        >
+          Demo
+        </IconButton>
+
         <IconButton
           size="sm"
           variant="outline-primary"
@@ -187,17 +235,6 @@
         >
           Docs
         </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
-          href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
-          target="_blank"
-          fa-icon="globe"
-          fa-style="fas"
-        >
-          Demo
-        </IconButton>
       </ButtonGroup>
     </CardB2>
 
@@ -208,7 +245,7 @@
     >
       <header>
         <h4>CosmEL: Cosmetic Entity Linking</h4>
-        <p>2017-2019</p>
+        <p>2017–2019</p>
       </header>
       <p>
         A novel entity linking project on cosmetic domain with dataset and
@@ -245,17 +282,6 @@
         <IconButton
           size="sm"
           variant="outline-primary"
-          href="https://emfomy.github.io/cosmel-data"
-          target="_blank"
-          fa-icon="file-code"
-          fa-style="fas"
-        >
-          Docs
-        </IconButton>
-
-        <IconButton
-          size="sm"
-          variant="outline-primary"
           href="https://github.com/emfomy/cosmel"
           target="_blank"
           fa-icon="github"
@@ -263,13 +289,24 @@
         >
           Github
         </IconButton>
+
+        <IconButton
+          size="sm"
+          variant="outline-primary"
+          href="https://emfomy.github.io/cosmel-data"
+          target="_blank"
+          fa-icon="file-code"
+          fa-style="fas"
+        >
+          Docs
+        </IconButton>
       </ButtonGroup>
     </CardB2>
 
     <CardB2 id="project-hwe" right>
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
-        <p>2017-2018</p>
+        <p>2017–2018</p>
       </header>
       <p>
         A general and flexible framework of word embeddings to incorporate each
@@ -317,7 +354,7 @@
     <CardB2 id="project-isvd" right>
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
-        <p>2015-2017</p>
+        <p>2015–2017</p>
       </header>
       <p>
         A parallel low-rank approximate singular value decomposition solver
@@ -369,7 +406,7 @@
     >
       <header>
         <h4>PaSS: Particle Swarm Stepwise Algorithm</h4>
-        <p>2013-2015</p>
+        <p>2013–2015</p>
       </header>
       <p>
         A parallel stochastic search algorithm for information criterion
@@ -463,7 +500,7 @@
       >
         <header>
           <h4>HiS: Hierarchical Schur Solver</h4>
-          <p>2015-2016</p>
+          <p>2015–2016</p>
         </header>
         <p>
           A direct linear solver exploiting the sparse structure of multilevel
@@ -517,7 +554,7 @@
       >
         <header>
           <h4>hHiS: Hybrid Hierarchical Schur Solver</h4>
-          <p>2014-2016</p>
+          <p>2014–2016</p>
         </header>
         <p>
           A parallel linear solver for sparse symmetric positive definite
@@ -574,23 +611,23 @@
           <IconButton
             size="sm"
             variant="outline-primary"
-            href="http://emfomy.github.io/nbfmm"
-            target="_blank"
-            fa-icon="file-code"
-            fa-style="fas"
-          >
-            Docs
-          </IconButton>
-
-          <IconButton
-            size="sm"
-            variant="outline-primary"
             href="https://github.com/emfomy/nbfmm"
             target="_blank"
             fa-icon="github"
             fa-style="fab"
           >
             GitHub
+          </IconButton>
+
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="http://emfomy.github.io/nbfmm"
+            target="_blank"
+            fa-icon="file-code"
+            fa-style="fas"
+          >
+            Docs
           </IconButton>
         </ButtonGroup>
       </CardB2>
