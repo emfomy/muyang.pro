@@ -746,7 +746,7 @@
           <IconButton
             size="sm"
             variant="outline-primary"
-            href="https://sites.google.com/site/tragedytriangle"
+            href="https://github.com/emfomy/tragedytriangle"
             target="_blank"
             fa-icon="globe"
             fa-style="fas"
