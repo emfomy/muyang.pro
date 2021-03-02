@@ -21,21 +21,21 @@ export default {
 
 <style scoped lang="scss">
 .Opener {
-  .OpenerText::before,
-  .OpenerText::after {
+  .OpenerText:before,
+  .OpenerText:after {
     transition: opacity 0.5s ease;
   }
 
-  .OpenerText::before {
+  .OpenerText:before {
     content: 'More';
   }
 
-  .OpenerText::after {
+  .OpenerText:after {
     content: 'Hide';
   }
 
-  &:not(.collapsed) .OpenerText::before,
-  &.collapsed .OpenerText::after {
+  &:not(.collapsed) .OpenerText:before,
+  &.collapsed .OpenerText:after {
     content: '';
     opacity: 0;
   }

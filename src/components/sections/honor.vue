@@ -16,7 +16,7 @@
           <IconButton
             size="xs"
             variant="outline-primary"
-            href="https://fgc.stpi.narl.org.tw/news/newsDetail?id=4b11413069b2d4110169b3d72dfa0002"
+            href="https://www.most.gov.tw/bio/ch/detail?article_uid=8f0715a3-fcf3-4ffb-9920-6245ec14e77b"
             target="_blank"
             fa-icon="external-link-alt"
             fa-style="fas"

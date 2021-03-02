@@ -7,8 +7,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint:js": "eslint --ext .js,.vue .",
+    "lint:style": "stylelint **/*.{vue,css,sass,scss}",
     "lint": "yarn lint:js && yarn lint:style"
   },
   "dependencies": {
@@ -42,6 +42,7 @@
     "stylelint": "^13.7.2",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.19.0",
     "webp-loader": "^0.6.0"
   }
 }
