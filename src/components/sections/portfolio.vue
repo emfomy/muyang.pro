@@ -6,8 +6,10 @@
 
     <CardB2
       id="project-ckip-transformers"
-      :img-src="require('@/assets/img/project/ckip-gpt2.png?resize').src"
-      href="https://ckip.iis.sinica.edu.tw/service/gpt2"
+      :img-src="
+        require('@/assets/img/project/ckip-transformers.png?resize').src
+      "
+      href="https://github.com/emfomy/ckip-transformers"
       right
     >
       <header>
@@ -115,8 +117,8 @@
 
     <CardB2
       id="project-ckipnlp"
-      :img-src="require('@/assets/img/project/ckipnlp.png?resize').src"
-      href="https://ckip.iis.sinica.edu.tw/service/corenlp"
+      :img-src="require('@/assets/img/project/ckipnlp.jpg?resize').src"
+      href="https://github.com/ckiplab/ckipnlp"
       right
     >
       <header>
