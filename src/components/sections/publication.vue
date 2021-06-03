@@ -63,7 +63,7 @@
           href=""
           fa-icon="level-down-alt"
           fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-cosmel')"
+          @click.native="$parent.scrollTo('portfolio', '#portfolio-cosmel')"
         >
           Related Project
         </IconButton>
@@ -124,7 +124,7 @@
           href=""
           fa-icon="level-down-alt"
           fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-hwe')"
+          @click.native="$parent.scrollTo('portfolio', '#portfolio-hwe')"
         >
           Related Project
         </IconButton>
@@ -188,7 +188,7 @@
           variant="outline-primary"
           fa-icon="level-down-alt"
           fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-pass')"
+          @click.native="$parent.scrollTo('portfolio', '#portfolio-pass')"
         >
           Related Project
         </IconButton>
@@ -238,7 +238,7 @@
           variant="outline-primary"
           fa-icon="level-down-alt"
           fa-style="fas"
-          @click.native="$parent.scrollTo('project', '#project-isvd')"
+          @click.native="$parent.scrollTo('portfolio', '#portfolio-isvd')"
         >
           Related Project
         </IconButton>
@@ -280,7 +280,7 @@
             variant="outline-primary"
             fa-icon="level-down-alt"
             fa-style="fas"
-            @click.native="$parent.scrollTo('project', '#project-isvd')"
+            @click.native="$parent.scrollTo('portfolio', '#portfolio-isvd')"
           >
             Related Project
           </IconButton>
@@ -321,7 +321,7 @@
             variant="outline-primary"
             fa-icon="level-down-alt"
             fa-style="fas"
-            @click.native="$parent.scrollTo('project', '#project-isvd')"
+            @click.native="$parent.scrollTo('portfolio', '#portfolio-isvd')"
           >
             Related Project
           </IconButton>
@@ -369,7 +369,7 @@
             variant="outline-primary"
             fa-icon="level-down-alt"
             fa-style="fas"
-            @click.native="$parent.scrollTo('project', '#project-hhis')"
+            @click.native="$parent.scrollTo('portfolio', '#portfolio-hhis')"
           >
             Related Project
           </IconButton>

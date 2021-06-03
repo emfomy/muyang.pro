@@ -5,7 +5,7 @@
     </template>
 
     <CardB2
-      id="project-ckip-transformers"
+      id="portfolio-ckip-transformers"
       :img-src="
         require('@/assets/img/project/ckip-transformers.png?resize').src
       "
@@ -92,7 +92,7 @@
     </CardB2>
 
     <CardB2
-      id="project-ckiplab"
+      id="portfolio-ckiplab"
       :img-src="require('@/assets/img/project/ckiplab.png?resize').src"
       href="https://ckip.iis.sinica.edu.tw"
       right
@@ -116,7 +116,7 @@
     </CardB2>
 
     <CardB2
-      id="project-ckipnlp"
+      id="portfolio-ckipnlp"
       :img-src="require('@/assets/img/project/ckipnlp.jpg?resize').src"
       href="https://github.com/ckiplab/ckipnlp"
       right
@@ -179,7 +179,7 @@
     </CardB2>
 
     <CardB2
-      id="project-ehownet"
+      id="portfolio-ehownet"
       :img-src="require('@/assets/img/project/ehownet.png?resize').src"
       href="https://ckip.iis.sinica.edu.tw/service/ehnvis"
       right
@@ -243,7 +243,7 @@
     </CardB2>
 
     <CardB2
-      id="project-cosmel"
+      id="portfolio-cosmel"
       :img-src="require('@/assets/img/project/cosmel.png?resize').src"
       href="/file/paper/lrec_2020_cosmel.pdf"
       right
@@ -308,7 +308,7 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-hwe" href="/file/paper/icsc_2019_hwe.pdf" right>
+    <CardB2 id="portfolio-hwe" href="/file/paper/icsc_2019_hwe.pdf" right>
       <header>
         <h4>HWE: Heterogeneous Word Embedding</h4>
         <p>2017–2018</p>
@@ -356,7 +356,11 @@
       </ButtonGroup>
     </CardB2>
 
-    <CardB2 id="project-isvd" href="/file/paper/ntu_thesis_2017_isvd.pdf" right>
+    <CardB2
+      id="portfolio-isvd"
+      href="/file/paper/ntu_thesis_2017_isvd.pdf"
+      right
+    >
       <header>
         <h4>iSVD: Integrated Singular Value Decomposition Algorithm</h4>
         <p>2015–2017</p>
@@ -405,7 +409,7 @@
     </CardB2>
 
     <CardB2
-      id="project-pass"
+      id="portfolio-pass"
       :img-src="require('@/assets/img/project/pass.png?resize').src"
       href="/file/paper/ieee_cse_2016_pass.pdf"
       right
@@ -459,7 +463,7 @@
 
     <Collapse ref="collapse" name="project-more" class="mt-4">
       <CardB2
-        id="project-voting"
+        id="portfolio-voting"
         :img-src="require('@/assets/img/project/voting.jpg?resize').src"
         href="/file/paper/geb_2017_voting.pdf"
         right
@@ -501,7 +505,7 @@
       </CardB2>
 
       <CardB2
-        id="project-his"
+        id="portfolio-his"
         :img-src="require('@/assets/img/project/his.jpg?resize').src"
         href="/file/paper/ntu_thesis_2016_his.pdf"
         right
@@ -556,7 +560,7 @@
       </CardB2>
 
       <CardB2
-        id="project-hhis"
+        id="portfolio-hhis"
         :img-src="require('@/assets/img/project/hhis.png?resize').src"
         href="https://bitbucket.org/emfomy/lorarc"
         right
@@ -588,7 +592,7 @@
       </CardB2>
 
       <CardB2
-        id="project-nbfmm"
+        id="portfolio-nbfmm"
         :img-src="require('@/assets/img/project/nbfmm.png?resize').src"
         href="https://sites.google.com/site/nbfmmprojectforgpuprograming"
         right
@@ -643,7 +647,7 @@
       </CardB2>
 
       <CardB2
-        id="project-mandelbrot"
+        id="portfolio-mandelbrot"
         :img-src="require('@/assets/img/project/mandelbrot.jpg?resize').src"
         href="https://www.youtube.com/watch?v=BsRrcccV-X4"
         right
@@ -680,7 +684,7 @@
       </CardB2>
 
       <CardB2
-        id="project-dsa"
+        id="portfolio-dsa"
         :img-src="require('@/assets/img/project/dsa.jpg?resize').src"
         href="https://github.com/emfomy/dsa_final"
         right
@@ -710,7 +714,7 @@
       </CardB2>
 
       <CardB2
-        id="project-wonderfultf"
+        id="portfolio-wonderfultf"
         :img-src="require('@/assets/img/project/wonderfultf.jpg?resize').src"
         href="https://sites.google.com/site/wonderfultf"
         right
@@ -741,7 +745,7 @@
       </CardB2>
 
       <CardB2
-        id="project-assembly"
+        id="portfolio-assembly"
         :img-src="require('@/assets/img/project/assembly.jpg?resize').src"
         href="https://github.com/emfomy/tragedytriangle"
         right
@@ -771,7 +775,7 @@
       </CardB2>
 
       <CardB2
-        id="project-chessai"
+        id="portfolio-chessai"
         :img-src="require('@/assets/img/project/chessai.jpg?resize').src"
         href="https://github.com/emfomy/chess_ai"
         right
