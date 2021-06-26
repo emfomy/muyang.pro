@@ -22,7 +22,6 @@
 
 <script>
 export default {
-  name: 'CardA1',
   props: {
     imgSrc: [String, Object],
     icon: [String, Object],

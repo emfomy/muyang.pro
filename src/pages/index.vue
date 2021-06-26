@@ -1,5 +1,5 @@
 <template>
-  <b-container class="Content px-0 px-md-3">
+  <b-container class="Content px-0 px-md-3 pb-5">
     <About id="about" ref="about" class="border-top-0" />
     <b-container>
       <b-row>

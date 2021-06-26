@@ -30,7 +30,6 @@
 
 <script>
 export default {
-  name: 'CardB2',
   props: {
     imgSrc: [String, Object],
     imgSrcSide: [String, Object],

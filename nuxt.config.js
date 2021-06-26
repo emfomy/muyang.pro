@@ -11,19 +11,24 @@ export default {
       compact: true,
     },
     // eslint-disable-next-line no-unused-vars
-    extend(config, ctx) {
-      const vueLoader = config.module.rules.find(
-        (rule) => rule.loader === 'vue-loader',
-      );
-      vueLoader.options.transformAssetUrls.CardA1 = 'img-src';
-      vueLoader.options.transformAssetUrls.CardA2 = 'img-src';
-      vueLoader.options.transformAssetUrls.CardB2 = ['img-src', 'img-src-side'];
+    extend(__config, { isClient, loaders: { vue } }) {
+      // Extend only webpack config for client-bundle
+      if (isClient) {
+        vue.transformAssetUrls.CardA1 = 'img-src';
+        vue.transformAssetUrls.CardA2 = 'img-src';
+        vue.transformAssetUrls.CardB2 = ['img-src', 'img-src-side'];
+      }
     },
   },
   generate: {
     dir: 'docs',
   },
-  components: true,
+  components: [
+    '~/components/cards/',
+    '~/components/elements/',
+    '~/components/layouts/',
+    '~/components/sections/',
+  ],
   head: {
     title: 'Mu Yang',
     meta: [
@@ -41,8 +46,7 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext',
+        href: 'https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i&subset=latin-ext',
       },
       {
         rel: 'stylesheet',

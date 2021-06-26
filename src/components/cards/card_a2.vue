@@ -9,7 +9,6 @@
 
 <script>
 export default {
-  name: 'CardA2',
   props: {
     year: {
       type: String,
