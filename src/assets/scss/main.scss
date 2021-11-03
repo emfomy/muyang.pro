@@ -1,9 +1,9 @@
-// Variables
-@import "./variables";
+// Setup
+@import './variables';
+@import './utilities';
 
 // Bootstrap
-@import "~bootstrap/scss/bootstrap";
-@import "~bootstrap-vue/src/index.scss";
+@import '~bootstrap/scss/bootstrap';
 
 // Custom
-@import "./custom";
+@import './custom';

@@ -1,0 +1,5 @@
+.Content {
+  :global(.Section:not(.SectionFirst)) {
+    border-top: solid 6px #f4f4f4;
+  }
+}

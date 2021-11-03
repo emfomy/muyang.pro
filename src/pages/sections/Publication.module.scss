@@ -1,0 +1,9 @@
+.Section {
+  :global(.CardB) {
+    border-top: solid 4px #f4f4f4;
+  }
+
+  :global(.CardB):first-of-type {
+    border-top: 0 !important;
+  }
+}

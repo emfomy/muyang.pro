@@ -1,0 +1,90 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+
+#app {
+  $toggle-time: 0.5s;
+
+  overflow: hidden;
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: $zindex-sticky;
+    transform: translateX(0);
+    transition: width $toggle-time ease, transform $toggle-time ease;
+  }
+
+  #content {
+    width: 100%;
+    padding-left: 0;
+    transform: translateX(0);
+    transition: padding-left $toggle-time ease, transform $toggle-time ease;
+  }
+
+  #toggler {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    transition: right $toggle-time;
+    z-index: $zindex-fixed;
+  }
+
+  #back {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: $zindex-fixed;
+  }
+
+  // stylelint-disable-next-line order/order
+  @include media-breakpoint-down(md) {
+    $sidebar-width: 240px;
+    #sidebar {
+      transform: translateX(-$sidebar-width);
+      width: $sidebar-width;
+    }
+    #container {
+      &.toggled {
+        #sidebar {
+          transform: translateX(0);
+        }
+        #content {
+          transform: translateX($sidebar-width);
+        }
+      }
+    }
+  }
+
+  // stylelint-disable-next-line order/order
+  @mixin layout($sidebar-width) {
+    #sidebar {
+      width: $sidebar-width;
+    }
+    #content {
+      padding-left: $sidebar-width;
+    }
+  }
+
+  // stylelint-disable-next-line order/order
+  @include media-breakpoint-up(md) {
+    @include layout(256px);
+    #toggler {
+      right: -4rem;
+    }
+  }
+
+  // stylelint-disable-next-line order/order
+  @include media-breakpoint-up(lg) {
+    @include layout(25%);
+  }
+
+  // stylelint-disable-next-line order/order
+  @include media-breakpoint-up(xl) {
+    @include layout(20%);
+  }
+}

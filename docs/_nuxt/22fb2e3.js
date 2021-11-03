@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{269:function(t,n,e){"use strict";e.r(n);var l={},c=e(44),component=Object(c.a)(l,(function(){var t=this,n=t.$createElement;return(t._self._c||n)("b-container",{staticClass:"Card"},[t._t("default")],2)}),[],!1,null,null,null);n.default=component.exports}}]);

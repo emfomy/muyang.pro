@@ -1,25 +1,37 @@
 module.exports = {
-  root: true,
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    project: 'tsconfig.json',
+    sourceType: 'module',
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  plugins: ['react', '@typescript-eslint', 'simple-import-sort'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+  ],
   env: {
     browser: true,
-    node: true,
+    es2021: true,
   },
-  parserOptions: {
-    parser: 'babel-eslint',
-  },
-  extends: [
-    '@nuxtjs',
-    'prettier',
-    'prettier/vue',
-    'plugin:prettier/recommended',
-    'plugin:nuxt/recommended',
-  ],
-  plugins: ['prettier'],
-  // add your custom rules here
   rules: {
-    'max-len': 'off',
-    'prettier/prettier': 'warn',
+    // Import sort
+    'simple-import-sort/imports': 'error',
+    'simple-import-sort/exports': 'error',
 
-    'vue/require-default-prop': 'off',
+    // Unused Bars
+    '@typescript-eslint/no-unused-vars': [
+      'error',
+      {
+        varsIgnorePattern: '^_',
+        argsIgnorePattern: '^_',
+      },
+    ],
   },
 };

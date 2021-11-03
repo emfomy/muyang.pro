@@ -1,0 +1,37 @@
+.Opener {
+  &.collapsed {
+    color: red;
+  }
+
+  .OpenerText::before,
+  .OpenerText::after {
+    transition: opacity 0.5s ease;
+  }
+
+  .OpenerText::before {
+    content: 'More';
+  }
+  .OpenerText::after {
+    content: 'Hide';
+  }
+
+  &:not(.collapsed) .OpenerText::before,
+  &.collapsed .OpenerText::after {
+    content: '';
+    opacity: 0;
+  }
+
+  .OpenerIcon1,
+  .OpenerIcon2 {
+    transition: transform 0.5s ease;
+    transform: rotate(0);
+  }
+
+  &:not(.collapsed) .OpenerIcon1 {
+    transform: rotate(-180deg);
+  }
+
+  &:not(.collapsed) .OpenerIcon2 {
+    transform: rotate(180deg);
+  }
+}
