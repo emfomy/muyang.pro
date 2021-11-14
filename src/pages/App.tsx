@@ -1,5 +1,5 @@
+import classNames from 'classnames';
 import React, { createContext, useRef } from 'react';
-import { Nav } from 'react-bootstrap';
 import { scroller } from 'react-scroll';
 import useScrollSpy from 'react-use-scrollspy';
 
@@ -85,30 +85,21 @@ export function App(): JSX.Element {
   });
   const activeNav = Object.keys(navs)[actionNavIdx] ?? null;
   const navComponents = Object.entries(navs).map(([anchor, { text }]) => (
-    <Nav.Item key={anchor}>
-      <Nav.Link
+    <li key={anchor} className="nav-item">
+      <a
+        className={classNames('nav-link', { active: anchor === activeNav })}
         href={`#${anchor}`}
-        eventKey={anchor}
         onClick={() => layoutRef.current?.resetToggled()}
       >
         {text}
-      </Nav.Link>
-    </Nav.Item>
+      </a>
+    </li>
   ));
 
   return (
     <Layout
       ref={layoutRef}
-      sidebar={
-        <Nav
-          className="flex-column"
-          variant="pills"
-          activeKey={activeNav}
-          navbarScroll
-        >
-          {navComponents}
-        </Nav>
-      }
+      sidebar={<ul className="nav nav-pills flex-column">{navComponents}</ul>}
     >
       <AppContext.Provider value={{ scrollTo }}>
         <div className={`${styles.Content} container px-0 px-md-3`}>

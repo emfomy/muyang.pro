@@ -50,7 +50,7 @@ export function SidebarLink(): JSX.Element {
   const setTextOff = () => setLinkText(null);
 
   // Link
-  const linkComponents = links.map(({ icon, href, text }, key) => (
+  const linkComps = links.map(({ icon, href, text }, key) => (
     <a
       key={key}
       href={href}
@@ -68,7 +68,7 @@ export function SidebarLink(): JSX.Element {
       <div className="navbar-text text-nowrap p-0" style={{ height: '2rem' }}>
         {linkText ?? '\xA0'}
       </div>
-      <div className="d-flex justify-content-around my-1">{linkComponents}</div>
+      <div className="d-flex justify-content-around my-1">{linkComps}</div>
     </div>
   );
 }

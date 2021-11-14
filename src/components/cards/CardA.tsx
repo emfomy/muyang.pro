@@ -20,7 +20,7 @@ export function CardA1({
   className,
   ...props
 }: CardA1Props): JSX.Element {
-  const imageComponent = imgSrc ? (
+  const imageComp = imgSrc ? (
     <Image src={imgSrc} className="w-100" />
   ) : icon ? (
     <FontAwesomeIcon className="w-100 text-milk-dark" icon={icon} size="2x" />
@@ -31,7 +31,7 @@ export function CardA1({
       <div
         className={`${styles.Logo} d-flex align-items-center justify-content-center me-3 my-1`}
       >
-        {imageComponent}
+        {imageComp}
       </div>
       <div>{children}</div>
     </div>

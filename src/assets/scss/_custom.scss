@@ -1,7 +1,7 @@
 // Link
 p,
 span {
-  a {
+  a:not(.btn) {
     font-style: italic;
   }
 }

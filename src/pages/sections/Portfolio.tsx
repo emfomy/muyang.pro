@@ -7,15 +7,13 @@ import {
 import { faFilePdf } from '@fortawesome/free-regular-svg-icons';
 import {
   faDatabase,
-  faExternalLinkAlt,
   faFileCode,
   faGlobe,
 } from '@fortawesome/free-solid-svg-icons';
 import React from 'react';
-import { ButtonGroup } from 'react-bootstrap';
 
 import { CardB2 } from '../../components/cards/CardB';
-import { IconButton } from '../../components/elements/Button';
+import { ExtButton, IconButton } from '../../components/elements/Button';
 import styles from './Portfolio.module.scss';
 import { Section, SectionElement, SectionProps } from './Section';
 
@@ -282,7 +280,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -292,15 +290,11 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper (LREC 2020)
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
+            <ExtButton
               size="sm"
-              variant="outline-primary"
               href="https://www.aclweb.org/anthology/2020.lrec-1.235"
-              target="_blank"
-              icon={faExternalLinkAlt}
             />
-          </ButtonGroup>
+          </div>
 
           <IconButton
             size="sm"
@@ -337,7 +331,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -347,15 +341,11 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper (IEEE ICSC 2019)
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
+            <ExtButton
               size="sm"
-              variant="outline-primary"
               href="https://doi.org/10.1109/ICOSC.2019.8665508"
-              target="_blank"
-              icon={faExternalLinkAlt}
             />
-          </ButtonGroup>
+          </div>
 
           <IconButton
             size="sm"
@@ -385,7 +375,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -395,15 +385,8 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper (NTU Thesis)
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
-              size="sm"
-              variant="outline-primary"
-              href="https://doi.org/10.6342/NTU201702960"
-              target="_blank"
-              icon={faExternalLinkAlt}
-            />
-          </ButtonGroup>
+            <ExtButton size="sm" href="https://doi.org/10.6342/NTU201702960" />
+          </div>
 
           <IconButton
             size="sm"
@@ -434,7 +417,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -444,15 +427,8 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper (IEEE CIT 2016)
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
-              size="sm"
-              variant="outline-primary"
-              href="https://doi.org/10.1109/CIT.2016.101"
-              target="_blank"
-              icon={faExternalLinkAlt}
-            />
-          </ButtonGroup>
+            <ExtButton size="sm" href="https://doi.org/10.1109/CIT.2016.101" />
+          </div>
 
           <IconButton
             size="sm"
@@ -488,7 +464,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -498,15 +474,11 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper (GEB 2017)
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
+            <ExtButton
               size="sm"
-              variant="outline-primary"
               href="https://doi.org/10.1016/j.geb.2017.04.012"
-              target="_blank"
-              icon={faExternalLinkAlt}
             />
-          </ButtonGroup>
+          </div>
         </div>
       </CardB2>
 
@@ -530,7 +502,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
         </p>
 
         <div className="btn-cluster">
-          <ButtonGroup>
+          <div className="btn-group">
             <IconButton
               size="sm"
               variant="outline-primary"
@@ -540,15 +512,11 @@ export const Portfolio = React.forwardRef(function Portfolio(
             >
               Paper
             </IconButton>
-            <IconButton
-              tooltip="Official Link"
+            <ExtButton
               size="sm"
-              variant="outline-primary"
               href="http://www.airitilibrary.com/Publication/alDetailedMesh1?DocID=U0001-2412201522263000"
-              target="_blank"
-              icon={faExternalLinkAlt}
             />
-          </ButtonGroup>
+          </div>
 
           <IconButton
             size="sm"

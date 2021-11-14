@@ -4,7 +4,6 @@ import { faChevronCircleUp } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames';
 import React, { useImperativeHandle, useState } from 'react';
-import { Button, Nav } from 'react-bootstrap';
 
 import { Sidebar } from './sidebar/Sidebar';
 
@@ -30,15 +29,14 @@ export const Layout = React.forwardRef(function Layout(
 
   return (
     <div id="app">
-      <Button
+      <button
         id="toggler"
-        className="navbar-toggler navbar-light"
-        active={toggled}
-        variant="outline-light"
+        className="btn btn-light navbar-light"
+        type="button"
         onClick={() => setToggled(!toggled)}
       >
         <span className="navbar-toggler-icon" />
-      </Button>
+      </button>
       <div id="container" className={classNames({ toggled })}>
         <div id="sidebar">
           <Sidebar>{sidebar}</Sidebar>
@@ -46,16 +44,12 @@ export const Layout = React.forwardRef(function Layout(
         <div id="content">{children}</div>
       </div>
 
-      <Nav id="back" navbarScroll>
-        <Nav.Item>
-          <Nav.Link className="lh-1 p-0" href="#app" onClick={resetToggled}>
-            <FontAwesomeIcon
-              className="fa-2x text-primary"
-              icon={faChevronCircleUp}
-            />
-          </Nav.Link>
-        </Nav.Item>
-      </Nav>
+      <a id="back" className="lh-1 p-0" href="#app" onClick={resetToggled}>
+        <FontAwesomeIcon
+          className="fa-2x text-primary"
+          icon={faChevronCircleUp}
+        />
+      </a>
     </div>
   );
 });

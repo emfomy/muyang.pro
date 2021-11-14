@@ -1,4 +1,5 @@
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
+import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames';
 import React from 'react';
@@ -49,5 +50,30 @@ export function IconButton({
       />
       {children}
     </TooltipButton>
+  );
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+interface ExtButtonProps {
+  readonly href: string;
+  readonly size: 'xs' | 'sm' | 'lg';
+  readonly title?: string;
+}
+
+export function ExtButton({
+  href,
+  size,
+  title = 'External Link',
+}: ExtButtonProps): JSX.Element {
+  return (
+    <IconButton
+      tooltip={title}
+      size={size}
+      variant="outline-primary"
+      href={href}
+      target="_blank"
+      icon={faExternalLinkAlt}
+    />
   );
 }

@@ -40,7 +40,7 @@ export function CardB2({
   children,
   ...props
 }: CardB2Props): JSX.Element {
-  const imgComponent = !imgSrc ? null : (
+  const imgComp = !imgSrc ? null : (
     <picture>
       {!imgSrcSide ? null : (
         <source media="(min-width: 992px)" srcSet={imgSrcSide} />
@@ -65,7 +65,7 @@ export function CardB2({
               disabled: !href,
             })}
           >
-            {imgComponent}
+            {imgComp}
           </a>
         </Col>
         <Col xs={12} lg={8} xl={9}>
