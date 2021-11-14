@@ -44,15 +44,18 @@
   // stylelint-disable-next-line order/order
   @include media-breakpoint-down(md) {
     $sidebar-width: 240px;
+
     #sidebar {
       transform: translateX(-$sidebar-width);
       width: $sidebar-width;
     }
+
     #container {
       &.toggled {
         #sidebar {
           transform: translateX(0);
         }
+
         #content {
           transform: translateX($sidebar-width);
         }
@@ -65,6 +68,7 @@
     #sidebar {
       width: $sidebar-width;
     }
+
     #content {
       padding-left: $sidebar-width;
     }
@@ -73,6 +77,7 @@
   // stylelint-disable-next-line order/order
   @include media-breakpoint-up(md) {
     @include layout(256px);
+
     #toggler {
       right: -4rem;
     }

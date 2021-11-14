@@ -1,7 +1,8 @@
 module.exports = {
-  plugins: ['stylelint-scss'],
-  extends: ['stylelint-config-standard', 'stylelint-config-prettier'],
+  extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier'],
   rules: {
+    'selector-class-pattern': null,
+
     // CSS
     'color-hex-length': 'long',
 
