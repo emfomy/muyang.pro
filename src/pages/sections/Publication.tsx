@@ -202,7 +202,7 @@ export const Publication = React.forwardRef(function Publication(
             Decomposition with Big Data Applications
           </h4>
           <p>
-            Mu Yang
+            <strong>Mu Yang</strong>
             <br />
             2017, Master’s Thesis, National Taiwan University
           </p>
@@ -249,7 +249,8 @@ export const Publication = React.forwardRef(function Publication(
             Method
           </h4>
           <p>
-            Mu Yang, Dawei Chang, Weichung Wang, Su-Yuen Huang, Ting-Li Chen
+            <strong>Mu Yang</strong>, Dawei Chang, Weichung Wang, Su-Yuen Huang,
+            Ting-Li Chen
             <br />
             2019, 7th Asian Pacific Congress on Computational Mechanics
             (APCOM’19)
@@ -289,7 +290,7 @@ export const Publication = React.forwardRef(function Publication(
             (iSVD)
           </h4>
           <p>
-            Mu Yang, Su-Yun Huang, Ting-Li Chen, Weichung Wang
+            <strong>Mu Yang</strong>, Su-Yun Huang, Ting-Li Chen, Weichung Wang
             <br />
             2017, 9th SIAM Conference on Computational Science and Engineering
             (SIAM CSE’17)
@@ -326,7 +327,7 @@ export const Publication = React.forwardRef(function Publication(
         <header>
           <h4>A Parallel and Hybrid Sparse Linear System Solver</h4>
           <p>
-            Mu Yang, Weichung Wang
+            <strong>Mu Yang</strong>, Weichung Wang
             <br />
             2016, 7th Taiwan-Japan Joint Workshop for Young Scholars in Applied
             Mathematics

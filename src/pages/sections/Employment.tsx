@@ -41,7 +41,7 @@ export const Employment = React.forwardRef(function Employment(
         >
           CKIP Lab
         </a>
-        ,
+        ,{' '}
         <a
           href="https://www.iis.sinica.edu.tw/en/index.html"
           target="_blank"
