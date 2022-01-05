@@ -27,7 +27,7 @@ export const Publication = React.forwardRef(function Publication(
   const body = (
     <>
       <CardB2
-        id="publication-lrec-2020"
+        id="publication-lrec-2020-cosmel"
         href="https://lrec2020.lrec-conf.org"
         imgSrc="/img/venue/lrec_2020.jpg"
         imgSrcSide="/img/venue/lrec_2020_sm.jpg"
@@ -85,7 +85,7 @@ export const Publication = React.forwardRef(function Publication(
       </CardB2>
 
       <CardB2
-        id="publication-icsc-2019"
+        id="publication-icsc-2019-hwe"
         href="https://semanticcomputing.wixsite.com/icsc-2019"
         imgSrc="/img/venue/icsc_2019.png"
       >
@@ -138,7 +138,7 @@ export const Publication = React.forwardRef(function Publication(
       </CardB2>
 
       <CardB2
-        id="publication-ieee-cit-2016"
+        id="publication-ieee-cit-2016-pass"
         href="http://nsclab.org/cit2016"
         imgSrc="/img/venue/ieee_cit_2016.png"
       >
@@ -191,7 +191,7 @@ export const Publication = React.forwardRef(function Publication(
       </CardB2>
 
       <CardB2
-        id="publication-ntu-thesis"
+        id="publication-ntu-thesis-isvd"
         href="https://doi.org/10.6342/NTU201702960"
         imgSrc="/img/logo/ntu_banner.png"
         imgSrcSide="/img/logo/ntu_logo.png"
@@ -232,13 +232,45 @@ export const Publication = React.forwardRef(function Publication(
           </IconButton>
         </div>
       </CardB2>
+
+      <CardB2
+        id="publication-arxiv-2021-inversemv"
+        href="https://arxiv.org/abs/2112.15320"
+      >
+        <header>
+          <h4>
+            InverseMV: Composing Piano Scores with a Convolutional Video-Music
+            Transformer
+          </h4>
+          <p>
+            Chin-Tung Lin, <strong>Mu Yang</strong>
+            <br />
+            2021, arXiv
+          </p>
+        </header>
+
+        <div className="btn-cluster">
+          <div className="btn-group">
+            <IconButton
+              size="sm"
+              variant="outline-primary"
+              href="/file/paper/arxiv_2021_inversemv.pdf"
+              target="_blank"
+              icon={faFilePdf}
+            >
+              Paper
+            </IconButton>
+            <ExtButton size="sm" href="https://arxiv.org/abs/2112.15320" />
+          </div>
+        </div>
+      </CardB2>
     </>
   );
 
   const extra = (
     <>
       <CardB2
-        id="publication-apcom-2019"
+        id="publication-apcom-2019-isvd"
         imgSrc="img/venue/apcom_2019.png"
         href="http://www.apcom2019.org"
       >
@@ -280,7 +312,7 @@ export const Publication = React.forwardRef(function Publication(
       </CardB2>
 
       <CardB2
-        id="publication-siam-cse-2017"
+        id="publication-siam-cse-2017-isvd"
         imgSrc="/img/venue/siam_cse_2017.jpg"
         href="https://archive.siam.org/meetings/cse17/"
       >
@@ -320,7 +352,7 @@ export const Publication = React.forwardRef(function Publication(
       </CardB2>
 
       <CardB2
-        id="publication-tjjw-jsam-2016"
+        id="publication-tjjw-jsam-2016-isvd"
         imgSrc="/img/venue/tjjw_jsam_2016.png"
         href="http://www.ncts.ntu.edu.tw/events_2_detail.php?nid=54"
       >

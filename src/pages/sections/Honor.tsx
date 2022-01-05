@@ -54,7 +54,7 @@ export const Honor = React.forwardRef(function Honor(
               variant="outline-primary"
               icon={faLevelUpAlt}
               onClick={() =>
-                scrollTo('publication', 'publication-tjjw-jsam-2016')
+                scrollTo('publication', 'publication-tjjw-jsam-2016-isvd')
               }
             >
               Related Workshop
