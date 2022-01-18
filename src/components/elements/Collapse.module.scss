@@ -19,7 +19,7 @@
   &:not(.collapsed) .OpenerText::before,
   &.collapsed .OpenerText::after {
     content: '';
-    opacity: 0%;
+    opacity: 0;
   }
 
   .OpenerIcon1,

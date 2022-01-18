@@ -25,6 +25,9 @@ module.exports = {
     'simple-import-sort/imports': 'warn',
     'simple-import-sort/exports': 'warn',
 
+    // React
+    'react/react-in-jsx-scope': 'off',
+
     // Unused Bars
     '@typescript-eslint/no-unused-vars': [
       'warn',
