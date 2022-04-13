@@ -30,6 +30,54 @@ export const Portfolio = React.forwardRef(function Portfolio(
   const body = (
     <>
       <CardB2
+        id="portfolio-miin"
+        imgSrc="
+        /img/project/miin.png
+      "
+        href="https://miin.cc"
+        right
+      >
+        <header>
+          <h4>Miin</h4>
+          <p>2021–Present</p>
+        </header>
+        <p>Miin is a brand new project of Taiwan AI Labs.</p>
+        <p>
+          It begins by understanding events through AI, then takes dynamic
+          sources and opinions into consideration to establish a cross-platform
+          comprehensive view.
+        </p>
+        <p>
+          We look forward to replacing social biases with diversification.
+          Provide an environment of professionally trusted insights in replace
+          of the polarized infodemic and restore the autonomy of the
+          relationship between viewers and content creators.
+        </p>
+
+        <div className="btn-cluster">
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://miin.cc"
+            target="_blank"
+            icon={faGlobe}
+          >
+            Website
+          </IconButton>
+
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://miin.cc/intro"
+            target="_blank"
+            icon={faGlobe}
+          >
+            Intro Page
+          </IconButton>
+        </div>
+      </CardB2>
+
+      <CardB2
         id="portfolio-ckip-transformers"
         imgSrc="
         /img/project/ckip-transformers.png
@@ -39,7 +87,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
       >
         <header>
           <h4>CKIP Transformers</h4>
-          <p>2020–2021</p>
+          <p>2020–2022</p>
         </header>
         <p>
           This project provides traditional Chinese transformers models
