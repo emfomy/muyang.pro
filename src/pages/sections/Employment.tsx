@@ -17,7 +17,7 @@ export const Employment = React.forwardRef(function Employment(
     <>
       <CardA2
         year="2021-Pres."
-        title="Frontend Engineer"
+        title="System Engineer Team Lead"
         inst="Taiwan AI Labs"
         imgSrc="/img/logo/ailabs_logo.png"
       >

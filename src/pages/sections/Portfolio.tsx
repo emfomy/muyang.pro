@@ -30,6 +30,40 @@ export const Portfolio = React.forwardRef(function Portfolio(
   const body = (
     <>
       <CardB2
+        id="portfolio-infodemic"
+        imgSrc="
+        /img/project/infodemic.png
+      "
+        href="https://infodemic.cc"
+        right
+      >
+        <header>
+          <h4>Infodemic</h4>
+          <p>2022–Present</p>
+        </header>
+        <p>
+          Cognitive security in modern warfare: unveiling the battle against
+          disinformation.
+        </p>
+        <p>
+          It revealing cognitive manipulation, collaborative patterns, and
+          malicious dissemination to safeguard society.
+        </p>
+
+        <div className="btn-cluster">
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://infodemic.cc"
+            target="_blank"
+            icon={faGlobe}
+          >
+            Website
+          </IconButton>
+        </div>
+      </CardB2>
+
+      <CardB2
         id="portfolio-miin"
         imgSrc="
         /img/project/miin.png
@@ -63,16 +97,6 @@ export const Portfolio = React.forwardRef(function Portfolio(
             icon={faGlobe}
           >
             Website
-          </IconButton>
-
-          <IconButton
-            size="sm"
-            variant="outline-primary"
-            href="https://miin.cc/intro"
-            target="_blank"
-            icon={faGlobe}
-          >
-            Intro Page
           </IconButton>
         </div>
       </CardB2>
