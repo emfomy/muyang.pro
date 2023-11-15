@@ -1,12 +1,11 @@
 import {
-  faFacebookSquare,
   faGithub,
   faLinkedin,
   faPython,
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 ////////////////////////////////////////////////////////////////////////////////
 
@@ -15,11 +14,6 @@ const links = [
     icon: faEnvelope,
     href: 'mailto:emfomy@gmail.com',
     text: 'emfomy@gmail.com',
-  },
-  {
-    icon: faPhone,
-    href: 'tel:+886-2-27883799;ext=1562',
-    text: '+886 (2) 2788-3799 ext. 1562',
   },
   {
     icon: faGithub,
@@ -35,11 +29,6 @@ const links = [
     icon: faLinkedin,
     href: '//www.linkedin.com/in/emfomy',
     text: 'www.linkedin.com/in/emfomy',
-  },
-  {
-    icon: faFacebookSquare,
-    href: '//www.facebook.com/emfomy',
-    text: 'www.facebook.com/emfomy',
   },
 ];
 
