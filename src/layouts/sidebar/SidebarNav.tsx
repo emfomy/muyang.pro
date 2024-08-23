@@ -21,7 +21,7 @@ export function SidebarNav({ children }: SidebarNavProps): JSX.Element {
 
       <div className="navbar-text px-3 py-0">
         <h3>Mu Yang</h3>
-        <p>Research Assistant</p>
+        <p>System Engineer Lead</p>
         <hr />
       </div>
 
