@@ -30,16 +30,48 @@ export const Portfolio = React.forwardRef(function Portfolio(
   const body = (
     <>
       <CardB2
+        id="portfolio-fedgpt"
+        imgSrc="/img/project/fedgpt.png"
+        href="https://fedgpt.cc"
+        right
+      >
+        <header>
+          <h4>FedGPT</h4>
+          <p>2024</p>
+        </header>
+        <p>
+          An enterprise-grade, on-premise GenAI platform developed by Taiwan AI
+          Labs, featuring multi-agent orchestration, RAG, and real-time chat.
+        </p>
+        <p>
+          I led backend development for core components including chat
+          streaming, retrieval-augmented generation (RAG), and agent execution.
+          I also worked on model lifecycle management and deployment automation
+          across secure environments.
+        </p>
+
+        <div className="btn-cluster">
+          <IconButton
+            size="sm"
+            variant="outline-primary"
+            href="https://fedgpt.cc"
+            target="_blank"
+            icon={faGlobe}
+          >
+            Website
+          </IconButton>
+        </div>
+      </CardB2>
+
+      <CardB2
         id="portfolio-infodemic"
-        imgSrc="
-        /img/project/infodemic.png
-      "
+        imgSrc="/img/project/infodemic.png"
         href="https://infodemic.cc"
         right
       >
         <header>
           <h4>Infodemic</h4>
-          <p>2022–Present</p>
+          <p>2022–2023</p>
         </header>
         <p>
           Cognitive security in modern warfare: unveiling the battle against
@@ -65,15 +97,13 @@ export const Portfolio = React.forwardRef(function Portfolio(
 
       <CardB2
         id="portfolio-miin"
-        imgSrc="
-        /img/project/miin.png
-      "
+        imgSrc="/img/project/miin.png"
         href="https://miin.cc"
         right
       >
         <header>
           <h4>Miin</h4>
-          <p>2021–Present</p>
+          <p>2021–2023</p>
         </header>
         <p>Miin is a brand new project of Taiwan AI Labs.</p>
         <p>
@@ -103,9 +133,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
 
       <CardB2
         id="portfolio-ckip-transformers"
-        imgSrc="
-        /img/project/ckip-transformers.png
-      "
+        imgSrc="/img/project/ckip-transformers.png"
         href="https://github.com/emfomy/ckip-transformers"
         right
       >

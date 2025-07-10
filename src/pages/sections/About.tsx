@@ -14,7 +14,7 @@ export const About = React.forwardRef(function About(
     <>
       <h1>Mu Yang</h1>
       <h5>
-        System Engineer Lead,{' '}
+        Senior System Engineer & Tech Lead,{' '}
         <a href="https://ailabs.tw" target="_blank" rel="noreferrer">
           Taiwan AI Labs
         </a>
