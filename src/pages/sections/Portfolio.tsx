@@ -291,7 +291,11 @@ export const Portfolio = React.forwardRef(function Portfolio(
           </IconButton>
         </div>
       </CardB2>
+    </>
+  );
 
+  const extra = (
+    <>
       <CardB2
         id="portfolio-ehownet"
         imgSrc="/img/project/ehownet.png"
@@ -541,11 +545,7 @@ export const Portfolio = React.forwardRef(function Portfolio(
           </IconButton>
         </div>
       </CardB2>
-    </>
-  );
 
-  const extra = (
-    <>
       <CardB2
         id="portfolio-voting"
         imgSrc="/img/project/voting.jpg"
